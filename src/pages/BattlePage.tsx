@@ -160,7 +160,7 @@ export default function BattlePage({ lineup, onEnd }: BattlePageProps) {
   const handleContinue = useCallback(() => {
     const pending = pendingAnswerRef.current;
     if (!pending) return;
-    const { correct, q } = pending;
+    const { correct, question: q } = pending;
     pendingAnswerRef.current = null;
 
     setBattle(prev => {
