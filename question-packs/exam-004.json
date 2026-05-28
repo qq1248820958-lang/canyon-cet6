@@ -1,0 +1,1169 @@
+{
+  "packId": "exam-004",
+  "version": 1,
+  "title": "六级真题风格扩展包 #4",
+  "description": "100 道CET-6真题风格题（阅读组+翻译+句子+词汇）",
+  "questions": [
+    {
+      "type": "readingGroup",
+      "groupId": "rg9",
+      "passage": "阅读下面文章，回答3个问题：\n\n\"\"International migration has emerged as one of the defining issues of the twenty-first century, shaped by economic disparities, demographic changes, conflict, climate change, and the forces of globalization. According to the United Nations, the number of international migrants reached approximately 281 million in 2020, representing about 3.6% of the global population. While this proportion has remained relatively stable over recent decades, the political and social salience of migration has increased dramatically.\n\nEconomic research generally finds that migration produces net positive effects for both host countries and countries of origin. Immigrants contribute to economic growth, fill labor shortages in key sectors, and bring diverse skills and perspectives. In many developed countries with aging populations, immigration helps sustain the workforce and support social welfare systems. Remittances sent by migrants to their home countries — estimated at over $600 billion annually — often exceed official development assistance and represent a vital source of income for millions of households.\n\nYet migration also presents genuine challenges. Rapid demographic change in receiving communities can strain public services and infrastructure. The integration of migrants into labor markets and societies takes time and investment in language training, education, and anti-discrimination measures. Irregular migration creates vulnerabilities for migrants themselves and challenges for border management. Public attitudes toward migration are often shaped more by perceptions than by evidence, with fears about competition for jobs and cultural change sometimes diverging from economic realities.\"\"",
+      "prompt": "根据联合国数据，国际移民的情况如何？",
+      "options": [
+        "Migrants make up over half the global population.",
+        "About 281 million international migrants exist, roughly 3.6% of the global population, a proportion that has remained relatively stable.",
+        "Migration has decreased significantly.",
+        "Most of the world's population are migrants."
+      ],
+      "answer": 1,
+      "explanation": "\"281 million...about 3.6% of the global population...has remained relatively stable\" = 约2.81亿国际移民，约占全球人口的3.6%，比例相对稳定。",
+      "sourceEvent": "小龙团战",
+      "difficulty": 2,
+      "id": "exam_04_0001"
+    },
+    {
+      "type": "readingGroup",
+      "groupId": "rg9",
+      "passage": "阅读下面文章，回答3个问题：\n\n\"\"International migration has emerged as one of the defining issues of the twenty-first century, shaped by economic disparities, demographic changes, conflict, climate change, and the forces of globalization. According to the United Nations, the number of international migrants reached approximately 281 million in 2020, representing about 3.6% of the global population. While this proportion has remained relatively stable over recent decades, the political and social salience of migration has increased dramatically.\n\nEconomic research generally finds that migration produces net positive effects for both host countries and countries of origin. Immigrants contribute to economic growth, fill labor shortages in key sectors, and bring diverse skills and perspectives. In many developed countries with aging populations, immigration helps sustain the workforce and support social welfare systems. Remittances sent by migrants to their home countries — estimated at over $600 billion annually — often exceed official development assistance and represent a vital source of income for millions of households.\n\nYet migration also presents genuine challenges. Rapid demographic change in receiving communities can strain public services and infrastructure. The integration of migrants into labor markets and societies takes time and investment in language training, education, and anti-discrimination measures. Irregular migration creates vulnerabilities for migrants themselves and challenges for border management. Public attitudes toward migration are often shaped more by perceptions than by evidence, with fears about competition for jobs and cultural change sometimes diverging from economic realities.\"\"",
+      "prompt": "移民对输出国（母国）有什么积极作用？",
+      "options": [
+        "No positive effects for origin countries.",
+        "Remittances sent home — over $600 billion annually — exceed official development assistance.",
+        "Migration harms origin countries.",
+        "Only negative effects are documented."
+      ],
+      "answer": 1,
+      "explanation": "\"Remittances...estimated at over $600 billion annually...often exceed official development assistance\" = 汇款每年超过6000亿美元，往往超过官方发展援助。",
+      "sourceEvent": "小龙团战",
+      "difficulty": 2,
+      "id": "exam_04_0002"
+    },
+    {
+      "type": "readingGroup",
+      "groupId": "rg9",
+      "passage": "阅读下面文章，回答3个问题：\n\n\"\"International migration has emerged as one of the defining issues of the twenty-first century, shaped by economic disparities, demographic changes, conflict, climate change, and the forces of globalization. According to the United Nations, the number of international migrants reached approximately 281 million in 2020, representing about 3.6% of the global population. While this proportion has remained relatively stable over recent decades, the political and social salience of migration has increased dramatically.\n\nEconomic research generally finds that migration produces net positive effects for both host countries and countries of origin. Immigrants contribute to economic growth, fill labor shortages in key sectors, and bring diverse skills and perspectives. In many developed countries with aging populations, immigration helps sustain the workforce and support social welfare systems. Remittances sent by migrants to their home countries — estimated at over $600 billion annually — often exceed official development assistance and represent a vital source of income for millions of households.\n\nYet migration also presents genuine challenges. Rapid demographic change in receiving communities can strain public services and infrastructure. The integration of migrants into labor markets and societies takes time and investment in language training, education, and anti-discrimination measures. Irregular migration creates vulnerabilities for migrants themselves and challenges for border management. Public attitudes toward migration are often shaped more by perceptions than by evidence, with fears about competition for jobs and cultural change sometimes diverging from economic realities.\"\"",
+      "prompt": "关于公众对移民的态度，文中指出了什么？",
+      "options": [
+        "Public attitudes are always based on evidence.",
+        "Attitudes are often shaped more by perceptions than evidence, with fears sometimes diverging from economic realities.",
+        "The public fully supports migration.",
+        "Economic research supports restricting migration."
+      ],
+      "answer": 1,
+      "explanation": "\"Public attitudes toward migration are often shaped more by perceptions than by evidence...fears sometimes diverging from economic realities\" = 公众态度往往更多地由感知而非证据决定。",
+      "sourceEvent": "小龙团战",
+      "difficulty": 2,
+      "id": "exam_04_0003"
+    },
+    {
+      "type": "translation",
+      "prompt": "理解并翻译：\n\n\"So profound have been the changes wrought by the digital revolution that virtually every aspect of modern life — from how we work and learn to how we form relationships and perceive the world — has been fundamentally transformed.\"\n\n这句话的意思是？",
+      "options": [
+        "The digital revolution has had minimal impact.",
+        "The digital revolution has profoundly transformed nearly every aspect of modern life, including work, learning, relationships, and worldview.",
+        "Only work has been affected by the digital revolution.",
+        "Learning methods remain unchanged."
+      ],
+      "answer": 1,
+      "explanation": "\"So profound have been the changes...virtually every aspect of modern life...has been fundamentally transformed\" = 数字革命带来的变化如此深刻，几乎现代生活的方方面面都已被根本性改变。",
+      "sourceEvent": "水晶终结",
+      "difficulty": 2,
+      "id": "exam_04_0004"
+    },
+    {
+      "type": "translation",
+      "prompt": "理解并翻译：\n\n\"Nothing is more crucial for the sustainable development of human society than the transition to clean energy, which holds the key to mitigating climate change and ensuring a livable planet for future generations.\"\n\n这句话的意思是什么？",
+      "options": [
+        "Clean energy transition is optional.",
+        "The transition to clean energy is the most crucial factor for sustainable development and mitigating climate change.",
+        "Fossil fuels are more important than clean energy.",
+        "Climate change does not require energy transition."
+      ],
+      "answer": 1,
+      "explanation": "\"Nothing is more crucial...than the transition to clean energy...holds the key to mitigating climate change\" = 向清洁能源转型是最关键的。",
+      "sourceEvent": "水晶终结",
+      "difficulty": 2,
+      "id": "exam_04_0005"
+    },
+    {
+      "type": "translation",
+      "prompt": "理解并翻译：\n\n\"It is universally acknowledged that education serves as the cornerstone of personal development and social progress, empowering individuals with the knowledge and skills necessary to navigate an increasingly complex world.\"\n\n这段话的核心观点是什么？",
+      "options": [
+        "Education is only about personal development.",
+        "Education is the foundation of personal and social development, equipping people with essential knowledge and skills.",
+        "Social progress does not require education.",
+        "Education is less important in a complex world."
+      ],
+      "answer": 1,
+      "explanation": "\"Education serves as the cornerstone of personal development and social progress\" = 教育是个人发展和社会进步的基石。",
+      "sourceEvent": "高地防守",
+      "difficulty": 2,
+      "id": "exam_04_0006"
+    },
+    {
+      "type": "translation",
+      "prompt": "理解并翻译：\n\n\"The rapid advancement of biotechnology has ushered in an era of unprecedented possibilities for treating previously incurable diseases, yet simultaneously raises complex ethical questions that society has only begun to grapple with.\"\n\n这段话的主要意思是？",
+      "options": [
+        "Biotechnology has no ethical implications.",
+        "Biotechnology offers unprecedented treatment possibilities while raising complex ethical questions.",
+        "All diseases are now curable.",
+        "Ethical questions have been fully resolved."
+      ],
+      "answer": 1,
+      "explanation": "\"Ushered in an era of unprecedented possibilities...yet simultaneously raises complex ethical questions\" = 开创了前所未有的可能性，同时引发了复杂的伦理问题。",
+      "sourceEvent": "水晶终结",
+      "difficulty": 3,
+      "id": "exam_04_0007"
+    },
+    {
+      "type": "sentence",
+      "prompt": "\"The phenomenon of cancel culture has sparked intense debate about accountability and forgiveness in the digital age, with critics arguing that it often precludes meaningful dialogue and redemption.\" 关于抵制文化，批评者认为？",
+      "options": [
+        "It promotes meaningful dialogue.",
+        "It often prevents meaningful dialogue and redemption.",
+        "It has no effect on public discourse.",
+        "It is universally accepted."
+      ],
+      "answer": 1,
+      "explanation": "\"Critics arguing that it often precludes meaningful dialogue and redemption\" = 批评者认为它往往阻碍了有意义的对话和改过自新的机会。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 3,
+      "id": "exam_04_0008"
+    },
+    {
+      "type": "sentence",
+      "prompt": "\"The housing affordability crisis in major cities worldwide has been exacerbated by a combination of rising property prices, stagnant wages, and insufficient housing supply.\" 住房可负担性危机加剧的原因是？",
+      "options": [
+        "Only rising property prices.",
+        "Rising prices, stagnant wages, and insufficient supply combined.",
+        "Housing is now more affordable.",
+        "Wages have risen faster than property prices."
+      ],
+      "answer": 1,
+      "explanation": "\"Exacerbated by a combination of rising property prices, stagnant wages, and insufficient housing supply\" = 由房价上涨、工资停滞和住房供应不足共同加剧。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 2,
+      "id": "exam_04_0009"
+    },
+    {
+      "type": "sentence",
+      "prompt": "\"The concept of 'soft power' — a country's ability to influence others through cultural attraction and values rather than military force — has become increasingly relevant in international relations.\" 软实力的本质是什么？",
+      "options": [
+        "Military strength and economic power.",
+        "Influencing others through cultural attraction and values.",
+        "Only about trade agreements.",
+        "Hard power is no longer relevant."
+      ],
+      "answer": 1,
+      "explanation": "\"A country's ability to influence others through cultural attraction and values rather than military force\" = 通过文化吸引力和价值观而非军事力量影响他国的能力。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 2,
+      "id": "exam_04_0010"
+    },
+    {
+      "type": "sentence",
+      "prompt": "\"The phenomenon of 'ghost cities' — newly built urban developments that remain largely unoccupied — has been observed in several countries, representing a massive misallocation of resources in the real estate sector.\" 鬼城现象代表了什么？",
+      "options": [
+        "Successful urban planning.",
+        "Massive misallocation of resources in real estate.",
+        "Overpopulation in cities.",
+        "Affordable housing for everyone."
+      ],
+      "answer": 1,
+      "explanation": "\"Representing a massive misallocation of resources in the real estate sector\" = 代表了房地产行业资源的重大错配。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 2,
+      "id": "exam_04_0011"
+    },
+    {
+      "type": "sentence",
+      "prompt": "\"The concept of a circular economy, which emphasizes reuse and recycling over the traditional linear take-make-dispose model, has gained traction among policymakers seeking sustainable development solutions.\" 循环经济的核心理念是什么？",
+      "options": [
+        "Taking, making, and disposing of products.",
+        "Reusing and recycling rather than discarding.",
+        "Focusing only on recycling plastics.",
+        "Producing more goods faster."
+      ],
+      "answer": 1,
+      "explanation": "\"Emphasizes reuse and recycling over the traditional linear take-make-dispose model\" = 强调重用和回收，而非传统的取-造-弃模式。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 2,
+      "id": "exam_04_0012"
+    },
+    {
+      "type": "sentence",
+      "prompt": "\"The growing emphasis on STEM education reflects a recognition that future economic competitiveness depends on a workforce equipped with scientific and technological skills.\" STEM教育受重视的原因是？",
+      "options": [
+        "STEM subjects are easier to teach.",
+        "Economic competitiveness depends on scientific and technological skills.",
+        "The humanities are no longer valuable.",
+        "Students prefer STEM subjects exclusively."
+      ],
+      "answer": 1,
+      "explanation": "\"Future economic competitiveness depends on a workforce equipped with scientific and technological skills\" = 未来的经济竞争力取决于具备科技技能的劳动力。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 2,
+      "id": "exam_04_0013"
+    },
+    {
+      "type": "sentence",
+      "prompt": "\"The placebo effect demonstrates the remarkable power of the mind over the body, with patients often experiencing real physiological improvements from treatments they believe will work, even when those treatments contain no active ingredients.\" 安慰剂效应说明了什么？",
+      "options": [
+        "All medical treatments are fake.",
+        "The mind can produce real physiological effects through belief.",
+        "The body has no influence on health.",
+        "Only active ingredients can improve health."
+      ],
+      "answer": 1,
+      "explanation": "\"Patients experiencing real physiological improvements from treatments they believe will work\" = 患者因相信治疗有效而产生真实的生理改善。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 2,
+      "id": "exam_04_0014"
+    },
+    {
+      "type": "sentence",
+      "prompt": "\"The correlation between educational attainment and life expectancy is well-documented, with higher levels of education generally associated with better health outcomes and longer lifespans.\" 教育与预期寿命的关系是？",
+      "options": [
+        "No correlation exists.",
+        "Higher education is associated with better health and longer life.",
+        "Education reduces life expectancy.",
+        "The relationship only applies to certain groups."
+      ],
+      "answer": 1,
+      "explanation": "\"Higher levels of education generally associated with better health outcomes and longer lifespans\" = 更高的教育水平通常与更好的健康结果和更长的寿命相关。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 2,
+      "id": "exam_04_0015"
+    },
+    {
+      "type": "sentence",
+      "prompt": "\"The concept of 'filter bubbles' in social media algorithms has raised concerns about the fragmentation of public discourse and the reinforcement of existing biases through personalized content curation.\" 过滤气泡现象引发了什么担忧？",
+      "options": [
+        "People are exposed to too many perspectives.",
+        "Public discourse fragmentation and bias reinforcement.",
+        "Algorithms are not personalized enough.",
+        "Social media has no effect on opinions."
+      ],
+      "answer": 1,
+      "explanation": "\"Raised concerns about the fragmentation of public discourse and the reinforcement of existing biases\" = 引发了对公共话语碎片化和偏见强化的担忧。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 3,
+      "id": "exam_04_0016"
+    },
+    {
+      "type": "sentence",
+      "prompt": "\"The aging population in developed countries presents significant challenges for healthcare systems, pension schemes, and labor markets, requiring comprehensive policy responses.\" 人口老龄化带来的挑战包括什么？",
+      "options": [
+        "Only affects healthcare.",
+        "Challenges for healthcare, pensions, and labor markets.",
+        "Labor markets will benefit greatly.",
+        "No policy response is needed."
+      ],
+      "answer": 1,
+      "explanation": "\"Presents significant challenges for healthcare systems, pension schemes, and labor markets\" = 对医疗体系、养老金计划和劳动力市场构成重大挑战。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 2,
+      "id": "exam_04_0017"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「激增，扩散」对应的英文单词：",
+      "options": [
+        "ascend",
+        "instability",
+        "proliferation",
+        "contamination"
+      ],
+      "answer": 2,
+      "explanation": "proliferation 意为「激增，扩散」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 3,
+      "id": "exam_04_0018"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「外部的」对应的英文单词：",
+      "options": [
+        "proactive",
+        "external",
+        "advocate",
+        "assume"
+      ],
+      "answer": 1,
+      "explanation": "external 意为「外部的」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1,
+      "id": "exam_04_0019"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「必要的」对应的英文单词：",
+      "options": [
+        "essential",
+        "foster",
+        "predisposition",
+        "conflicting"
+      ],
+      "answer": 0,
+      "explanation": "essential 意为「必要的」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1,
+      "id": "exam_04_0020"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「积累」对应的英文单词：",
+      "options": [
+        "feasible",
+        "accumulate",
+        "decade",
+        "cumulative"
+      ],
+      "answer": 3,
+      "explanation": "cumulative 意为「积累」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 2,
+      "id": "exam_04_0021"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「管理，行政」对应的英文单词：",
+      "options": [
+        "decline",
+        "contamination",
+        "enduring",
+        "administration"
+      ],
+      "answer": 3,
+      "explanation": "administration 意为「管理，行政」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 2,
+      "id": "exam_04_0022"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「假设，假定」对应的英文单词：",
+      "options": [
+        "assess",
+        "innate",
+        "hypothesis",
+        "evaluate"
+      ],
+      "answer": 2,
+      "explanation": "hypothesis 意为「假设，假定」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 2,
+      "id": "exam_04_0023"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「不足」对应的英文单词：",
+      "options": [
+        "deficiency",
+        "principle",
+        "innovation",
+        "contribute"
+      ],
+      "answer": 0,
+      "explanation": "deficiency 意为「不足」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 2,
+      "id": "exam_04_0024"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「任命」对应的英文单词：",
+      "options": [
+        "deficiency",
+        "constraint",
+        "appointment",
+        "acquisition"
+      ],
+      "answer": 2,
+      "explanation": "appointment 意为「任命」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1,
+      "id": "exam_04_0025"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「先进的」对应的英文单词：",
+      "options": [
+        "ethical",
+        "advanced",
+        "appreciation",
+        "ultimately"
+      ],
+      "answer": 1,
+      "explanation": "advanced 意为「先进的」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1,
+      "id": "exam_04_0026"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「逆境」对应的英文单词：",
+      "options": [
+        "unprecedented",
+        "adversity",
+        "aspect",
+        "exploit"
+      ],
+      "answer": 1,
+      "explanation": "adversity 意为「逆境」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 2,
+      "id": "exam_04_0027"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「亲密的」对应的英文单词：",
+      "options": [
+        "intimate",
+        "cope",
+        "precedent",
+        "energetic"
+      ],
+      "answer": 0,
+      "explanation": "intimate 意为「亲密的」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 2,
+      "id": "exam_04_0028"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「巨大的」对应的英文单词：",
+      "options": [
+        "permanent",
+        "enormous",
+        "ensure",
+        "catalyze"
+      ],
+      "answer": 1,
+      "explanation": "enormous 意为「巨大的」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1,
+      "id": "exam_04_0029"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「确保」对应的英文单词：",
+      "options": [
+        "inform",
+        "considerable",
+        "energetic",
+        "ensure"
+      ],
+      "answer": 3,
+      "explanation": "ensure 意为「确保」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1,
+      "id": "exam_04_0030"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「保证，确保」对应的英文单词：",
+      "options": [
+        "friction",
+        "tremendous",
+        "forecast",
+        "ensure"
+      ],
+      "answer": 3,
+      "explanation": "ensure 意为「保证，确保」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1,
+      "id": "exam_04_0031"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「现象」对应的英文单词：",
+      "options": [
+        "phenomenon",
+        "adequate",
+        "drought",
+        "interdisciplinary"
+      ],
+      "answer": 0,
+      "explanation": "phenomenon 意为「现象」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 2,
+      "id": "exam_04_0032"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「激烈的」对应的英文单词：",
+      "options": [
+        "intense",
+        "profound",
+        "philosophical",
+        "custom"
+      ],
+      "answer": 0,
+      "explanation": "intense 意为「激烈的」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1,
+      "id": "exam_04_0033"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「专门知识」对应的英文单词：",
+      "options": [
+        "expertise",
+        "predisposition",
+        "friction",
+        "intellectual"
+      ],
+      "answer": 0,
+      "explanation": "expertise 意为「专门知识」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 2,
+      "id": "exam_04_0034"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「打断」对应的英文单词：",
+      "options": [
+        "accumulate",
+        "interrupt",
+        "pragmatic",
+        "permission"
+      ],
+      "answer": 1,
+      "explanation": "interrupt 意为「打断」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1,
+      "id": "exam_04_0035"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「可再生的」对应的英文单词：",
+      "options": [
+        "renewable",
+        "substantial",
+        "convergence",
+        "derivative"
+      ],
+      "answer": 0,
+      "explanation": "renewable 意为「可再生的」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1,
+      "id": "exam_04_0036"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「卓越的」对应的英文单词：",
+      "options": [
+        "crucial",
+        "ensure",
+        "excellent",
+        "profound"
+      ],
+      "answer": 2,
+      "explanation": "excellent 意为「卓越的」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1,
+      "id": "exam_04_0037"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「对抗，缓解」对应的英文单词：",
+      "options": [
+        "equity",
+        "established",
+        "counteract",
+        "implementation"
+      ],
+      "answer": 2,
+      "explanation": "counteract 意为「对抗，缓解」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 3,
+      "id": "exam_04_0038"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「维度」对应的英文单词：",
+      "options": [
+        "dimension",
+        "ensure",
+        "assumption",
+        "renewable"
+      ],
+      "answer": 0,
+      "explanation": "dimension 意为「维度」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 2,
+      "id": "exam_04_0039"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「补偿, 弥补」对应的英文单词：",
+      "options": [
+        "enormous",
+        "despite",
+        "ultimately",
+        "compensate"
+      ],
+      "answer": 3,
+      "explanation": "compensate 意为「补偿, 弥补」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 2,
+      "id": "exam_04_0040"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「相关的」对应的英文单词：",
+      "options": [
+        "aspect",
+        "extend",
+        "corresponding",
+        "contamination"
+      ],
+      "answer": 2,
+      "explanation": "corresponding 意为「相关的」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 2,
+      "id": "exam_04_0041"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「广泛的」对应的英文单词：",
+      "options": [
+        "direct",
+        "extensive",
+        "corresponding",
+        "intense"
+      ],
+      "answer": 1,
+      "explanation": "extensive 意为「广泛的」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1,
+      "id": "exam_04_0042"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「污染」对应的英文单词：",
+      "options": [
+        "evaluation",
+        "contamination",
+        "essential",
+        "creative"
+      ],
+      "answer": 1,
+      "explanation": "contamination 意为「污染」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 2,
+      "id": "exam_04_0043"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「利用，开发」对应的英文单词：",
+      "options": [
+        "exploit",
+        "direct",
+        "distortion",
+        "friction"
+      ],
+      "answer": 0,
+      "explanation": "exploit 意为「利用，开发」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 2,
+      "id": "exam_04_0044"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「创新的, 革新的」对应的英文单词：",
+      "options": [
+        "innovative",
+        "philosophical",
+        "optimistic",
+        "essential"
+      ],
+      "answer": 0,
+      "explanation": "innovative 意为「创新的, 革新的」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1,
+      "id": "exam_04_0045"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「整合」对应的英文单词：",
+      "options": [
+        "integrate",
+        "intermediate",
+        "dichotomy",
+        "distortion"
+      ],
+      "answer": 0,
+      "explanation": "integrate 意为「整合」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 2,
+      "id": "exam_04_0046"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「歧视」对应的英文单词：",
+      "options": [
+        "discrimination",
+        "pragmatic",
+        "fluctuation",
+        "intellectual"
+      ],
+      "answer": 0,
+      "explanation": "discrimination 意为「歧视」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 2,
+      "id": "exam_04_0047"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「个人，个体」对应的英文单词：",
+      "options": [
+        "derivative",
+        "controversy",
+        "disaster",
+        "individual"
+      ],
+      "answer": 3,
+      "explanation": "individual 意为「个人，个体」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1,
+      "id": "exam_04_0048"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「辩论」对应的英文单词：",
+      "options": [
+        "shift",
+        "intervention",
+        "exemplify",
+        "debate"
+      ],
+      "answer": 3,
+      "explanation": "debate 意为「辩论」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1,
+      "id": "exam_04_0049"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「提升，提高」对应的英文单词：",
+      "options": [
+        "creative",
+        "ascend",
+        "enhance",
+        "intense"
+      ],
+      "answer": 1,
+      "explanation": "ascend 意为「提升，提高」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 2,
+      "id": "exam_04_0050"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「相当于」对应的英文单词：",
+      "options": [
+        "equivalent",
+        "tremendous",
+        "fundamental",
+        "contradictory"
+      ],
+      "answer": 0,
+      "explanation": "equivalent 意为「相当于」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 2,
+      "id": "exam_04_0051"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「检查」对应的英文单词：",
+      "options": [
+        "democracy",
+        "inspection",
+        "acknowledge",
+        "expertise"
+      ],
+      "answer": 1,
+      "explanation": "inspection 意为「检查」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1,
+      "id": "exam_04_0052"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「干涉」对应的英文单词：",
+      "options": [
+        "artificial",
+        "interfere",
+        "underlying",
+        "attribute"
+      ],
+      "answer": 1,
+      "explanation": "interfere 意为「干涉」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 2,
+      "id": "exam_04_0053"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「首要的，主要的」对应的英文单词：",
+      "options": [
+        "debate",
+        "discrimination",
+        "primary",
+        "administration"
+      ],
+      "answer": 2,
+      "explanation": "primary 意为「首要的，主要的」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1,
+      "id": "exam_04_0054"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「外在的」对应的英文单词：",
+      "options": [
+        "generation",
+        "friction",
+        "external",
+        "appropriate"
+      ],
+      "answer": 2,
+      "explanation": "external 意为「外在的」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 2,
+      "id": "exam_04_0055"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「范式，典范」对应的英文单词：",
+      "options": [
+        "arbitrary",
+        "paradigm",
+        "input",
+        "evaluate"
+      ],
+      "answer": 1,
+      "explanation": "paradigm 意为「范式，典范」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 2,
+      "id": "exam_04_0056"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「扩散」对应的英文单词：",
+      "options": [
+        "artificial",
+        "diffusion",
+        "assume",
+        "integration"
+      ],
+      "answer": 1,
+      "explanation": "diffusion 意为「扩散」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 3,
+      "id": "exam_04_0057"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「遥远的」对应的英文单词：",
+      "options": [
+        "generation",
+        "distant",
+        "developing",
+        "diagnose"
+      ],
+      "answer": 1,
+      "explanation": "distant 意为「遥远的」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1,
+      "id": "exam_04_0058"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「竞争，对手」对应的英文单词：",
+      "options": [
+        "explicit",
+        "competitor",
+        "cope",
+        "criterion"
+      ],
+      "answer": 1,
+      "explanation": "competitor 意为「竞争，对手」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1,
+      "id": "exam_04_0059"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「巨大的」对应的英文单词：",
+      "options": [
+        "erosion",
+        "cope",
+        "coexist",
+        "tremendous"
+      ],
+      "answer": 3,
+      "explanation": "tremendous 意为「巨大的」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1,
+      "id": "exam_04_0060"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「不可避免的」对应的英文单词：",
+      "options": [
+        "intuition",
+        "culture",
+        "enrich",
+        "unavoidable"
+      ],
+      "answer": 3,
+      "explanation": "unavoidable 意为「不可避免的」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 2,
+      "id": "exam_04_0061"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「企业家」对应的英文单词：",
+      "options": [
+        "discipline",
+        "entrepreneur",
+        "feasible",
+        "proactive"
+      ],
+      "answer": 1,
+      "explanation": "entrepreneur 意为「企业家」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 2,
+      "id": "exam_04_0062"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「代际的」对应的英文单词：",
+      "options": [
+        "homogenization",
+        "intergenerational",
+        "disaster",
+        "distant"
+      ],
+      "answer": 1,
+      "explanation": "intergenerational 意为「代际的」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 3,
+      "id": "exam_04_0063"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「调整」对应的英文单词：",
+      "options": [
+        "adjustment",
+        "catalyze",
+        "consequently",
+        "interrupt"
+      ],
+      "answer": 0,
+      "explanation": "adjustment 意为「调整」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1,
+      "id": "exam_04_0064"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「归属，归因」对应的英文单词：",
+      "options": [
+        "attribution",
+        "conception",
+        "interdisciplinary",
+        "adversity"
+      ],
+      "answer": 0,
+      "explanation": "attribution 意为「归属，归因」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 3,
+      "id": "exam_04_0065"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「公平」对应的英文单词：",
+      "options": [
+        "intergenerational",
+        "equity",
+        "disruption",
+        "mitigate"
+      ],
+      "answer": 1,
+      "explanation": "equity 意为「公平」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 2,
+      "id": "exam_04_0066"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「倡导者」对应的英文单词：",
+      "options": [
+        "advocate",
+        "appointment",
+        "exponentially",
+        "discipline"
+      ],
+      "answer": 0,
+      "explanation": "advocate 意为「倡导者」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 2,
+      "id": "exam_04_0067"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「捐赠」对应的英文单词：",
+      "options": [
+        "donation",
+        "attribution",
+        "funding",
+        "commercialization"
+      ],
+      "answer": 0,
+      "explanation": "donation 意为「捐赠」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1,
+      "id": "exam_04_0068"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「说服」对应的英文单词：",
+      "options": [
+        "erosion",
+        "persuade",
+        "interaction",
+        "extract"
+      ],
+      "answer": 1,
+      "explanation": "persuade 意为「说服」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1,
+      "id": "exam_04_0069"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「期望」对应的英文单词：",
+      "options": [
+        "deviation",
+        "innovative",
+        "disadvantage",
+        "expectation"
+      ],
+      "answer": 3,
+      "explanation": "expectation 意为「期望」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1,
+      "id": "exam_04_0070"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「疾病」对应的英文单词：",
+      "options": [
+        "disease",
+        "consumption",
+        "permanent",
+        "definite"
+      ],
+      "answer": 0,
+      "explanation": "disease 意为「疾病」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1,
+      "id": "exam_04_0071"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「充足的，丰富的」对应的英文单词：",
+      "options": [
+        "abundant",
+        "acknowledge",
+        "destruction",
+        "competitor"
+      ],
+      "answer": 0,
+      "explanation": "abundant 意为「充足的，丰富的」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 2,
+      "id": "exam_04_0072"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「个性，人格」对应的英文单词：",
+      "options": [
+        "creative",
+        "personality",
+        "decline",
+        "deficiency"
+      ],
+      "answer": 1,
+      "explanation": "personality 意为「个性，人格」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1,
+      "id": "exam_04_0073"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「繁荣」对应的英文单词：",
+      "options": [
+        "exposure",
+        "flourish",
+        "excessive",
+        "negative"
+      ],
+      "answer": 1,
+      "explanation": "flourish 意为「繁荣」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 2,
+      "id": "exam_04_0074"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「自治的，自主的」对应的英文单词：",
+      "options": [
+        "autonomous",
+        "adjustment",
+        "creative",
+        "distinguish"
+      ],
+      "answer": 0,
+      "explanation": "autonomous 意为「自治的，自主的」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 2,
+      "id": "exam_04_0075"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「检测」对应的英文单词：",
+      "options": [
+        "excessive",
+        "diversity",
+        "detect",
+        "intuition"
+      ],
+      "answer": 2,
+      "explanation": "detect 意为「检测」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1,
+      "id": "exam_04_0076"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「内在的，本质的」对应的英文单词：",
+      "options": [
+        "exaggerate",
+        "shift",
+        "inherent",
+        "extract"
+      ],
+      "answer": 2,
+      "explanation": "inherent 意为「内在的，本质的」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 2,
+      "id": "exam_04_0077"
+    }
+  ]
+}

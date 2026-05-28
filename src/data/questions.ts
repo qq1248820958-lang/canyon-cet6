@@ -987,7 +987,7 @@ export function getQuestionsForEvent(eventType: string): Question[] {
     case 'gank':
       return questions.filter(q => q.type === 'shortReading' && q.sourceEvent === '打野来抓');
     case 'teamfight-dragon':
-      return getReadingGroupQuestions('rg1');
+      return questions.filter(q => q.type === 'readingGroup');
     case 'highground':
       return questions.filter(q => q.type === 'translation' && q.sourceEvent === '高地防守');
     case 'finale':

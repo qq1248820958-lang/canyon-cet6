@@ -1,7 +1,7 @@
 import { useState, useCallback, useRef } from 'react';
 import { Hero, Lineup, Question, GamePhase, HeroState, BattleState } from '../types';
 import { createHeroState, calculateDamage, calculateXP, getComboDisplay, getPhaseLabel } from '../utils/battle';
-import { allQuestions, getReadingGroupQuestions } from '../data/questions';
+import { allQuestions } from '../data/questions';
 import { addReviewItem } from '../utils/storage';
 import StatBar from '../components/StatBar';
 import QuestionCard from '../components/QuestionCard';
@@ -96,10 +96,10 @@ export default function BattlePage({ lineup, onEnd }: BattlePageProps) {
         pool = allQuestions.filter(q => q.type === 'shortReading' && q.sourceEvent === '打野来抓');
         break;
       case 'teamfight':
-        pool = getReadingGroupQuestions('rg1');
+        pool = allQuestions.filter(q => q.type === 'readingGroup');
         break;
       case 'highground':
-        pool = getReadingGroupQuestions('rg2');
+        pool = allQuestions.filter(q => q.type === 'readingGroup');
         break;
       case 'highground-trans':
         pool = allQuestions.filter(q => q.type === 'translation' && q.sourceEvent === '高地防守');
@@ -390,10 +390,10 @@ export default function BattlePage({ lineup, onEnd }: BattlePageProps) {
     } else if (p.type === 'teamfight') {
       q = pickQuestion('teamfight', used);
     } else if (p.type === 'highGround') {
-      const answeredRg2 = used.filter(id =>
-        allQuestions.find(qq => qq.id === id && qq.groupId === 'rg2')
+      const answeredRg = used.filter(id =>
+        allQuestions.find(qq => qq.id === id && qq.type === 'readingGroup')
       ).length;
-      if (answeredRg2 < 3) {
+      if (answeredRg < 3) {
         q = pickQuestion('highground', used);
       }
       if (!q) {

@@ -1,0 +1,1250 @@
+{
+  "packId": "exam-003",
+  "version": 1,
+  "title": "六级真题风格扩展包 #3",
+  "description": "100 道CET-6真题风格题（短阅读+阅读组+词汇+句子）",
+  "questions": [
+    {
+      "type": "shortReading",
+      "prompt": "阅读下文回答问题：\n\n\"\"The Arctic region is warming nearly four times faster than the global average, a phenomenon known as Arctic amplification. This rapid warming has profound consequences: sea ice is declining at an accelerating rate, permafrost is thawing and releasing greenhouse gases, and Arctic ecosystems are undergoing dramatic changes. The melting of Arctic sea ice does not significantly raise sea levels, but the Greenland ice sheet — which is also losing mass — contains enough water to raise global sea levels by about seven meters.\"\"\n\n关于北极变暖，哪项描述是正确的？",
+      "options": [
+        "Arctic sea ice melt is the main cause of sea level rise.",
+        "Arctic warming is about four times faster than the global average, with consequences including ice loss and permafrost thaw.",
+        "The Arctic is not warming faster than other regions.",
+        "Permafrost thaw releases no greenhouse gases."
+      ],
+      "answer": 1,
+      "explanation": "\"The Arctic region is warming nearly four times faster than the global average...sea ice is declining...permafrost is thawing and releasing greenhouse gases\" = 北极变暖速度约为全球平均的四倍。",
+      "sourceEvent": "打野来抓",
+      "difficulty": 2,
+      "id": "exam_03_0001"
+    },
+    {
+      "type": "shortReading",
+      "prompt": "阅读下文回答问题：\n\n\"\"The concept of 'nudge theory' in public policy suggests that subtle changes in how choices are presented can significantly influence people's decisions without restricting their freedom of choice. For example, automatically enrolling employees in pension plans while allowing them to opt out has dramatically increased retirement savings rates. Critics argue that nudges can be manipulative, particularly when citizens are unaware of their influence. Proponents counter that well-designed nudges preserve autonomy while helping people make better decisions.\"\"\n\n助推理论的核心特点是什么？",
+      "options": [
+        "Forcing people to make specific choices.",
+        "Influencing decisions subtly while preserving freedom of choice.",
+        "Replacing all existing policies.",
+        "Only effective in financial contexts."
+      ],
+      "answer": 1,
+      "explanation": "\"Subtle changes in how choices are presented can significantly influence people's decisions without restricting their freedom of choice\" = 在不限制选择自由的情况下通过微调呈现方式影响决策。",
+      "sourceEvent": "打野来抓",
+      "difficulty": 2,
+      "id": "exam_03_0002"
+    },
+    {
+      "type": "shortReading",
+      "prompt": "阅读下文回答问题：\n\n\"\"The sharing of personal data has become a cornerstone of the digital economy, enabling personalized services and targeted advertising that drive revenue for tech companies. However, increasing awareness of data collection practices has led to growing demands for stronger privacy protections. Regulations like the EU's General Data Protection Regulation (GDPR) represent attempts to balance the economic value of data with individuals' rights to privacy and control over their personal information.\"\"\n\nGDPR这类法规的目的是什么？",
+      "options": [
+        "To ban all data collection.",
+        "To balance the economic value of data with individual privacy rights.",
+        "Only to protect business interests.",
+        "To eliminate the digital economy."
+      ],
+      "answer": 1,
+      "explanation": "\"Represent attempts to balance the economic value of data with individuals' rights to privacy and control over their personal information\" = 在数据的经济价值与个人隐私权和控制权之间取得平衡。",
+      "sourceEvent": "打野来抓",
+      "difficulty": 2,
+      "id": "exam_03_0003"
+    },
+    {
+      "type": "shortReading",
+      "prompt": "阅读下文回答问题：\n\n\"\"The concept of 'peak car' — the idea that per capita car usage has reached its maximum and will decline — has gained support from trends in many developed countries. Young adults in particular are driving less, obtaining licenses later, and showing greater preference for urban living and multimodal transportation including public transit, cycling, and ride-sharing services. However, car ownership and usage continue to rise in developing countries, suggesting that global car use may not have peaked yet.\"\"\n\n\"峰值汽车\"概念在不同国家的情况如何？",
+      "options": [
+        "Car usage is declining everywhere.",
+        "In developed countries usage may have peaked, but it continues to rise in developing countries.",
+        "The concept has been proven false globally.",
+        "Developing countries show declining car usage."
+      ],
+      "answer": 1,
+      "explanation": "\"In many developed countries...car usage has reached its maximum...however, car ownership and usage continue to rise in developing countries\" = 发达国家可能已达峰值，但发展中国家仍在增长。",
+      "sourceEvent": "打野来抓",
+      "difficulty": 2,
+      "id": "exam_03_0004"
+    },
+    {
+      "type": "shortReading",
+      "prompt": "阅读下文回答问题：\n\n\"\"Marine biotechnology has emerged as a promising field for drug discovery, with organisms from extreme ocean environments producing unique compounds with pharmaceutical potential. Deep-sea sponges, corals, and microorganisms have yielded substances with anti-cancer, anti-inflammatory, and antiviral properties. Despite this potential, the exploration of marine biodiversity for medical applications remains limited by the technical challenges of deep-sea collection and the difficulties of cultivating these organisms in laboratory conditions.\"\"\n\n海洋生物技术药物发现的障碍是什么？",
+      "options": [
+        "Marine organisms have no medicinal value.",
+        "Technical challenges of deep-sea collection and laboratory cultivation.",
+        "The field has been fully explored already.",
+        "There is no pharmaceutical potential."
+      ],
+      "answer": 1,
+      "explanation": "\"Limited by the technical challenges of deep-sea collection and the difficulties of cultivating these organisms in laboratory conditions\" = 受限于深海采集的技术挑战和实验室培养的困难。",
+      "sourceEvent": "打野来抓",
+      "difficulty": 2,
+      "id": "exam_03_0005"
+    },
+    {
+      "type": "shortReading",
+      "prompt": "阅读下文回答问题：\n\n\"\"The global trade in counterfeit goods has reached unprecedented levels, with the OECD estimating that counterfeits account for up to 3.3% of global trade. Beyond the economic damage to legitimate businesses and the risks to consumer health and safety, counterfeiting is increasingly linked to organized crime and even the funding of terrorist activities. E-commerce platforms have become major channels for the distribution of fake goods, presenting significant challenges for enforcement agencies and online marketplaces.\"\"\n\n除经济损失外，假冒商品贸易还有什么其他危害？",
+      "options": [
+        "No other harms exist.",
+        "Linked to organized crime and terrorism funding.",
+        "Only affects luxury brands.",
+        "Consumers prefer counterfeit goods."
+      ],
+      "answer": 1,
+      "explanation": "\"Counterfeiting is increasingly linked to organized crime and even the funding of terrorist activities\" = 假冒商品与有组织犯罪甚至恐怖主义融资存在关联。",
+      "sourceEvent": "打野来抓",
+      "difficulty": 2,
+      "id": "exam_03_0006"
+    },
+    {
+      "type": "shortReading",
+      "prompt": "阅读下文回答问题：\n\n\"\"The rise of fintech has revolutionized the banking industry, with digital payment systems, peer-to-peer lending platforms, and robo-advisors challenging traditional financial institutions. In developing countries, mobile banking has been particularly transformative, bringing financial services to populations previously excluded from the formal banking system. However, concerns about data security, algorithmic bias, and the digital divide persist as significant challenges to the fintech revolution.\"\"\n\n金融科技在发展中国家起到了什么特殊作用？",
+      "options": [
+        "Had little impact in developing countries.",
+        "Brought financial services to those previously excluded from formal banking.",
+        "Only benefited wealthy individuals.",
+        "Increased the digital divide."
+      ],
+      "answer": 1,
+      "explanation": "\"Bringing financial services to populations previously excluded from the formal banking system\" = 将金融服务带给以前被排除在正规银行体系之外的人群。",
+      "sourceEvent": "打野来抓",
+      "difficulty": 2,
+      "id": "exam_03_0007"
+    },
+    {
+      "type": "shortReading",
+      "prompt": "阅读下文回答问题：\n\n\"\"The practice of mindfulness meditation has gained substantial empirical support for its mental health benefits. Regular practitioners report reduced stress, improved focus, and greater emotional regulation. Neuroimaging studies have shown that consistent meditation practice can actually change brain structure, increasing gray matter density in regions associated with memory and emotional control. These findings have led to the integration of mindfulness-based interventions into clinical psychology and workplace wellness programs.\"\"\n\n关于冥想，神经影像学研究发现了什么？",
+      "options": [
+        "Meditation has no effect on the brain.",
+        "It can change brain structure, increasing gray matter in memory and emotional control regions.",
+        "Brain changes from meditation are not possible.",
+        "Only emotional changes occur without brain changes."
+      ],
+      "answer": 1,
+      "explanation": "\"Consistent meditation practice can actually change brain structure, increasing gray matter density in regions associated with memory and emotional control\" = 持续的冥想练习可以改变大脑结构。",
+      "sourceEvent": "打野来抓",
+      "difficulty": 2,
+      "id": "exam_03_0008"
+    },
+    {
+      "type": "shortReading",
+      "prompt": "阅读下文回答问题：\n\n\"\"The phenomenon of 'technological unemployment' — job displacement caused by technological change — has historically been offset by the creation of new types of employment. However, the current wave of automation driven by artificial intelligence and robotics may be qualitatively different. Some economists argue that AI could automate not only manual labor but also cognitive tasks previously considered safe from automation. Others contend that, as in past industrial revolutions, new human roles will emerge that we cannot yet envision.\"\"\n\n关于AI导致的失业，文中提到了什么不同的观点？",
+      "options": [
+        "All economists agree on the outcome.",
+        "Some fear AI may automate cognitive tasks, while others believe new job types will emerge as before.",
+        "AI will not affect employment at all.",
+        "Only manual jobs are at risk."
+      ],
+      "answer": 1,
+      "explanation": "\"Some economists argue that AI could automate not only manual labor but also cognitive tasks...Others contend that...new human roles will emerge\" = 一些经济学家认为AI可以自动化认知任务，另一些人则认为新角色会出现。",
+      "sourceEvent": "打野来抓",
+      "difficulty": 3,
+      "id": "exam_03_0009"
+    },
+    {
+      "type": "shortReading",
+      "prompt": "阅读下文回答问题：\n\n\"\"Vertical farming — the practice of growing crops in stacked layers within controlled environments — offers a potential solution to agricultural challenges in urban areas. These facilities use up to 95% less water than traditional farming and can produce crops year-round regardless of weather conditions. However, the high energy costs of artificial lighting and climate control remain significant economic barriers, and the technology currently is mainly viable for high-value crops like leafy greens and herbs.\"\"\n\n垂直农业目前面临的主要制约是什么？",
+      "options": [
+        "It uses too much water.",
+        "High energy costs make it only viable for certain high-value crops.",
+        "Crops cannot grow year-round.",
+        "It requires too much land."
+      ],
+      "answer": 1,
+      "explanation": "\"High energy costs of artificial lighting and climate control remain significant economic barriers...mainly viable for high-value crops\" = 高能耗成本使其目前主要适用于高价值作物。",
+      "sourceEvent": "打野来抓",
+      "difficulty": 2,
+      "id": "exam_03_0010"
+    },
+    {
+      "type": "readingGroup",
+      "groupId": "rg7",
+      "passage": "阅读下面文章，回答3个问题：\n\n\"\"The relationship between social media use and mental health has become a subject of intense scrutiny and debate among researchers, policymakers, and the public. On one hand, social media platforms offer opportunities for social connection, community building, and access to mental health resources. For marginalized groups and individuals with rare conditions, online communities can provide invaluable support and validation. During the pandemic, platforms served as crucial lifelines for maintaining social ties during lockdowns.\n\nOn the other hand, a growing body of research has identified potential negative effects. Studies have found correlations between heavy social media use and increased rates of anxiety, depression, and loneliness among adolescents and young adults. The mechanisms proposed include social comparison — the tendency to evaluate oneself against others' curated highlights — as well as sleep disruption, reduced face-to-face interaction, and the addictive design of platform algorithms. Cyberbullying and exposure to harmful content represent additional risks.\n\nThe evidence, however, is far from conclusive. Critics argue that much of the research is correlational and cannot establish causation. The effects of social media may vary significantly depending on individual differences, usage patterns, and content consumed. Active use (such as direct messaging and posting) appears to have different effects than passive use (scrolling and viewing). Some studies suggest that the key factor is not how much time people spend on social media but how they engage with it.\"\"",
+      "prompt": "社交媒体可能带来哪些积极影响？",
+      "options": [
+        "No positive effects exist.",
+        "Social connection, community building, access to mental health resources, and support for marginalized groups.",
+        "Only negative effects are documented.",
+        "Social media only benefits businesses."
+      ],
+      "answer": 1,
+      "explanation": "\"Opportunities for social connection, community building, and access to mental health resources...invaluable support and validation\" = 社交连接、社区建设和心理健康资源的机会。",
+      "sourceEvent": "小龙团战",
+      "difficulty": 2,
+      "id": "exam_03_0011"
+    },
+    {
+      "type": "readingGroup",
+      "groupId": "rg7",
+      "passage": "阅读下面文章，回答3个问题：\n\n\"\"The relationship between social media use and mental health has become a subject of intense scrutiny and debate among researchers, policymakers, and the public. On one hand, social media platforms offer opportunities for social connection, community building, and access to mental health resources. For marginalized groups and individuals with rare conditions, online communities can provide invaluable support and validation. During the pandemic, platforms served as crucial lifelines for maintaining social ties during lockdowns.\n\nOn the other hand, a growing body of research has identified potential negative effects. Studies have found correlations between heavy social media use and increased rates of anxiety, depression, and loneliness among adolescents and young adults. The mechanisms proposed include social comparison — the tendency to evaluate oneself against others' curated highlights — as well as sleep disruption, reduced face-to-face interaction, and the addictive design of platform algorithms. Cyberbullying and exposure to harmful content represent additional risks.\n\nThe evidence, however, is far from conclusive. Critics argue that much of the research is correlational and cannot establish causation. The effects of social media may vary significantly depending on individual differences, usage patterns, and content consumed. Active use (such as direct messaging and posting) appears to have different effects than passive use (scrolling and viewing). Some studies suggest that the key factor is not how much time people spend on social media but how they engage with it.\"\"",
+      "prompt": "研究发现社交媒体可能对青少年产生哪些负面影响？",
+      "options": [
+        "No negative effects on young people.",
+        "Correlations with anxiety, depression, and loneliness through social comparison, sleep disruption, and addictive design.",
+        "Only positive effects are found.",
+        "Social media improves mental health for everyone."
+      ],
+      "answer": 1,
+      "explanation": "\"Studies have found correlations between heavy social media use and increased rates of anxiety, depression, and loneliness\" = 重度使用与焦虑、抑郁和孤独感之间存在相关性。",
+      "sourceEvent": "小龙团战",
+      "difficulty": 2,
+      "id": "exam_03_0012"
+    },
+    {
+      "type": "readingGroup",
+      "groupId": "rg7",
+      "passage": "阅读下面文章，回答3个问题：\n\n\"\"The relationship between social media use and mental health has become a subject of intense scrutiny and debate among researchers, policymakers, and the public. On one hand, social media platforms offer opportunities for social connection, community building, and access to mental health resources. For marginalized groups and individuals with rare conditions, online communities can provide invaluable support and validation. During the pandemic, platforms served as crucial lifelines for maintaining social ties during lockdowns.\n\nOn the other hand, a growing body of research has identified potential negative effects. Studies have found correlations between heavy social media use and increased rates of anxiety, depression, and loneliness among adolescents and young adults. The mechanisms proposed include social comparison — the tendency to evaluate oneself against others' curated highlights — as well as sleep disruption, reduced face-to-face interaction, and the addictive design of platform algorithms. Cyberbullying and exposure to harmful content represent additional risks.\n\nThe evidence, however, is far from conclusive. Critics argue that much of the research is correlational and cannot establish causation. The effects of social media may vary significantly depending on individual differences, usage patterns, and content consumed. Active use (such as direct messaging and posting) appears to have different effects than passive use (scrolling and viewing). Some studies suggest that the key factor is not how much time people spend on social media but how they engage with it.\"\"",
+      "prompt": "关于社交媒体与心理健康的研究，文中指出了什么局限？",
+      "options": [
+        "The research is conclusive and definitive.",
+        "Much research is correlational and cannot establish causation; effects vary by individual and usage type.",
+        "All studies agree on the findings.",
+        "No research has been conducted on this topic."
+      ],
+      "answer": 1,
+      "explanation": "\"Much of the research is correlational and cannot establish causation...effects may vary significantly depending on individual differences, usage patterns\" = 多为相关性研究而非因果研究，效果因人而异。",
+      "sourceEvent": "小龙团战",
+      "difficulty": 3,
+      "id": "exam_03_0013"
+    },
+    {
+      "type": "readingGroup",
+      "groupId": "rg8",
+      "passage": "阅读下面文章，回答3个问题：\n\n\"\"The global transition to renewable energy has accelerated significantly in recent years, driven by declining costs, policy support, and growing awareness of climate change. Solar photovoltaic and wind power have become the cheapest sources of new electricity generation in most parts of the world, with costs declining by 90% and 70% respectively over the past decade. Renewable energy now accounts for an increasing share of global electricity generation, with some countries already achieving over 50% renewable electricity.\n\nDespite this progress, significant challenges remain. The intermittency of solar and wind power — they only generate when the sun shines or the wind blows — creates challenges for grid stability. Energy storage technologies, particularly batteries, are essential but remain expensive for grid-scale applications. The existing grid infrastructure was designed for centralized, dispatchable power plants and requires substantial upgrading to accommodate distributed and variable renewable sources. Furthermore, the manufacturing of renewable energy technologies relies on critical minerals such as lithium, cobalt, and rare earth elements, whose extraction raises environmental and geopolitical concerns.\n\nThe transition also involves complex social and economic dimensions. Workers in fossil fuel industries face job displacement, requiring just transition policies that include retraining and economic diversification. The siting of large-scale renewable energy projects sometimes conflicts with land use priorities, including agriculture and conservation. Community engagement and equitable distribution of benefits — both within and between countries — are increasingly recognized as essential for a successful and just energy transition.\"\"",
+      "prompt": "可再生能源成本在过去十年中有什么变化？",
+      "options": [
+        "Costs have remained stable.",
+        "Solar costs declined by 90% and wind by 70% over the past decade.",
+        "Costs have increased due to demand.",
+        "Only solar costs have decreased."
+      ],
+      "answer": 1,
+      "explanation": "\"Costs declining by 90% and 70% respectively over the past decade\" = 太阳能和风能成本分别下降了90%和70%。",
+      "sourceEvent": "小龙团战",
+      "difficulty": 2,
+      "id": "exam_03_0014"
+    },
+    {
+      "type": "readingGroup",
+      "groupId": "rg8",
+      "passage": "阅读下面文章，回答3个问题：\n\n\"\"The global transition to renewable energy has accelerated significantly in recent years, driven by declining costs, policy support, and growing awareness of climate change. Solar photovoltaic and wind power have become the cheapest sources of new electricity generation in most parts of the world, with costs declining by 90% and 70% respectively over the past decade. Renewable energy now accounts for an increasing share of global electricity generation, with some countries already achieving over 50% renewable electricity.\n\nDespite this progress, significant challenges remain. The intermittency of solar and wind power — they only generate when the sun shines or the wind blows — creates challenges for grid stability. Energy storage technologies, particularly batteries, are essential but remain expensive for grid-scale applications. The existing grid infrastructure was designed for centralized, dispatchable power plants and requires substantial upgrading to accommodate distributed and variable renewable sources. Furthermore, the manufacturing of renewable energy technologies relies on critical minerals such as lithium, cobalt, and rare earth elements, whose extraction raises environmental and geopolitical concerns.\n\nThe transition also involves complex social and economic dimensions. Workers in fossil fuel industries face job displacement, requiring just transition policies that include retraining and economic diversification. The siting of large-scale renewable energy projects sometimes conflicts with land use priorities, including agriculture and conservation. Community engagement and equitable distribution of benefits — both within and between countries — are increasingly recognized as essential for a successful and just energy transition.\"\"",
+      "prompt": "可再生能源转型面临的主要技术挑战是什么？",
+      "options": [
+        "No technical challenges exist.",
+        "Intermittency, energy storage costs, grid infrastructure upgrades, and critical mineral supply concerns.",
+        "Only storage is a problem.",
+        "Technology is not important for the transition."
+      ],
+      "answer": 1,
+      "explanation": "\"Intermittency...energy storage technologies...expensive...grid infrastructure requires substantial upgrading...critical minerals\" = 间歇性、储能成本、电网升级和关键矿物供应问题。",
+      "sourceEvent": "小龙团战",
+      "difficulty": 2,
+      "id": "exam_03_0015"
+    },
+    {
+      "type": "readingGroup",
+      "groupId": "rg8",
+      "passage": "阅读下面文章，回答3个问题：\n\n\"\"The global transition to renewable energy has accelerated significantly in recent years, driven by declining costs, policy support, and growing awareness of climate change. Solar photovoltaic and wind power have become the cheapest sources of new electricity generation in most parts of the world, with costs declining by 90% and 70% respectively over the past decade. Renewable energy now accounts for an increasing share of global electricity generation, with some countries already achieving over 50% renewable electricity.\n\nDespite this progress, significant challenges remain. The intermittency of solar and wind power — they only generate when the sun shines or the wind blows — creates challenges for grid stability. Energy storage technologies, particularly batteries, are essential but remain expensive for grid-scale applications. The existing grid infrastructure was designed for centralized, dispatchable power plants and requires substantial upgrading to accommodate distributed and variable renewable sources. Furthermore, the manufacturing of renewable energy technologies relies on critical minerals such as lithium, cobalt, and rare earth elements, whose extraction raises environmental and geopolitical concerns.\n\nThe transition also involves complex social and economic dimensions. Workers in fossil fuel industries face job displacement, requiring just transition policies that include retraining and economic diversification. The siting of large-scale renewable energy projects sometimes conflicts with land use priorities, including agriculture and conservation. Community engagement and equitable distribution of benefits — both within and between countries — are increasingly recognized as essential for a successful and just energy transition.\"\"",
+      "prompt": "文中提到的\"公正转型\"指的是什么？",
+      "options": [
+        "Ignoring displaced workers.",
+        "Supporting fossil fuel workers through retraining and economic diversification, and ensuring equitable distribution of benefits.",
+        "Only environmental protection matters.",
+        "Faster transition regardless of social impact."
+      ],
+      "answer": 1,
+      "explanation": "\"Workers in fossil fuel industries face job displacement, requiring just transition policies that include retraining and economic diversification\" = 帮助化石燃料行业工人再培训和实现经济多元化。",
+      "sourceEvent": "小龙团战",
+      "difficulty": 3,
+      "id": "exam_03_0016"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「辩论，争论」对应的英文单词：",
+      "options": [
+        "aggressive",
+        "debate",
+        "marginalized",
+        "engage"
+      ],
+      "answer": 1,
+      "explanation": "debate 意为「辩论，争论」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1,
+      "id": "exam_03_0017"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「证据」对应的英文单词：",
+      "options": [
+        "exemplify",
+        "division",
+        "evidence",
+        "intense"
+      ],
+      "answer": 2,
+      "explanation": "evidence 意为「证据」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1,
+      "id": "exam_03_0018"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「劣势」对应的英文单词：",
+      "options": [
+        "crucial",
+        "disadvantage",
+        "disease",
+        "exclusive"
+      ],
+      "answer": 1,
+      "explanation": "disadvantage 意为「劣势」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1,
+      "id": "exam_03_0019"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「识别，认同」对应的英文单词：",
+      "options": [
+        "identification",
+        "amplify",
+        "accurate",
+        "instrumental"
+      ],
+      "answer": 0,
+      "explanation": "identification 意为「识别，认同」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 2,
+      "id": "exam_03_0020"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「资产」对应的英文单词：",
+      "options": [
+        "decline",
+        "asset",
+        "adversity",
+        "decline"
+      ],
+      "answer": 1,
+      "explanation": "asset 意为「资产」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1,
+      "id": "exam_03_0021"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「大量的」对应的英文单词：",
+      "options": [
+        "envision",
+        "enormous",
+        "considerable",
+        "convergence"
+      ],
+      "answer": 2,
+      "explanation": "considerable 意为「大量的」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1,
+      "id": "exam_03_0022"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「充足的，丰富的」对应的英文单词：",
+      "options": [
+        "cope",
+        "abundant",
+        "factor",
+        "intermediate"
+      ],
+      "answer": 1,
+      "explanation": "abundant 意为「充足的，丰富的」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 2,
+      "id": "exam_03_0023"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「激烈的」对应的英文单词：",
+      "options": [
+        "aspect",
+        "fragile",
+        "intense",
+        "assimilate"
+      ],
+      "answer": 2,
+      "explanation": "intense 意为「激烈的」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1,
+      "id": "exam_03_0024"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「方面」对应的英文单词：",
+      "options": [
+        "aspect",
+        "polarization",
+        "instability",
+        "debate"
+      ],
+      "answer": 0,
+      "explanation": "aspect 意为「方面」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1,
+      "id": "exam_03_0025"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「明确的」对应的英文单词：",
+      "options": [
+        "disillusionment",
+        "exploit",
+        "definite",
+        "derivative"
+      ],
+      "answer": 2,
+      "explanation": "definite 意为「明确的」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1,
+      "id": "exam_03_0026"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「例外」对应的英文单词：",
+      "options": [
+        "substantial",
+        "deviation",
+        "exception",
+        "democracy"
+      ],
+      "answer": 2,
+      "explanation": "exception 意为「例外」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1,
+      "id": "exam_03_0027"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「文化」对应的英文单词：",
+      "options": [
+        "permission",
+        "enormous",
+        "culture",
+        "irreversible"
+      ],
+      "answer": 2,
+      "explanation": "culture 意为「文化」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1,
+      "id": "exam_03_0028"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「积极性」对应的英文单词：",
+      "options": [
+        "explicit",
+        "multifaceted",
+        "exhibit",
+        "initiative"
+      ],
+      "answer": 3,
+      "explanation": "initiative 意为「积极性」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 2,
+      "id": "exam_03_0029"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「情感，感情」对应的英文单词：",
+      "options": [
+        "arouse",
+        "oversight",
+        "affection",
+        "critical"
+      ],
+      "answer": 2,
+      "explanation": "affection 意为「情感，感情」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1,
+      "id": "exam_03_0030"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「明确的」对应的英文单词：",
+      "options": [
+        "install",
+        "engage",
+        "explicit",
+        "institution"
+      ],
+      "answer": 2,
+      "explanation": "explicit 意为「明确的」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 2,
+      "id": "exam_03_0031"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「授权，赋能」对应的英文单词：",
+      "options": [
+        "empower",
+        "potential",
+        "insurance",
+        "catalyze"
+      ],
+      "answer": 0,
+      "explanation": "empower 意为「授权，赋能」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 2,
+      "id": "exam_03_0032"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「可适用的」对应的英文单词：",
+      "options": [
+        "predict",
+        "applicable",
+        "interdisciplinary",
+        "developing"
+      ],
+      "answer": 1,
+      "explanation": "applicable 意为「可适用的」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 2,
+      "id": "exam_03_0033"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「干预」对应的英文单词：",
+      "options": [
+        "intervention",
+        "advocacy",
+        "distribution",
+        "diagnose"
+      ],
+      "answer": 0,
+      "explanation": "intervention 意为「干预」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 2,
+      "id": "exam_03_0034"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「归因于」对应的英文单词：",
+      "options": [
+        "identification",
+        "excellent",
+        "attribute",
+        "critical"
+      ],
+      "answer": 2,
+      "explanation": "attribute 意为「归因于」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 2,
+      "id": "exam_03_0035"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「原则」对应的英文单词：",
+      "options": [
+        "principle",
+        "disrupt",
+        "potential",
+        "indignation"
+      ],
+      "answer": 0,
+      "explanation": "principle 意为「原则」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1,
+      "id": "exam_03_0036"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「先例」对应的英文单词：",
+      "options": [
+        "compensate",
+        "disrupt",
+        "precise",
+        "precedent"
+      ],
+      "answer": 3,
+      "explanation": "precedent 意为「先例」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 3,
+      "id": "exam_03_0037"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「推断」对应的英文单词：",
+      "options": [
+        "appreciation",
+        "culture",
+        "inference",
+        "polarization"
+      ],
+      "answer": 2,
+      "explanation": "inference 意为「推断」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 3,
+      "id": "exam_03_0038"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「不平等的」对应的英文单词：",
+      "options": [
+        "inequitable",
+        "multifaceted",
+        "intense",
+        "categorize"
+      ],
+      "answer": 0,
+      "explanation": "inequitable 意为「不平等的」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 3,
+      "id": "exam_03_0039"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「阻碍；障碍」对应的英文单词：",
+      "options": [
+        "evaluate",
+        "impediment",
+        "entrepreneur",
+        "enormous"
+      ],
+      "answer": 1,
+      "explanation": "impediment 意为「阻碍；障碍」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 3,
+      "id": "exam_03_0040"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「充足的」对应的英文单词：",
+      "options": [
+        "interdisciplinary",
+        "adequate",
+        "deviation",
+        "polarization"
+      ],
+      "answer": 1,
+      "explanation": "adequate 意为「充足的」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1,
+      "id": "exam_03_0041"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「乐观的」对应的英文单词：",
+      "options": [
+        "optimistic",
+        "contentious",
+        "established",
+        "envision"
+      ],
+      "answer": 0,
+      "explanation": "optimistic 意为「乐观的」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1,
+      "id": "exam_03_0042"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「间歇」对应的英文单词：",
+      "options": [
+        "install",
+        "paradigm",
+        "ensure",
+        "intermittent"
+      ],
+      "answer": 3,
+      "explanation": "intermittent 意为「间歇」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 3,
+      "id": "exam_03_0043"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「区分」对应的英文单词：",
+      "options": [
+        "distinguish",
+        "inevitable",
+        "eradicate",
+        "criterion"
+      ],
+      "answer": 0,
+      "explanation": "distinguish 意为「区分」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1,
+      "id": "exam_03_0044"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「安装」对应的英文单词：",
+      "options": [
+        "erosion",
+        "install",
+        "interdisciplinary",
+        "entertainment"
+      ],
+      "answer": 1,
+      "explanation": "install 意为「安装」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1,
+      "id": "exam_03_0045"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「环境」对应的英文单词：",
+      "options": [
+        "distribution",
+        "contradictory",
+        "oversight",
+        "environment"
+      ],
+      "answer": 3,
+      "explanation": "environment 意为「环境」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1,
+      "id": "exam_03_0046"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「分配」对应的英文单词：",
+      "options": [
+        "allocate",
+        "proliferation",
+        "advanced",
+        "enduring"
+      ],
+      "answer": 0,
+      "explanation": "allocate 意为「分配」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 2,
+      "id": "exam_03_0047"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「精确的」对应的英文单词：",
+      "options": [
+        "precise",
+        "drive",
+        "priority",
+        "accumulate"
+      ],
+      "answer": 0,
+      "explanation": "precise 意为「精确的」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1,
+      "id": "exam_03_0048"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「重大转变」对应的英文单词：",
+      "options": [
+        "income",
+        "despite",
+        "interaction",
+        "shift"
+      ],
+      "answer": 3,
+      "explanation": "shift 意为「重大转变」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1,
+      "id": "exam_03_0049"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「概念，观念」对应的英文单词：",
+      "options": [
+        "interaction",
+        "custom",
+        "ambition",
+        "conception"
+      ],
+      "answer": 3,
+      "explanation": "conception 意为「概念，观念」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 2,
+      "id": "exam_03_0050"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「干涉」对应的英文单词：",
+      "options": [
+        "enduring",
+        "interfere",
+        "manipulate",
+        "equivalent"
+      ],
+      "answer": 1,
+      "explanation": "interfere 意为「干涉」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 2,
+      "id": "exam_03_0051"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「洞察力」对应的英文单词：",
+      "options": [
+        "appropriate",
+        "assessment",
+        "evidence",
+        "insight"
+      ],
+      "answer": 3,
+      "explanation": "insight 意为「洞察力」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 2,
+      "id": "exam_03_0052"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「可行的」对应的英文单词：",
+      "options": [
+        "evolution",
+        "feasible",
+        "enrich",
+        "adaptability"
+      ],
+      "answer": 1,
+      "explanation": "feasible 意为「可行的」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 2,
+      "id": "exam_03_0053"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「指数级地」对应的英文单词：",
+      "options": [
+        "exponentially",
+        "instrumental",
+        "destruction",
+        "draft"
+      ],
+      "answer": 0,
+      "explanation": "exponentially 意为「指数级地」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 3,
+      "id": "exam_03_0054"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「数据」对应的英文单词：",
+      "options": [
+        "data",
+        "environment",
+        "ascend",
+        "erosion"
+      ],
+      "answer": 0,
+      "explanation": "data 意为「数据」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1,
+      "id": "exam_03_0055"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「估计」对应的英文单词：",
+      "options": [
+        "depression",
+        "estimate",
+        "essential",
+        "creative"
+      ],
+      "answer": 1,
+      "explanation": "estimate 意为「估计」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1,
+      "id": "exam_03_0056"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「亲密的」对应的英文单词：",
+      "options": [
+        "disproportionately",
+        "advanced",
+        "intimate",
+        "disruption"
+      ],
+      "answer": 2,
+      "explanation": "intimate 意为「亲密的」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 2,
+      "id": "exam_03_0057"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「倾向」对应的英文单词：",
+      "options": [
+        "enormous",
+        "predisposition",
+        "tremendous",
+        "homogenization"
+      ],
+      "answer": 1,
+      "explanation": "predisposition 意为「倾向」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 3,
+      "id": "exam_03_0058"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「监督，监管」对应的英文单词：",
+      "options": [
+        "evaluate",
+        "collaboration",
+        "oversight",
+        "agile"
+      ],
+      "answer": 2,
+      "explanation": "oversight 意为「监督，监管」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 2,
+      "id": "exam_03_0059"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「可持续的」对应的英文单词：",
+      "options": [
+        "sustainable",
+        "exaggerate",
+        "persistent",
+        "intermittent"
+      ],
+      "answer": 0,
+      "explanation": "sustainable 意为「可持续的」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1,
+      "id": "exam_03_0060"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「任命」对应的英文单词：",
+      "options": [
+        "controversy",
+        "enrich",
+        "unprecedented",
+        "appointment"
+      ],
+      "answer": 3,
+      "explanation": "appointment 意为「任命」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1,
+      "id": "exam_03_0061"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「执行，实施」对应的英文单词：",
+      "options": [
+        "destruction",
+        "execute",
+        "alliance",
+        "appropriate"
+      ],
+      "answer": 1,
+      "explanation": "execute 意为「执行，实施」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 2,
+      "id": "exam_03_0062"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「持续存在的」对应的英文单词：",
+      "options": [
+        "inherent",
+        "discussion",
+        "persistent",
+        "assimilate"
+      ],
+      "answer": 2,
+      "explanation": "persistent 意为「持续存在的」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 2,
+      "id": "exam_03_0063"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「因此，从而」对应的英文单词：",
+      "options": [
+        "consequently",
+        "exclusive",
+        "appointment",
+        "developing"
+      ],
+      "answer": 0,
+      "explanation": "consequently 意为「因此，从而」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1,
+      "id": "exam_03_0064"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「先进的」对应的英文单词：",
+      "options": [
+        "advanced",
+        "contamination",
+        "deteriorate",
+        "shift"
+      ],
+      "answer": 0,
+      "explanation": "advanced 意为「先进的」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1,
+      "id": "exam_03_0065"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「投入，输入」对应的英文单词：",
+      "options": [
+        "input",
+        "discrimination",
+        "cohesion",
+        "facilitate"
+      ],
+      "answer": 0,
+      "explanation": "input 意为「投入，输入」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1,
+      "id": "exam_03_0066"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「固有的，与生俱来的」对应的英文单词：",
+      "options": [
+        "debate",
+        "disease",
+        "negative",
+        "innate"
+      ],
+      "answer": 3,
+      "explanation": "innate 意为「固有的，与生俱来的」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 3,
+      "id": "exam_03_0067"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「承诺，投入」对应的英文单词：",
+      "options": [
+        "commitment",
+        "interdisciplinary",
+        "persist",
+        "income"
+      ],
+      "answer": 0,
+      "explanation": "commitment 意为「承诺，投入」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1,
+      "id": "exam_03_0068"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「错综复杂的」对应的英文单词：",
+      "options": [
+        "intricate",
+        "decline",
+        "democracy",
+        "enormous"
+      ],
+      "answer": 0,
+      "explanation": "intricate 意为「错综复杂的」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 2,
+      "id": "exam_03_0069"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「互相作用」对应的英文单词：",
+      "options": [
+        "exacerbate",
+        "foundation",
+        "decline",
+        "interact"
+      ],
+      "answer": 3,
+      "explanation": "interact 意为「互相作用」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1,
+      "id": "exam_03_0070"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「加剧，恶化」对应的英文单词：",
+      "options": [
+        "creative",
+        "estimate",
+        "exacerbate",
+        "disillusionment"
+      ],
+      "answer": 2,
+      "explanation": "exacerbate 意为「加剧，恶化」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 3,
+      "id": "exam_03_0071"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「持久的」对应的英文单词：",
+      "options": [
+        "durable",
+        "profitable",
+        "negative",
+        "friction"
+      ],
+      "answer": 0,
+      "explanation": "durable 意为「持久的」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 2,
+      "id": "exam_03_0072"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「驱动」对应的英文单词：",
+      "options": [
+        "drive",
+        "unavoidable",
+        "predisposition",
+        "exaggerate"
+      ],
+      "answer": 0,
+      "explanation": "drive 意为「驱动」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1,
+      "id": "exam_03_0073"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「共存」对应的英文单词：",
+      "options": [
+        "coexist",
+        "explicit",
+        "essence",
+        "implicit"
+      ],
+      "answer": 0,
+      "explanation": "coexist 意为「共存」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 2,
+      "id": "exam_03_0074"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「采纳，采用」对应的英文单词：",
+      "options": [
+        "adoption",
+        "apprehensive",
+        "substantial",
+        "contamination"
+      ],
+      "answer": 0,
+      "explanation": "adoption 意为「采纳，采用」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 2,
+      "id": "exam_03_0075"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「确保」对应的英文单词：",
+      "options": [
+        "aggregate",
+        "ensure",
+        "despite",
+        "phenomenon"
+      ],
+      "answer": 1,
+      "explanation": "ensure 意为「确保」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1,
+      "id": "exam_03_0076"
+    },
+    {
+      "type": "sentence",
+      "prompt": "\"The correlation between educational attainment and life expectancy is well-documented, with higher levels of education generally associated with better health outcomes and longer lifespans.\" 教育与预期寿命的关系是？",
+      "options": [
+        "No correlation exists.",
+        "Higher education is associated with better health and longer life.",
+        "Education reduces life expectancy.",
+        "The relationship only applies to certain groups."
+      ],
+      "answer": 1,
+      "explanation": "\"Higher levels of education generally associated with better health outcomes and longer lifespans\" = 更高的教育水平通常与更好的健康结果和更长的寿命相关。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 2,
+      "id": "exam_03_0077"
+    },
+    {
+      "type": "sentence",
+      "prompt": "\"The aging population in developed countries presents significant challenges for healthcare systems, pension schemes, and labor markets, requiring comprehensive policy responses.\" 人口老龄化带来的挑战包括什么？",
+      "options": [
+        "Only affects healthcare.",
+        "Challenges for healthcare, pensions, and labor markets.",
+        "Labor markets will benefit greatly.",
+        "No policy response is needed."
+      ],
+      "answer": 1,
+      "explanation": "\"Presents significant challenges for healthcare systems, pension schemes, and labor markets\" = 对医疗体系、养老金计划和劳动力市场构成重大挑战。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 2,
+      "id": "exam_03_0078"
+    },
+    {
+      "type": "sentence",
+      "prompt": "\"The placebo effect demonstrates the remarkable power of the mind over the body, with patients often experiencing real physiological improvements from treatments they believe will work, even when those treatments contain no active ingredients.\" 安慰剂效应说明了什么？",
+      "options": [
+        "All medical treatments are fake.",
+        "The mind can produce real physiological effects through belief.",
+        "The body has no influence on health.",
+        "Only active ingredients can improve health."
+      ],
+      "answer": 1,
+      "explanation": "\"Patients experiencing real physiological improvements from treatments they believe will work\" = 患者因相信治疗有效而产生真实的生理改善。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 2,
+      "id": "exam_03_0079"
+    },
+    {
+      "type": "sentence",
+      "prompt": "\"Mental health awareness has increased significantly in recent years, yet the stigma surrounding mental illness continues to prevent many individuals from seeking the help they need.\" 关于心理健康的认识和污名化，正确的是？",
+      "options": [
+        "Awareness has increased but stigma still prevents help-seeking.",
+        "Stigma has been completely eliminated.",
+        "Awareness is at an all-time low.",
+        "Stigma encourages people to seek help."
+      ],
+      "answer": 0,
+      "explanation": "\"Awareness has increased significantly...yet the stigma...continues to prevent many individuals from seeking the help they need\" = 认知提高，但污名化仍阻止人们寻求帮助。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 2,
+      "id": "exam_03_0080"
+    },
+    {
+      "type": "sentence",
+      "prompt": "\"The dominance of streaming platforms has fundamentally transformed the entertainment industry, shifting power from traditional studios to technology companies that control distribution algorithms.\" 流媒体平台的统治地位如何改变了娱乐业？",
+      "options": [
+        "Strengthened traditional studios.",
+        "Shifted power from traditional studios to tech companies controlling algorithms.",
+        "Had no effect on distribution.",
+        "Increased the role of theaters."
+      ],
+      "answer": 1,
+      "explanation": "\"Shifting power from traditional studios to technology companies that control distribution algorithms\" = 权力从传统制片厂转移到控制分发算法的科技公司。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 2,
+      "id": "exam_03_0081"
+    },
+    {
+      "type": "sentence",
+      "prompt": "\"The concept of 'soft power' — a country's ability to influence others through cultural attraction and values rather than military force — has become increasingly relevant in international relations.\" 软实力的本质是什么？",
+      "options": [
+        "Military strength and economic power.",
+        "Influencing others through cultural attraction and values.",
+        "Only about trade agreements.",
+        "Hard power is no longer relevant."
+      ],
+      "answer": 1,
+      "explanation": "\"A country's ability to influence others through cultural attraction and values rather than military force\" = 通过文化吸引力和价值观而非军事力量影响他国的能力。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 2,
+      "id": "exam_03_0082"
+    }
+  ]
+}

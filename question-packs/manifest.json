@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "packs": [
     {
       "id": "vocab-001",
@@ -35,6 +35,41 @@
       "title": "六级词汇扩展包 #5",
       "description": "273 道六级核心词汇题",
       "questionCount": 273
+    },
+    {
+      "id": "exam-001",
+      "version": 1,
+      "title": "六级真题风格扩展包 #1",
+      "description": "100 道CET-6真题风格题（句子理解+短阅读+词汇）",
+      "questionCount": 100
+    },
+    {
+      "id": "exam-002",
+      "version": 1,
+      "title": "六级真题风格扩展包 #2",
+      "description": "100 道CET-6真题风格题（阅读组+翻译+句子+词汇）",
+      "questionCount": 76
+    },
+    {
+      "id": "exam-003",
+      "version": 1,
+      "title": "六级真题风格扩展包 #3",
+      "description": "100 道CET-6真题风格题（短阅读+阅读组+词汇+句子）",
+      "questionCount": 82
+    },
+    {
+      "id": "exam-004",
+      "version": 1,
+      "title": "六级真题风格扩展包 #4",
+      "description": "100 道CET-6真题风格题（阅读组+翻译+句子+词汇）",
+      "questionCount": 77
+    },
+    {
+      "id": "exam-005",
+      "version": 1,
+      "title": "六级真题风格扩展包 #5",
+      "description": "100 道CET-6真题风格题（综合混合）",
+      "questionCount": 100
     }
   ]
 }

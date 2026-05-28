@@ -1,0 +1,1160 @@
+{
+  "packId": "exam-002",
+  "version": 1,
+  "title": "六级真题风格扩展包 #2",
+  "description": "100 道CET-6真题风格题（阅读组+翻译+句子+词汇）",
+  "questions": [
+    {
+      "type": "readingGroup",
+      "groupId": "rg5",
+      "passage": "阅读下面文章，回答3个问题：\n\n\"\"The impact of artificial intelligence on the labor market has become one of the most debated economic issues of our time. Unlike previous technological revolutions that primarily affected manual and routine cognitive tasks, AI has demonstrated capabilities in areas once considered uniquely human, such as creative work, strategic decision-making, and complex problem-solving. A 2023 report by Goldman Sachs estimated that AI could expose the equivalent of 300 million full-time jobs to automation, while also noting that the technology could create new job categories and boost productivity.\n\nHowever, the net effect on employment remains uncertain. Historical evidence from the Industrial Revolution and the computer age suggests that while technological change displaces workers in the short term, it ultimately creates more jobs than it destroys in the long run. But the speed of AI adoption may be unprecedented, potentially outpacing workers' ability to reskill and adapt. Furthermore, the distribution of AI's benefits is likely to be uneven, potentially exacerbating inequality between high-skilled and low-skilled workers.\n\nPolicymakers face the challenge of ensuring that the benefits of AI are broadly shared. Proposals include investing in education and reskilling programs, strengthening social safety nets, exploring new tax models, and potentially implementing universal basic income pilots. International cooperation will also be essential, as the development and deployment of AI is a global phenomenon that transcends national borders.\"\"",
+      "prompt": "与以往的技术革命相比，AI对就业市场的影响有何不同？",
+      "options": [
+        "AI only affects manual labor.",
+        "Previous revolutions affected manual tasks; AI also affects creative and strategic work once considered uniquely human.",
+        "AI has less impact than previous revolutions.",
+        "Previous revolutions were faster than AI."
+      ],
+      "answer": 1,
+      "explanation": "\"Unlike previous technological revolutions that primarily affected manual and routine cognitive tasks, AI has demonstrated capabilities in areas once considered uniquely human\" = 不同于以往，AI还能影响创造性工作。",
+      "sourceEvent": "小龙团战",
+      "difficulty": 2,
+      "id": "exam_02_0001"
+    },
+    {
+      "type": "readingGroup",
+      "groupId": "rg5",
+      "passage": "阅读下面文章，回答3个问题：\n\n\"\"The impact of artificial intelligence on the labor market has become one of the most debated economic issues of our time. Unlike previous technological revolutions that primarily affected manual and routine cognitive tasks, AI has demonstrated capabilities in areas once considered uniquely human, such as creative work, strategic decision-making, and complex problem-solving. A 2023 report by Goldman Sachs estimated that AI could expose the equivalent of 300 million full-time jobs to automation, while also noting that the technology could create new job categories and boost productivity.\n\nHowever, the net effect on employment remains uncertain. Historical evidence from the Industrial Revolution and the computer age suggests that while technological change displaces workers in the short term, it ultimately creates more jobs than it destroys in the long run. But the speed of AI adoption may be unprecedented, potentially outpacing workers' ability to reskill and adapt. Furthermore, the distribution of AI's benefits is likely to be uneven, potentially exacerbating inequality between high-skilled and low-skilled workers.\n\nPolicymakers face the challenge of ensuring that the benefits of AI are broadly shared. Proposals include investing in education and reskilling programs, strengthening social safety nets, exploring new tax models, and potentially implementing universal basic income pilots. International cooperation will also be essential, as the development and deployment of AI is a global phenomenon that transcends national borders.\"\"",
+      "prompt": "AI对就业的长期影响，文中是如何描述的？",
+      "options": [
+        "AI will definitely destroy more jobs than it creates.",
+        "The net effect remains uncertain; history suggests new jobs emerge but AI's speed may be unprecedented.",
+        "AI will create no new jobs.",
+        "All workers will equally benefit from AI."
+      ],
+      "answer": 1,
+      "explanation": "\"The net effect on employment remains uncertain...the speed of AI adoption may be unprecedented, potentially outpacing workers' ability to reskill\" = 净影响仍不确定，AI的采用速度可能前所未有。",
+      "sourceEvent": "小龙团战",
+      "difficulty": 2,
+      "id": "exam_02_0002"
+    },
+    {
+      "type": "readingGroup",
+      "groupId": "rg5",
+      "passage": "阅读下面文章，回答3个问题：\n\n\"\"The impact of artificial intelligence on the labor market has become one of the most debated economic issues of our time. Unlike previous technological revolutions that primarily affected manual and routine cognitive tasks, AI has demonstrated capabilities in areas once considered uniquely human, such as creative work, strategic decision-making, and complex problem-solving. A 2023 report by Goldman Sachs estimated that AI could expose the equivalent of 300 million full-time jobs to automation, while also noting that the technology could create new job categories and boost productivity.\n\nHowever, the net effect on employment remains uncertain. Historical evidence from the Industrial Revolution and the computer age suggests that while technological change displaces workers in the short term, it ultimately creates more jobs than it destroys in the long run. But the speed of AI adoption may be unprecedented, potentially outpacing workers' ability to reskill and adapt. Furthermore, the distribution of AI's benefits is likely to be uneven, potentially exacerbating inequality between high-skilled and low-skilled workers.\n\nPolicymakers face the challenge of ensuring that the benefits of AI are broadly shared. Proposals include investing in education and reskilling programs, strengthening social safety nets, exploring new tax models, and potentially implementing universal basic income pilots. International cooperation will also be essential, as the development and deployment of AI is a global phenomenon that transcends national borders.\"\"",
+      "prompt": "政策制定者应该采取什么措施来应对AI带来的挑战？",
+      "options": [
+        "Ignore AI development.",
+        "Invest in education, strengthen safety nets, explore new tax models, and pursue international cooperation.",
+        "Only focus on tax models.",
+        "Stop AI development entirely."
+      ],
+      "answer": 1,
+      "explanation": "\"Investing in education and reskilling programs, strengthening social safety nets, exploring new tax models...International cooperation\" = 投资教育、加强安全网、探索新税收模式和国际合作。",
+      "sourceEvent": "小龙团战",
+      "difficulty": 2,
+      "id": "exam_02_0003"
+    },
+    {
+      "type": "readingGroup",
+      "groupId": "rg6",
+      "passage": "阅读下面文章，回答3个问题：\n\n\"\"Feeding a global population projected to reach nearly 10 billion by 2050 presents one of the most formidable challenges of the twenty-first century. Agriculture already accounts for approximately 70% of global freshwater use and is a major contributor to greenhouse gas emissions. Climate change compounds these challenges through increased frequency of extreme weather events, shifting growing seasons, and the spread of pests and diseases. The COVID-19 pandemic and geopolitical conflicts have further exposed the fragility of global food supply chains.\n\nTechnological innovations offer promising avenues for addressing these challenges. Precision agriculture uses sensors, satellite imagery, and data analytics to optimize water and fertilizer use, potentially reducing environmental impact while maintaining yields. Alternative protein sources — including plant-based meats, cultivated meat, and insect protein — could reduce the environmental footprint of food production. Genetic improvement of crops through both conventional breeding and gene-editing techniques can develop varieties more resistant to drought, pests, and diseases.\n\nYet technology alone is insufficient. Reducing food waste — currently estimated at one-third of all food produced globally — requires changes in consumer behavior, supply chain logistics, and regulatory frameworks. Smallholder farmers, who produce much of the world's food in developing countries, need access to markets, credit, and knowledge. Addressing the root causes of food insecurity also requires tackling poverty, inequality, and conflict, which are the primary drivers of hunger worldwide.\"\"",
+      "prompt": "到2050年前，全球粮食安全面临的主要挑战是什么？",
+      "options": [
+        "Population growth, climate change, water scarcity, and fragile supply chains.",
+        "Only population growth matters.",
+        "There is no challenge to food security.",
+        "Technology has solved all food problems."
+      ],
+      "answer": 0,
+      "explanation": "\"Population projected to reach nearly 10 billion...Agriculture uses 70% of freshwater...Climate change compounds challenges...fragility of global food supply chains\" = 多重挑战并存。",
+      "sourceEvent": "小龙团战",
+      "difficulty": 2,
+      "id": "exam_02_0004"
+    },
+    {
+      "type": "readingGroup",
+      "groupId": "rg6",
+      "passage": "阅读下面文章，回答3个问题：\n\n\"\"Feeding a global population projected to reach nearly 10 billion by 2050 presents one of the most formidable challenges of the twenty-first century. Agriculture already accounts for approximately 70% of global freshwater use and is a major contributor to greenhouse gas emissions. Climate change compounds these challenges through increased frequency of extreme weather events, shifting growing seasons, and the spread of pests and diseases. The COVID-19 pandemic and geopolitical conflicts have further exposed the fragility of global food supply chains.\n\nTechnological innovations offer promising avenues for addressing these challenges. Precision agriculture uses sensors, satellite imagery, and data analytics to optimize water and fertilizer use, potentially reducing environmental impact while maintaining yields. Alternative protein sources — including plant-based meats, cultivated meat, and insect protein — could reduce the environmental footprint of food production. Genetic improvement of crops through both conventional breeding and gene-editing techniques can develop varieties more resistant to drought, pests, and diseases.\n\nYet technology alone is insufficient. Reducing food waste — currently estimated at one-third of all food produced globally — requires changes in consumer behavior, supply chain logistics, and regulatory frameworks. Smallholder farmers, who produce much of the world's food in developing countries, need access to markets, credit, and knowledge. Addressing the root causes of food insecurity also requires tackling poverty, inequality, and conflict, which are the primary drivers of hunger worldwide.\"\"",
+      "prompt": "文中提到的解决粮食问题的技术方法有哪些？",
+      "options": [
+        "Only genetic modification.",
+        "Precision agriculture, alternative proteins, and genetic improvement of crops.",
+        "None of the technologies work.",
+        "Only precision agriculture is mentioned."
+      ],
+      "answer": 1,
+      "explanation": "\"Precision agriculture...Alternative protein sources...Genetic improvement of crops\" = 精准农业、替代蛋白和作物基因改良。",
+      "sourceEvent": "小龙团战",
+      "difficulty": 2,
+      "id": "exam_02_0005"
+    },
+    {
+      "type": "readingGroup",
+      "groupId": "rg6",
+      "passage": "阅读下面文章，回答3个问题：\n\n\"\"Feeding a global population projected to reach nearly 10 billion by 2050 presents one of the most formidable challenges of the twenty-first century. Agriculture already accounts for approximately 70% of global freshwater use and is a major contributor to greenhouse gas emissions. Climate change compounds these challenges through increased frequency of extreme weather events, shifting growing seasons, and the spread of pests and diseases. The COVID-19 pandemic and geopolitical conflicts have further exposed the fragility of global food supply chains.\n\nTechnological innovations offer promising avenues for addressing these challenges. Precision agriculture uses sensors, satellite imagery, and data analytics to optimize water and fertilizer use, potentially reducing environmental impact while maintaining yields. Alternative protein sources — including plant-based meats, cultivated meat, and insect protein — could reduce the environmental footprint of food production. Genetic improvement of crops through both conventional breeding and gene-editing techniques can develop varieties more resistant to drought, pests, and diseases.\n\nYet technology alone is insufficient. Reducing food waste — currently estimated at one-third of all food produced globally — requires changes in consumer behavior, supply chain logistics, and regulatory frameworks. Smallholder farmers, who produce much of the world's food in developing countries, need access to markets, credit, and knowledge. Addressing the root causes of food insecurity also requires tackling poverty, inequality, and conflict, which are the primary drivers of hunger worldwide.\"\"",
+      "prompt": "根据文章，解决粮食问题还需要哪些非技术措施？",
+      "options": [
+        "Technology alone can solve everything.",
+        "Reducing food waste, supporting smallholders, and addressing poverty and inequality.",
+        "No non-technical measures are needed.",
+        "Only government regulation is sufficient."
+      ],
+      "answer": 1,
+      "explanation": "\"Reducing food waste...Smallholder farmers need access to markets, credit, and knowledge...tackling poverty, inequality, and conflict\" = 减少浪费、支持小农户和解决贫困等根本问题。",
+      "sourceEvent": "小龙团战",
+      "difficulty": 2,
+      "id": "exam_02_0006"
+    },
+    {
+      "type": "translation",
+      "prompt": "理解并翻译：\n\n\"So intertwined are the challenges of poverty, inequality, and environmental degradation that no single issue can be effectively addressed in isolation from the others.\"\n\n这句话强调了什么？",
+      "options": [
+        "Each problem can be solved separately.",
+        "Poverty, inequality, and environmental degradation are interconnected and cannot be solved in isolation.",
+        "Environmental issues are not related to poverty.",
+        "Inequality is the only important issue."
+      ],
+      "answer": 1,
+      "explanation": "\"So intertwined...that no single issue can be effectively addressed in isolation\" = 三者紧密交织，任何问题都无法孤立解决。",
+      "sourceEvent": "水晶终结",
+      "difficulty": 3,
+      "id": "exam_02_0007"
+    },
+    {
+      "type": "translation",
+      "prompt": "理解并翻译：\n\n\"The disparity in access to quality education between urban and rural areas remains a persistent challenge in many developing countries, perpetuating cycles of poverty and limiting social mobility for millions of children.\"\n\n这段话描述了什么？",
+      "options": [
+        "Urban and rural education are equal.",
+        "The urban-rural education gap perpetuates poverty and limits social mobility.",
+        "Rural education is better than urban.",
+        "The education gap has been solved."
+      ],
+      "answer": 1,
+      "explanation": "\"Disparity in access to quality education...perpetuating cycles of poverty and limiting social mobility\" = 教育差距使贫困循环持续并限制社会流动。",
+      "sourceEvent": "高地防守",
+      "difficulty": 2,
+      "id": "exam_02_0008"
+    },
+    {
+      "type": "translation",
+      "prompt": "理解并翻译：\n\n\"The preservation of cultural heritage, both tangible and intangible, is not merely an act of nostalgia but a vital investment in the identity, resilience, and creativity of communities facing rapid globalization.\"\n\n这句话的观点是？",
+      "options": [
+        "Cultural preservation is just about nostalgia.",
+        "Preserving cultural heritage is vital for community identity, resilience, and creativity in the face of globalization.",
+        "Globalization has no impact on culture.",
+        "Only tangible heritage matters."
+      ],
+      "answer": 1,
+      "explanation": "\"Not merely an act of nostalgia but a vital investment in the identity, resilience, and creativity of communities\" = 不仅仅是怀旧，而是对社区的认同感、韧性和创造力的重要投资。",
+      "sourceEvent": "高地防守",
+      "difficulty": 2,
+      "id": "exam_02_0009"
+    },
+    {
+      "type": "translation",
+      "prompt": "理解并翻译：\n\n\"The phenomenon of information overload in the digital age has paradoxically made it more difficult for individuals to make well-informed decisions, as the sheer volume of available data often overwhelms rather than empowers.\"\n\n这段话揭示了什么？",
+      "options": [
+        "More information always leads to better decisions.",
+        "Information overload makes it harder to make well-informed decisions because the volume of data overwhelms rather than empowers.",
+        "Digital age has no impact on decision-making.",
+        "People make better decisions with more information."
+      ],
+      "answer": 1,
+      "explanation": "\"Information overload...has...made it more difficult...the sheer volume of available data often overwhelms rather than empowers\" = 信息过载使决策更困难，数据量压垮而非赋能。",
+      "sourceEvent": "高地防守",
+      "difficulty": 2,
+      "id": "exam_02_0010"
+    },
+    {
+      "type": "translation",
+      "prompt": "理解并翻译：\n\n\"Nothing is more crucial for the sustainable development of human society than the transition to clean energy, which holds the key to mitigating climate change and ensuring a livable planet for future generations.\"\n\n这句话的意思是什么？",
+      "options": [
+        "Clean energy transition is optional.",
+        "The transition to clean energy is the most crucial factor for sustainable development and mitigating climate change.",
+        "Fossil fuels are more important than clean energy.",
+        "Climate change does not require energy transition."
+      ],
+      "answer": 1,
+      "explanation": "\"Nothing is more crucial...than the transition to clean energy...holds the key to mitigating climate change\" = 向清洁能源转型是最关键的。",
+      "sourceEvent": "水晶终结",
+      "difficulty": 2,
+      "id": "exam_02_0011"
+    },
+    {
+      "type": "translation",
+      "prompt": "理解并翻译：\n\n\"So profound have been the changes wrought by the digital revolution that virtually every aspect of modern life — from how we work and learn to how we form relationships and perceive the world — has been fundamentally transformed.\"\n\n这句话的意思是？",
+      "options": [
+        "The digital revolution has had minimal impact.",
+        "The digital revolution has profoundly transformed nearly every aspect of modern life, including work, learning, relationships, and worldview.",
+        "Only work has been affected by the digital revolution.",
+        "Learning methods remain unchanged."
+      ],
+      "answer": 1,
+      "explanation": "\"So profound have been the changes...virtually every aspect of modern life...has been fundamentally transformed\" = 数字革命带来的变化如此深刻，几乎现代生活的方方面面都已被根本性改变。",
+      "sourceEvent": "水晶终结",
+      "difficulty": 2,
+      "id": "exam_02_0012"
+    },
+    {
+      "type": "sentence",
+      "prompt": "\"The gig economy has created a paradox: unprecedented flexibility for workers coupled with the erosion of traditional employment protections and benefits.\" 零工经济的悖论是什么？",
+      "options": [
+        "All workers prefer traditional employment.",
+        "Flexibility combined with erosion of employment protections.",
+        "Zero flexibility for workers.",
+        "Employment protections have become stronger."
+      ],
+      "answer": 1,
+      "explanation": "\"Unprecedented flexibility...coupled with the erosion of traditional employment protections and benefits\" = 前所未有的灵活性与传统就业保护和福利的侵蚀并存。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 2,
+      "id": "exam_02_0013"
+    },
+    {
+      "type": "sentence",
+      "prompt": "\"The phenomenon of cancel culture has sparked intense debate about accountability and forgiveness in the digital age, with critics arguing that it often precludes meaningful dialogue and redemption.\" 关于抵制文化，批评者认为？",
+      "options": [
+        "It promotes meaningful dialogue.",
+        "It often prevents meaningful dialogue and redemption.",
+        "It has no effect on public discourse.",
+        "It is universally accepted."
+      ],
+      "answer": 1,
+      "explanation": "\"Critics arguing that it often precludes meaningful dialogue and redemption\" = 批评者认为它往往阻碍了有意义的对话和改过自新的机会。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 3,
+      "id": "exam_02_0014"
+    },
+    {
+      "type": "sentence",
+      "prompt": "\"Despite the remarkable advances in autonomous vehicle technology, widespread adoption remains hindered by regulatory hurdles, infrastructure limitations, and public skepticism about safety.\" 自动驾驶汽车面临什么问题？",
+      "options": [
+        "The technology is not advanced enough.",
+        "Regulatory, infrastructure, and safety concerns hinder adoption.",
+        "No cars are currently autonomous.",
+        "The public fully trusts the technology."
+      ],
+      "answer": 1,
+      "explanation": "\"Hindered by regulatory hurdles, infrastructure limitations, and public skepticism\" = 受到监管障碍、基础设施限制和公众质疑的阻碍。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 2,
+      "id": "exam_02_0015"
+    },
+    {
+      "type": "sentence",
+      "prompt": "\"The transition to a low-carbon economy requires not only technological innovation but also fundamental changes in industrial processes and consumer behavior patterns.\" 实现低碳经济的关键是？",
+      "options": [
+        "Only new technology is needed.",
+        "Technological innovation plus changes in industry and consumer behavior.",
+        "Consumer behavior does not matter.",
+        "Industrial processes should remain unchanged."
+      ],
+      "answer": 1,
+      "explanation": "\"Not only technological innovation but also fundamental changes in industrial processes and consumer behavior\" = 不仅需要技术创新，还需要产业和消费者行为的根本变化。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 2,
+      "id": "exam_02_0016"
+    },
+    {
+      "type": "sentence",
+      "prompt": "\"The concept of work-life balance has evolved from a fringe concern to a central consideration in talent retention, with companies offering flexible arrangements as a competitive advantage in attracting skilled employees.\" 工作与生活平衡的概念在企业中有什么变化？",
+      "options": [
+        "Companies still ignore it.",
+        "It has become central to talent retention and competitive advantage.",
+        "Only small companies consider it.",
+        "It is no longer discussed."
+      ],
+      "answer": 1,
+      "explanation": "\"Evolved from a fringe concern to a central consideration in talent retention\" = 从边缘问题演变为人才保留的核心考量。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 2,
+      "id": "exam_02_0017"
+    },
+    {
+      "type": "sentence",
+      "prompt": "\"The concept of 'soft power' — a country's ability to influence others through cultural attraction and values rather than military force — has become increasingly relevant in international relations.\" 软实力的本质是什么？",
+      "options": [
+        "Military strength and economic power.",
+        "Influencing others through cultural attraction and values.",
+        "Only about trade agreements.",
+        "Hard power is no longer relevant."
+      ],
+      "answer": 1,
+      "explanation": "\"A country's ability to influence others through cultural attraction and values rather than military force\" = 通过文化吸引力和价值观而非军事力量影响他国的能力。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 2,
+      "id": "exam_02_0018"
+    },
+    {
+      "type": "sentence",
+      "prompt": "\"The dominance of streaming platforms has fundamentally transformed the entertainment industry, shifting power from traditional studios to technology companies that control distribution algorithms.\" 流媒体平台的统治地位如何改变了娱乐业？",
+      "options": [
+        "Strengthened traditional studios.",
+        "Shifted power from traditional studios to tech companies controlling algorithms.",
+        "Had no effect on distribution.",
+        "Increased the role of theaters."
+      ],
+      "answer": 1,
+      "explanation": "\"Shifting power from traditional studios to technology companies that control distribution algorithms\" = 权力从传统制片厂转移到控制分发算法的科技公司。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 2,
+      "id": "exam_02_0019"
+    },
+    {
+      "type": "sentence",
+      "prompt": "\"The increasing polarization of political discourse in many democracies has been attributed to the fragmentation of media consumption patterns and the proliferation of echo chambers on social media.\" 政治话语极化的原因包括？",
+      "options": [
+        "Media consumption has unified.",
+        "Fragmentation of media and echo chambers on social media.",
+        "Social media has reduced polarization.",
+        "Political discourse has become less divided."
+      ],
+      "answer": 1,
+      "explanation": "\"Attributed to the fragmentation of media consumption patterns and the proliferation of echo chambers\" = 归因于媒体消费模式的分裂和社交媒体上同温层的扩散。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 3,
+      "id": "exam_02_0020"
+    },
+    {
+      "type": "sentence",
+      "prompt": "\"Mental health awareness has increased significantly in recent years, yet the stigma surrounding mental illness continues to prevent many individuals from seeking the help they need.\" 关于心理健康的认识和污名化，正确的是？",
+      "options": [
+        "Awareness has increased but stigma still prevents help-seeking.",
+        "Stigma has been completely eliminated.",
+        "Awareness is at an all-time low.",
+        "Stigma encourages people to seek help."
+      ],
+      "answer": 0,
+      "explanation": "\"Awareness has increased significantly...yet the stigma...continues to prevent many individuals from seeking the help they need\" = 认知提高，但污名化仍阻止人们寻求帮助。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 2,
+      "id": "exam_02_0021"
+    },
+    {
+      "type": "sentence",
+      "prompt": "\"The preservation of indigenous languages has gained recognition as an urgent priority, given that a language dies approximately every two weeks, taking with it an entire system of knowledge and cultural heritage.\" 为什么保护土著语言是当务之急？",
+      "options": [
+        "Languages naturally evolve and change.",
+        "A language dies every two weeks, taking unique knowledge and cultural heritage with it.",
+        "Preserving languages is not important.",
+        "Only written languages need preservation."
+      ],
+      "answer": 1,
+      "explanation": "\"A language dies approximately every two weeks, taking with it an entire system of knowledge and cultural heritage\" = 大约每两周就有一种语言消亡，带走整个知识体系和文化遗产。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 2,
+      "id": "exam_02_0022"
+    },
+    {
+      "type": "sentence",
+      "prompt": "\"The concept of universal basic income has moved from the fringes of political debate to the mainstream, with several countries launching pilot programs to evaluate its feasibility and impact on poverty reduction.\" 全民基本收入的概念目前处于什么状态？",
+      "options": [
+        "It has been completely rejected.",
+        "It has moved to the mainstream with pilot programs in several countries.",
+        "Only theoretical, with no practical trials.",
+        "Limited to one country."
+      ],
+      "answer": 1,
+      "explanation": "\"Moved from the fringes of political debate to the mainstream, with several countries launching pilot programs\" = 从边缘走向主流，多国已启动试点。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 2,
+      "id": "exam_02_0023"
+    },
+    {
+      "type": "sentence",
+      "prompt": "\"Ocean acidification, often called climate change's 'evil twin,' poses a severe threat to marine ecosystems by reducing the availability of carbonate ions essential for shell-forming organisms like corals and mollusks.\" 海洋酸化的主要威胁是什么？",
+      "options": [
+        "It creates more acidic rain on land.",
+        "It reduces carbonate ions needed by shell-forming organisms.",
+        "It boosts coral growth significantly.",
+        "It only affects fish species."
+      ],
+      "answer": 1,
+      "explanation": "\"Reducing the availability of carbonate ions essential for shell-forming organisms\" = 减少了造壳生物所需的碳酸根离子。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 3,
+      "id": "exam_02_0024"
+    },
+    {
+      "type": "sentence",
+      "prompt": "\"The concept of a circular economy, which emphasizes reuse and recycling over the traditional linear take-make-dispose model, has gained traction among policymakers seeking sustainable development solutions.\" 循环经济的核心理念是什么？",
+      "options": [
+        "Taking, making, and disposing of products.",
+        "Reusing and recycling rather than discarding.",
+        "Focusing only on recycling plastics.",
+        "Producing more goods faster."
+      ],
+      "answer": 1,
+      "explanation": "\"Emphasizes reuse and recycling over the traditional linear take-make-dispose model\" = 强调重用和回收，而非传统的取-造-弃模式。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 2,
+      "id": "exam_02_0025"
+    },
+    {
+      "type": "sentence",
+      "prompt": "\"The increasing use of surveillance technologies in public spaces has sparked a contentious debate between advocates of national security and defenders of individual privacy rights.\" 关于公共监控的争议是什么？",
+      "options": [
+        "Everyone supports surveillance.",
+        "Between national security advocates and privacy rights defenders.",
+        "Privacy is no longer a concern.",
+        "Surveillance has no impact on privacy."
+      ],
+      "answer": 1,
+      "explanation": "\"A contentious debate between advocates of national security and defenders of individual privacy rights\" = 国家安全倡导者与个人隐私权捍卫者之间的激烈辩论。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 2,
+      "id": "exam_02_0026"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「因此，从而」对应的英文单词：",
+      "options": [
+        "facilitate",
+        "consequently",
+        "emerging",
+        "exploration"
+      ],
+      "answer": 1,
+      "explanation": "consequently 意为「因此，从而」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1,
+      "id": "exam_02_0027"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「区分」对应的英文单词：",
+      "options": [
+        "determine",
+        "ascend",
+        "crucial",
+        "distinguish"
+      ],
+      "answer": 3,
+      "explanation": "distinguish 意为「区分」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1,
+      "id": "exam_02_0028"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「重大转变」对应的英文单词：",
+      "options": [
+        "cooperative",
+        "shift",
+        "proactive",
+        "determine"
+      ],
+      "answer": 1,
+      "explanation": "shift 意为「重大转变」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1,
+      "id": "exam_02_0029"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「关键的，决定性的」对应的英文单词：",
+      "options": [
+        "critical",
+        "inequitable",
+        "disregard",
+        "drive"
+      ],
+      "answer": 0,
+      "explanation": "critical 意为「关键的，决定性的」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1,
+      "id": "exam_02_0030"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「卓越的」对应的英文单词：",
+      "options": [
+        "excellent",
+        "division",
+        "diffusion",
+        "accurate"
+      ],
+      "answer": 0,
+      "explanation": "excellent 意为「卓越的」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1,
+      "id": "exam_02_0031"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「保护」对应的英文单词：",
+      "options": [
+        "predict",
+        "commercialization",
+        "conservation",
+        "deficiency"
+      ],
+      "answer": 2,
+      "explanation": "conservation 意为「保护」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 2,
+      "id": "exam_02_0032"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「鲜明的」对应的英文单词：",
+      "options": [
+        "paradigm",
+        "distinct",
+        "drought",
+        "assess"
+      ],
+      "answer": 1,
+      "explanation": "distinct 意为「鲜明的」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1,
+      "id": "exam_02_0033"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「习俗」对应的英文单词：",
+      "options": [
+        "forecast",
+        "extract",
+        "depict",
+        "custom"
+      ],
+      "answer": 3,
+      "explanation": "custom 意为「习俗」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1,
+      "id": "exam_02_0034"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「催化，促进」对应的英文单词：",
+      "options": [
+        "intuition",
+        "shift",
+        "convergence",
+        "catalyze"
+      ],
+      "answer": 3,
+      "explanation": "catalyze 意为「催化，促进」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 3,
+      "id": "exam_02_0035"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「指数级地」对应的英文单词：",
+      "options": [
+        "adoption",
+        "exhibit",
+        "exponentially",
+        "instrumental"
+      ],
+      "answer": 2,
+      "explanation": "exponentially 意为「指数级地」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 3,
+      "id": "exam_02_0036"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「洞察力」对应的英文单词：",
+      "options": [
+        "insight",
+        "underlying",
+        "diffusion",
+        "accumulate"
+      ],
+      "answer": 0,
+      "explanation": "insight 意为「洞察力」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 2,
+      "id": "exam_02_0037"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「智力」对应的英文单词：",
+      "options": [
+        "extraordinary",
+        "aggregate",
+        "incident",
+        "intellectual"
+      ],
+      "answer": 3,
+      "explanation": "intellectual 意为「智力」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 2,
+      "id": "exam_02_0038"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「暴露」对应的英文单词：",
+      "options": [
+        "intimate",
+        "aggregate",
+        "exclusive",
+        "exposure"
+      ],
+      "answer": 3,
+      "explanation": "exposure 意为「暴露」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1,
+      "id": "exam_02_0039"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「自治的，自主的」对应的英文单词：",
+      "options": [
+        "homogenization",
+        "philosophical",
+        "autonomous",
+        "alliance"
+      ],
+      "answer": 2,
+      "explanation": "autonomous 意为「自治的，自主的」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 2,
+      "id": "exam_02_0040"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「原则」对应的英文单词：",
+      "options": [
+        "distinct",
+        "foundation",
+        "principle",
+        "conservation"
+      ],
+      "answer": 2,
+      "explanation": "principle 意为「原则」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1,
+      "id": "exam_02_0041"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「同化」对应的英文单词：",
+      "options": [
+        "contamination",
+        "convincing",
+        "assimilate",
+        "fragile"
+      ],
+      "answer": 2,
+      "explanation": "assimilate 意为「同化」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 3,
+      "id": "exam_02_0042"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「假定，假设」对应的英文单词：",
+      "options": [
+        "establish",
+        "assumption",
+        "culture",
+        "distinct"
+      ],
+      "answer": 1,
+      "explanation": "assumption 意为「假定，假设」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 2,
+      "id": "exam_02_0043"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「检测」对应的英文单词：",
+      "options": [
+        "assumption",
+        "detect",
+        "disadvantage",
+        "external"
+      ],
+      "answer": 1,
+      "explanation": "detect 意为「检测」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1,
+      "id": "exam_02_0044"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「不可避免的」对应的英文单词：",
+      "options": [
+        "essential",
+        "unavoidable",
+        "insight",
+        "intellectual"
+      ],
+      "answer": 1,
+      "explanation": "unavoidable 意为「不可避免的」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 2,
+      "id": "exam_02_0045"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「个性，人格」对应的英文单词：",
+      "options": [
+        "personality",
+        "income",
+        "factor",
+        "enterprise"
+      ],
+      "answer": 0,
+      "explanation": "personality 意为「个性，人格」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1,
+      "id": "exam_02_0046"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「归属，归因」对应的英文单词：",
+      "options": [
+        "criterion",
+        "inactivity",
+        "consumption",
+        "attribution"
+      ],
+      "answer": 3,
+      "explanation": "attribution 意为「归属，归因」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 3,
+      "id": "exam_02_0047"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「多方面的」对应的英文单词：",
+      "options": [
+        "exchange",
+        "multifaceted",
+        "irreversible",
+        "flourish"
+      ],
+      "answer": 1,
+      "explanation": "multifaceted 意为「多方面的」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 3,
+      "id": "exam_02_0048"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「评估，估价」对应的英文单词：",
+      "options": [
+        "sustainable",
+        "assessment",
+        "erosion",
+        "determine"
+      ],
+      "answer": 1,
+      "explanation": "assessment 意为「评估，估价」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 2,
+      "id": "exam_02_0049"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「联盟，同盟」对应的英文单词：",
+      "options": [
+        "consequence",
+        "attribute",
+        "individual",
+        "alliance"
+      ],
+      "answer": 3,
+      "explanation": "alliance 意为「联盟，同盟」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 2,
+      "id": "exam_02_0050"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「归因于」对应的英文单词：",
+      "options": [
+        "undertake",
+        "engage",
+        "implicit",
+        "attribute"
+      ],
+      "answer": 3,
+      "explanation": "attribute 意为「归因于」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 2,
+      "id": "exam_02_0051"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「评估」对应的英文单词：",
+      "options": [
+        "consequently",
+        "assess",
+        "essence",
+        "hypothesis"
+      ],
+      "answer": 1,
+      "explanation": "assess 意为「评估」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1,
+      "id": "exam_02_0052"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「积极性」对应的英文单词：",
+      "options": [
+        "disaster",
+        "initiative",
+        "facilitate",
+        "paradigm"
+      ],
+      "answer": 1,
+      "explanation": "initiative 意为「积极性」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 2,
+      "id": "exam_02_0053"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「摩擦，冲突」对应的英文单词：",
+      "options": [
+        "decade",
+        "entity",
+        "friction",
+        "disillusionment"
+      ],
+      "answer": 2,
+      "explanation": "friction 意为「摩擦，冲突」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 2,
+      "id": "exam_02_0054"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「干旱」对应的英文单词：",
+      "options": [
+        "inevitable",
+        "unavoidable",
+        "drought",
+        "enterprise"
+      ],
+      "answer": 2,
+      "explanation": "drought 意为「干旱」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 2,
+      "id": "exam_02_0055"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「大量的」对应的英文单词：",
+      "options": [
+        "intimate",
+        "incident",
+        "equity",
+        "considerable"
+      ],
+      "answer": 3,
+      "explanation": "considerable 意为「大量的」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1,
+      "id": "exam_02_0056"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「纪律」对应的英文单词：",
+      "options": [
+        "interfere",
+        "explosive",
+        "pragmatic",
+        "discipline"
+      ],
+      "answer": 3,
+      "explanation": "discipline 意为「纪律」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1,
+      "id": "exam_02_0057"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「相互作用」对应的英文单词：",
+      "options": [
+        "assimilation",
+        "cooperative",
+        "profitable",
+        "interaction"
+      ],
+      "answer": 3,
+      "explanation": "interaction 意为「相互作用」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1,
+      "id": "exam_02_0058"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「先进的」对应的英文单词：",
+      "options": [
+        "advanced",
+        "foresee",
+        "enormous",
+        "predict"
+      ],
+      "answer": 0,
+      "explanation": "advanced 意为「先进的」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1,
+      "id": "exam_02_0059"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「可行的」对应的英文单词：",
+      "options": [
+        "ultimately",
+        "expansion",
+        "enterprise",
+        "feasible"
+      ],
+      "answer": 3,
+      "explanation": "feasible 意为「可行的」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 2,
+      "id": "exam_02_0060"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「聚合，集合」对应的英文单词：",
+      "options": [
+        "apprehensive",
+        "aggregate",
+        "exhibit",
+        "instrument"
+      ],
+      "answer": 1,
+      "explanation": "aggregate 意为「聚合，集合」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 3,
+      "id": "exam_02_0061"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「允许，许可」对应的英文单词：",
+      "options": [
+        "inherent",
+        "deviation",
+        "cultivate",
+        "permission"
+      ],
+      "answer": 3,
+      "explanation": "permission 意为「允许，许可」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1,
+      "id": "exam_02_0062"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「前所未有的」对应的英文单词：",
+      "options": [
+        "persist",
+        "advocate",
+        "friction",
+        "unprecedented"
+      ],
+      "answer": 3,
+      "explanation": "unprecedented 意为「前所未有的」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1,
+      "id": "exam_02_0063"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「污染」对应的英文单词：",
+      "options": [
+        "apprehensive",
+        "comprehensive",
+        "contamination",
+        "principle"
+      ],
+      "answer": 2,
+      "explanation": "contamination 意为「污染」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 2,
+      "id": "exam_02_0064"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「制度；机构」对应的英文单词：",
+      "options": [
+        "paradigm",
+        "inform",
+        "disillusionment",
+        "institution"
+      ],
+      "answer": 3,
+      "explanation": "institution 意为「制度；机构」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1,
+      "id": "exam_02_0065"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「保险」对应的英文单词：",
+      "options": [
+        "competitor",
+        "insurance",
+        "fluctuation",
+        "primary"
+      ],
+      "answer": 1,
+      "explanation": "insurance 意为「保险」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1,
+      "id": "exam_02_0066"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「预测，预报」对应的英文单词：",
+      "options": [
+        "forecast",
+        "persuade",
+        "pilot",
+        "exaggerate"
+      ],
+      "answer": 0,
+      "explanation": "forecast 意为「预测，预报」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 2,
+      "id": "exam_02_0067"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「展示」对应的英文单词：",
+      "options": [
+        "exhibit",
+        "hypothesis",
+        "enormous",
+        "ensure"
+      ],
+      "answer": 0,
+      "explanation": "exhibit 意为「展示」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1,
+      "id": "exam_02_0068"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「说服」对应的英文单词：",
+      "options": [
+        "individual",
+        "persuade",
+        "assessment",
+        "achievement"
+      ],
+      "answer": 1,
+      "explanation": "persuade 意为「说服」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1,
+      "id": "exam_02_0069"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「不活跃，久坐」对应的英文单词：",
+      "options": [
+        "advanced",
+        "inactivity",
+        "personality",
+        "adversity"
+      ],
+      "answer": 1,
+      "explanation": "inactivity 意为「不活跃，久坐」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 2,
+      "id": "exam_02_0070"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「收入，收益」对应的英文单词：",
+      "options": [
+        "degradation",
+        "income",
+        "assimilate",
+        "disadvantage"
+      ],
+      "answer": 1,
+      "explanation": "income 意为「收入，收益」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1,
+      "id": "exam_02_0071"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「加剧，恶化」对应的英文单词：",
+      "options": [
+        "implicit",
+        "apprehensive",
+        "exacerbate",
+        "intervention"
+      ],
+      "answer": 2,
+      "explanation": "exacerbate 意为「加剧，恶化」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 3,
+      "id": "exam_02_0072"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「耕作，培养」对应的英文单词：",
+      "options": [
+        "consumption",
+        "inevitable",
+        "cultivate",
+        "adequate"
+      ],
+      "answer": 2,
+      "explanation": "cultivate 意为「耕作，培养」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 2,
+      "id": "exam_02_0073"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「工具性的，有帮助的」对应的英文单词：",
+      "options": [
+        "intense",
+        "instrumental",
+        "extensive",
+        "foundation"
+      ],
+      "answer": 1,
+      "explanation": "instrumental 意为「工具性的，有帮助的」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 3,
+      "id": "exam_02_0074"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「充足的，丰富的」对应的英文单词：",
+      "options": [
+        "inequitable",
+        "abundant",
+        "intermittent",
+        "evaluate"
+      ],
+      "answer": 1,
+      "explanation": "abundant 意为「充足的，丰富的」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 2,
+      "id": "exam_02_0075"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「永久的」对应的英文单词：",
+      "options": [
+        "diversity",
+        "energetic",
+        "emerging",
+        "permanent"
+      ],
+      "answer": 3,
+      "explanation": "permanent 意为「永久的」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1,
+      "id": "exam_02_0076"
+    }
+  ]
+}

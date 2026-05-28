@@ -1,0 +1,1508 @@
+{
+  "packId": "exam-005",
+  "version": 1,
+  "title": "六级真题风格扩展包 #5",
+  "description": "100 道CET-6真题风格题（综合混合）",
+  "questions": [
+    {
+      "type": "sentence",
+      "prompt": "\"The trend toward deglobalization, accelerated by trade tensions and the pandemic, has prompted multinational corporations to reassess their supply chain dependencies and diversify manufacturing locations.\" 去全球化趋势导致了什么？",
+      "options": [
+        "Companies are ignoring supply chain issues.",
+        "Multinationals are reassessing supply chain dependencies and diversifying manufacturing.",
+        "Global trade has completely stopped.",
+        "Supply chains have become less important."
+      ],
+      "answer": 1,
+      "explanation": "\"Prompted multinational corporations to reassess their supply chain dependencies and diversify manufacturing locations\" = 促使跨国公司重新评估供应链依赖并分散制造地点。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 3,
+      "id": "exam_05_0001"
+    },
+    {
+      "type": "sentence",
+      "prompt": "\"The placebo effect demonstrates the remarkable power of the mind over the body, with patients often experiencing real physiological improvements from treatments they believe will work, even when those treatments contain no active ingredients.\" 安慰剂效应说明了什么？",
+      "options": [
+        "All medical treatments are fake.",
+        "The mind can produce real physiological effects through belief.",
+        "The body has no influence on health.",
+        "Only active ingredients can improve health."
+      ],
+      "answer": 1,
+      "explanation": "\"Patients experiencing real physiological improvements from treatments they believe will work\" = 患者因相信治疗有效而产生真实的生理改善。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 2,
+      "id": "exam_05_0002"
+    },
+    {
+      "type": "sentence",
+      "prompt": "\"The proliferation of misinformation and disinformation online has eroded public trust in traditional media institutions, creating new challenges for democratic discourse and civic engagement.\" 错误信息和虚假信息的扩散导致了什么？",
+      "options": [
+        "Increased trust in media.",
+        "Eroded public trust in media, challenging democratic discourse.",
+        "No effect on democracy.",
+        "Strengthened civic engagement."
+      ],
+      "answer": 1,
+      "explanation": "\"Eroded public trust in traditional media institutions, creating new challenges for democratic discourse and civic engagement\" = 侵蚀了对传统媒体的信任，给民主讨论和公民参与带来新挑战。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 2,
+      "id": "exam_05_0003"
+    },
+    {
+      "type": "sentence",
+      "prompt": "\"Lifelong learning has become an imperative rather than an option in an era where technological obsolescence can render professional skills outdated within a matter of years.\" 终身学习的必要性来自哪里？",
+      "options": [
+        "Technology now makes skills obsolete quickly.",
+        "People want to learn new hobbies.",
+        "Schools require ongoing attendance.",
+        "Professional skills never become outdated."
+      ],
+      "answer": 0,
+      "explanation": "\"Technological obsolescence can render professional skills outdated within a matter of years\" = 技术过时可能导致专业技能在几年内过时。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 2,
+      "id": "exam_05_0004"
+    },
+    {
+      "type": "sentence",
+      "prompt": "\"The democratization of content creation through social media platforms has empowered individuals to become producers of information rather than merely consumers, fundamentally changing the dynamics of public discourse.\" 社交媒体如何改变了内容创作？",
+      "options": [
+        "Only professionals create content.",
+        "Empowered individuals to become content producers, changing public discourse dynamics.",
+        "People are only consumers of content.",
+        "Traditional media remains dominant."
+      ],
+      "answer": 1,
+      "explanation": "\"Democratization of content creation...empowered individuals to become producers of information rather than merely consumers\" = 内容创作的大众化使个人成为信息生产者而不仅仅是消费者。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 2,
+      "id": "exam_05_0005"
+    },
+    {
+      "type": "sentence",
+      "prompt": "\"The concept of work-life balance has evolved from a fringe concern to a central consideration in talent retention, with companies offering flexible arrangements as a competitive advantage in attracting skilled employees.\" 工作与生活平衡的概念在企业中有什么变化？",
+      "options": [
+        "Companies still ignore it.",
+        "It has become central to talent retention and competitive advantage.",
+        "Only small companies consider it.",
+        "It is no longer discussed."
+      ],
+      "answer": 1,
+      "explanation": "\"Evolved from a fringe concern to a central consideration in talent retention\" = 从边缘问题演变为人才保留的核心考量。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 2,
+      "id": "exam_05_0006"
+    },
+    {
+      "type": "sentence",
+      "prompt": "\"The concept of universal basic income has moved from the fringes of political debate to the mainstream, with several countries launching pilot programs to evaluate its feasibility and impact on poverty reduction.\" 全民基本收入的概念目前处于什么状态？",
+      "options": [
+        "It has been completely rejected.",
+        "It has moved to the mainstream with pilot programs in several countries.",
+        "Only theoretical, with no practical trials.",
+        "Limited to one country."
+      ],
+      "answer": 1,
+      "explanation": "\"Moved from the fringes of political debate to the mainstream, with several countries launching pilot programs\" = 从边缘走向主流，多国已启动试点。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 2,
+      "id": "exam_05_0007"
+    },
+    {
+      "type": "sentence",
+      "prompt": "\"The dominance of streaming platforms has fundamentally transformed the entertainment industry, shifting power from traditional studios to technology companies that control distribution algorithms.\" 流媒体平台的统治地位如何改变了娱乐业？",
+      "options": [
+        "Strengthened traditional studios.",
+        "Shifted power from traditional studios to tech companies controlling algorithms.",
+        "Had no effect on distribution.",
+        "Increased the role of theaters."
+      ],
+      "answer": 1,
+      "explanation": "\"Shifting power from traditional studios to technology companies that control distribution algorithms\" = 权力从传统制片厂转移到控制分发算法的科技公司。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 2,
+      "id": "exam_05_0008"
+    },
+    {
+      "type": "sentence",
+      "prompt": "\"The concept of 'soft power' — a country's ability to influence others through cultural attraction and values rather than military force — has become increasingly relevant in international relations.\" 软实力的本质是什么？",
+      "options": [
+        "Military strength and economic power.",
+        "Influencing others through cultural attraction and values.",
+        "Only about trade agreements.",
+        "Hard power is no longer relevant."
+      ],
+      "answer": 1,
+      "explanation": "\"A country's ability to influence others through cultural attraction and values rather than military force\" = 通过文化吸引力和价值观而非军事力量影响他国的能力。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 2,
+      "id": "exam_05_0009"
+    },
+    {
+      "type": "sentence",
+      "prompt": "\"The phenomenon of inflation, characterized by a sustained increase in the general price level of goods and services, erodes purchasing power and can have particularly severe effects on fixed-income households.\" 通货膨胀对谁的影响尤其严重？",
+      "options": [
+        "People with variable incomes.",
+        "Fixed-income households.",
+        "Wealthy investors.",
+        "Government employees."
+      ],
+      "answer": 1,
+      "explanation": "\"Can have particularly severe effects on fixed-income households\" = 对固定收入家庭的影响尤其严重。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 2,
+      "id": "exam_05_0010"
+    },
+    {
+      "type": "sentence",
+      "prompt": "\"The gig economy has created a paradox: unprecedented flexibility for workers coupled with the erosion of traditional employment protections and benefits.\" 零工经济的悖论是什么？",
+      "options": [
+        "All workers prefer traditional employment.",
+        "Flexibility combined with erosion of employment protections.",
+        "Zero flexibility for workers.",
+        "Employment protections have become stronger."
+      ],
+      "answer": 1,
+      "explanation": "\"Unprecedented flexibility...coupled with the erosion of traditional employment protections and benefits\" = 前所未有的灵活性与传统就业保护和福利的侵蚀并存。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 2,
+      "id": "exam_05_0011"
+    },
+    {
+      "type": "sentence",
+      "prompt": "\"The increasing use of surveillance technologies in public spaces has sparked a contentious debate between advocates of national security and defenders of individual privacy rights.\" 关于公共监控的争议是什么？",
+      "options": [
+        "Everyone supports surveillance.",
+        "Between national security advocates and privacy rights defenders.",
+        "Privacy is no longer a concern.",
+        "Surveillance has no impact on privacy."
+      ],
+      "answer": 1,
+      "explanation": "\"A contentious debate between advocates of national security and defenders of individual privacy rights\" = 国家安全倡导者与个人隐私权捍卫者之间的激烈辩论。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 2,
+      "id": "exam_05_0012"
+    },
+    {
+      "type": "sentence",
+      "prompt": "\"The concept of a circular economy, which emphasizes reuse and recycling over the traditional linear take-make-dispose model, has gained traction among policymakers seeking sustainable development solutions.\" 循环经济的核心理念是什么？",
+      "options": [
+        "Taking, making, and disposing of products.",
+        "Reusing and recycling rather than discarding.",
+        "Focusing only on recycling plastics.",
+        "Producing more goods faster."
+      ],
+      "answer": 1,
+      "explanation": "\"Emphasizes reuse and recycling over the traditional linear take-make-dispose model\" = 强调重用和回收，而非传统的取-造-弃模式。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 2,
+      "id": "exam_05_0013"
+    },
+    {
+      "type": "sentence",
+      "prompt": "\"The digital divide refers not merely to access to technology but also to the skills and literacy necessary to effectively utilize digital resources in an increasingly connected world.\" 数字鸿沟的本质是？",
+      "options": [
+        "Only about having internet access.",
+        "About access, skills, and literacy to use digital resources.",
+        "No longer a problem in developed countries.",
+        "Only affects the elderly population."
+      ],
+      "answer": 1,
+      "explanation": "\"Not merely to access...but also to the skills and literacy necessary to effectively utilize digital resources\" = 不仅关乎接入，还关乎技能和素养。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 3,
+      "id": "exam_05_0014"
+    },
+    {
+      "type": "sentence",
+      "prompt": "\"The doctrine of sustainable development has been criticized for being too vague to guide concrete policy decisions, while others argue that its flexibility is precisely its strength.\" 关于可持续发展原则的主要争议是？",
+      "options": [
+        "Everyone sees it as perfect.",
+        "Critics call it too vague; supporters value its flexibility.",
+        "It has been abandoned entirely.",
+        "It only applies to environmental issues."
+      ],
+      "answer": 1,
+      "explanation": "\"Criticized for being too vague...others argue that its flexibility is precisely its strength\" = 被批评过于模糊，但其他人认为其灵活性正是优势所在。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 2,
+      "id": "exam_05_0015"
+    },
+    {
+      "type": "shortReading",
+      "prompt": "阅读下文回答问题：\n\n\"\"The phenomenon of 'technological unemployment' — job displacement caused by technological change — has historically been offset by the creation of new types of employment. However, the current wave of automation driven by artificial intelligence and robotics may be qualitatively different. Some economists argue that AI could automate not only manual labor but also cognitive tasks previously considered safe from automation. Others contend that, as in past industrial revolutions, new human roles will emerge that we cannot yet envision.\"\"\n\n关于AI导致的失业，文中提到了什么不同的观点？",
+      "options": [
+        "All economists agree on the outcome.",
+        "Some fear AI may automate cognitive tasks, while others believe new job types will emerge as before.",
+        "AI will not affect employment at all.",
+        "Only manual jobs are at risk."
+      ],
+      "answer": 1,
+      "explanation": "\"Some economists argue that AI could automate not only manual labor but also cognitive tasks...Others contend that...new human roles will emerge\" = 一些经济学家认为AI可以自动化认知任务，另一些人则认为新角色会出现。",
+      "sourceEvent": "打野来抓",
+      "difficulty": 3,
+      "id": "exam_05_0016"
+    },
+    {
+      "type": "shortReading",
+      "prompt": "阅读下文回答问题：\n\n\"\"Cognitive behavioral therapy (CBT) has emerged as one of the most effective treatments for anxiety disorders. Unlike traditional psychoanalysis, which often explores past experiences, CBT focuses on identifying and changing current thought patterns and behaviors. Research indicates that CBT can produce lasting improvements in symptoms, often in a relatively short period. The structured nature of CBT makes it particularly suitable for integration into digital health platforms, potentially expanding access to mental health treatment.\"\"\n\n认知行为疗法与传统心理分析有什么不同？",
+      "options": [
+        "It explores past experiences more deeply.",
+        "It focuses on current thoughts and behaviors rather than past experiences.",
+        "It takes much longer than traditional methods.",
+        "It does not require a therapist."
+      ],
+      "answer": 1,
+      "explanation": "\"Unlike traditional psychoanalysis...CBT focuses on identifying and changing current thought patterns and behaviors\" = 不同于传统心理分析，CBT关注当前思维模式和行为。",
+      "sourceEvent": "打野来抓",
+      "difficulty": 2,
+      "id": "exam_05_0017"
+    },
+    {
+      "type": "shortReading",
+      "prompt": "阅读下文回答问题：\n\n\"\"Marine biotechnology has emerged as a promising field for drug discovery, with organisms from extreme ocean environments producing unique compounds with pharmaceutical potential. Deep-sea sponges, corals, and microorganisms have yielded substances with anti-cancer, anti-inflammatory, and antiviral properties. Despite this potential, the exploration of marine biodiversity for medical applications remains limited by the technical challenges of deep-sea collection and the difficulties of cultivating these organisms in laboratory conditions.\"\"\n\n海洋生物技术药物发现的障碍是什么？",
+      "options": [
+        "Marine organisms have no medicinal value.",
+        "Technical challenges of deep-sea collection and laboratory cultivation.",
+        "The field has been fully explored already.",
+        "There is no pharmaceutical potential."
+      ],
+      "answer": 1,
+      "explanation": "\"Limited by the technical challenges of deep-sea collection and the difficulties of cultivating these organisms in laboratory conditions\" = 受限于深海采集的技术挑战和实验室培养的困难。",
+      "sourceEvent": "打野来抓",
+      "difficulty": 2,
+      "id": "exam_05_0018"
+    },
+    {
+      "type": "shortReading",
+      "prompt": "阅读下文回答问题：\n\n\"\"The concept of 'peak car' — the idea that per capita car usage has reached its maximum and will decline — has gained support from trends in many developed countries. Young adults in particular are driving less, obtaining licenses later, and showing greater preference for urban living and multimodal transportation including public transit, cycling, and ride-sharing services. However, car ownership and usage continue to rise in developing countries, suggesting that global car use may not have peaked yet.\"\"\n\n\"峰值汽车\"概念在不同国家的情况如何？",
+      "options": [
+        "Car usage is declining everywhere.",
+        "In developed countries usage may have peaked, but it continues to rise in developing countries.",
+        "The concept has been proven false globally.",
+        "Developing countries show declining car usage."
+      ],
+      "answer": 1,
+      "explanation": "\"In many developed countries...car usage has reached its maximum...however, car ownership and usage continue to rise in developing countries\" = 发达国家可能已达峰值，但发展中国家仍在增长。",
+      "sourceEvent": "打野来抓",
+      "difficulty": 2,
+      "id": "exam_05_0019"
+    },
+    {
+      "type": "shortReading",
+      "prompt": "阅读下文回答问题：\n\n\"\"The study of epigenetics has revealed that environmental factors can influence gene expression without changing the DNA sequence itself. Stress, diet, and exposure to toxins can cause chemical modifications to DNA that affect how genes are activated or silenced. These epigenetic changes can sometimes be passed to future generations, suggesting that the experiences of one generation may have biological consequences for their descendants.\"\"\n\n表观遗传学揭示了什么重要发现？",
+      "options": [
+        "DNA sequence is the only thing that matters.",
+        "Environmental factors can influence gene expression without changing DNA, and these effects can be inherited.",
+        "Genes cannot be influenced by the environment.",
+        "Epigenetic changes never affect future generations."
+      ],
+      "answer": 1,
+      "explanation": "\"Environmental factors can influence gene expression without changing the DNA sequence itself...these epigenetic changes can sometimes be passed to future generations\" = 环境因素可影响基因表达而不改变DNA序列，且这些变化可以遗传。",
+      "sourceEvent": "打野来抓",
+      "difficulty": 3,
+      "id": "exam_05_0020"
+    },
+    {
+      "type": "shortReading",
+      "prompt": "阅读下文回答问题：\n\n\"\"The sharing of personal data has become a cornerstone of the digital economy, enabling personalized services and targeted advertising that drive revenue for tech companies. However, increasing awareness of data collection practices has led to growing demands for stronger privacy protections. Regulations like the EU's General Data Protection Regulation (GDPR) represent attempts to balance the economic value of data with individuals' rights to privacy and control over their personal information.\"\"\n\nGDPR这类法规的目的是什么？",
+      "options": [
+        "To ban all data collection.",
+        "To balance the economic value of data with individual privacy rights.",
+        "Only to protect business interests.",
+        "To eliminate the digital economy."
+      ],
+      "answer": 1,
+      "explanation": "\"Represent attempts to balance the economic value of data with individuals' rights to privacy and control over their personal information\" = 在数据的经济价值与个人隐私权和控制权之间取得平衡。",
+      "sourceEvent": "打野来抓",
+      "difficulty": 2,
+      "id": "exam_05_0021"
+    },
+    {
+      "type": "shortReading",
+      "prompt": "阅读下文回答问题：\n\n\"\"The concept of 'cultural intelligence' (CQ) has become increasingly valued in global business contexts. Unlike emotional intelligence, which focuses on interpersonal sensitivity within one's own culture, CQ refers to the ability to adapt effectively across different cultural contexts. Individuals with high CQ demonstrate awareness of cultural differences, knowledge of other cultures, and the ability to adjust their behavior appropriately. Research suggests that CQ can be developed through international experiences and targeted training.\"\"\n\n文化智商与情商的主要区别是什么？",
+      "options": [
+        "They are the same thing.",
+        "CQ focuses on adapting across different cultures, while EQ focuses on interpersonal sensitivity within one's own culture.",
+        "EQ is more important in business.",
+        "CQ cannot be developed through training."
+      ],
+      "answer": 1,
+      "explanation": "\"Unlike emotional intelligence, which focuses on interpersonal sensitivity within one's own culture, CQ refers to the ability to adapt effectively across different cultural contexts\" = 情商关注本文化内的人际敏感度，而文化智商关注跨文化适应能力。",
+      "sourceEvent": "打野来抓",
+      "difficulty": 2,
+      "id": "exam_05_0022"
+    },
+    {
+      "type": "shortReading",
+      "prompt": "阅读下文回答问题：\n\n\"\"The rise of fintech has revolutionized the banking industry, with digital payment systems, peer-to-peer lending platforms, and robo-advisors challenging traditional financial institutions. In developing countries, mobile banking has been particularly transformative, bringing financial services to populations previously excluded from the formal banking system. However, concerns about data security, algorithmic bias, and the digital divide persist as significant challenges to the fintech revolution.\"\"\n\n金融科技在发展中国家起到了什么特殊作用？",
+      "options": [
+        "Had little impact in developing countries.",
+        "Brought financial services to those previously excluded from formal banking.",
+        "Only benefited wealthy individuals.",
+        "Increased the digital divide."
+      ],
+      "answer": 1,
+      "explanation": "\"Bringing financial services to populations previously excluded from the formal banking system\" = 将金融服务带给以前被排除在正规银行体系之外的人群。",
+      "sourceEvent": "打野来抓",
+      "difficulty": 2,
+      "id": "exam_05_0023"
+    },
+    {
+      "type": "shortReading",
+      "prompt": "阅读下文回答问题：\n\n\"\"The decline of insect populations worldwide, sometimes called the 'insect apocalypse,' has alarmed scientists. Insects are essential for pollination, nutrient cycling, and as a food source for many animals. Studies estimate that insect biomass has declined by 75% or more in some protected areas. The primary drivers include habitat loss, pesticide use, climate change, and light pollution. Restoring insect populations will require coordinated action across agriculture, urban planning, and conservation policy.\"\"\n\n昆虫数量下降的主要原因包括什么？",
+      "options": [
+        "Only pesticide use.",
+        "Habitat loss, pesticide use, climate change, and light pollution.",
+        "Insects are naturally declining.",
+        "Climate change is the only factor."
+      ],
+      "answer": 1,
+      "explanation": "\"The primary drivers include habitat loss, pesticide use, climate change, and light pollution\" = 主要驱动因素包括栖息地丧失、农药使用、气候变化和光污染。",
+      "sourceEvent": "打野来抓",
+      "difficulty": 2,
+      "id": "exam_05_0024"
+    },
+    {
+      "type": "shortReading",
+      "prompt": "阅读下文回答问题：\n\n\"\"Vertical farming — the practice of growing crops in stacked layers within controlled environments — offers a potential solution to agricultural challenges in urban areas. These facilities use up to 95% less water than traditional farming and can produce crops year-round regardless of weather conditions. However, the high energy costs of artificial lighting and climate control remain significant economic barriers, and the technology currently is mainly viable for high-value crops like leafy greens and herbs.\"\"\n\n垂直农业目前面临的主要制约是什么？",
+      "options": [
+        "It uses too much water.",
+        "High energy costs make it only viable for certain high-value crops.",
+        "Crops cannot grow year-round.",
+        "It requires too much land."
+      ],
+      "answer": 1,
+      "explanation": "\"High energy costs of artificial lighting and climate control remain significant economic barriers...mainly viable for high-value crops\" = 高能耗成本使其目前主要适用于高价值作物。",
+      "sourceEvent": "打野来抓",
+      "difficulty": 2,
+      "id": "exam_05_0025"
+    },
+    {
+      "type": "translation",
+      "prompt": "理解并翻译：\n\n\"The preservation of cultural heritage, both tangible and intangible, is not merely an act of nostalgia but a vital investment in the identity, resilience, and creativity of communities facing rapid globalization.\"\n\n这句话的观点是？",
+      "options": [
+        "Cultural preservation is just about nostalgia.",
+        "Preserving cultural heritage is vital for community identity, resilience, and creativity in the face of globalization.",
+        "Globalization has no impact on culture.",
+        "Only tangible heritage matters."
+      ],
+      "answer": 1,
+      "explanation": "\"Not merely an act of nostalgia but a vital investment in the identity, resilience, and creativity of communities\" = 不仅仅是怀旧，而是对社区的认同感、韧性和创造力的重要投资。",
+      "sourceEvent": "高地防守",
+      "difficulty": 2,
+      "id": "exam_05_0026"
+    },
+    {
+      "type": "translation",
+      "prompt": "理解并翻译：\n\n\"So intertwined are the challenges of poverty, inequality, and environmental degradation that no single issue can be effectively addressed in isolation from the others.\"\n\n这句话强调了什么？",
+      "options": [
+        "Each problem can be solved separately.",
+        "Poverty, inequality, and environmental degradation are interconnected and cannot be solved in isolation.",
+        "Environmental issues are not related to poverty.",
+        "Inequality is the only important issue."
+      ],
+      "answer": 1,
+      "explanation": "\"So intertwined...that no single issue can be effectively addressed in isolation\" = 三者紧密交织，任何问题都无法孤立解决。",
+      "sourceEvent": "水晶终结",
+      "difficulty": 3,
+      "id": "exam_05_0027"
+    },
+    {
+      "type": "translation",
+      "prompt": "理解并翻译：\n\n\"The phenomenon of information overload in the digital age has paradoxically made it more difficult for individuals to make well-informed decisions, as the sheer volume of available data often overwhelms rather than empowers.\"\n\n这段话揭示了什么？",
+      "options": [
+        "More information always leads to better decisions.",
+        "Information overload makes it harder to make well-informed decisions because the volume of data overwhelms rather than empowers.",
+        "Digital age has no impact on decision-making.",
+        "People make better decisions with more information."
+      ],
+      "answer": 1,
+      "explanation": "\"Information overload...has...made it more difficult...the sheer volume of available data often overwhelms rather than empowers\" = 信息过载使决策更困难，数据量压垮而非赋能。",
+      "sourceEvent": "高地防守",
+      "difficulty": 2,
+      "id": "exam_05_0028"
+    },
+    {
+      "type": "translation",
+      "prompt": "理解并翻译：\n\n\"So profound have been the changes wrought by the digital revolution that virtually every aspect of modern life — from how we work and learn to how we form relationships and perceive the world — has been fundamentally transformed.\"\n\n这句话的意思是？",
+      "options": [
+        "The digital revolution has had minimal impact.",
+        "The digital revolution has profoundly transformed nearly every aspect of modern life, including work, learning, relationships, and worldview.",
+        "Only work has been affected by the digital revolution.",
+        "Learning methods remain unchanged."
+      ],
+      "answer": 1,
+      "explanation": "\"So profound have been the changes...virtually every aspect of modern life...has been fundamentally transformed\" = 数字革命带来的变化如此深刻，几乎现代生活的方方面面都已被根本性改变。",
+      "sourceEvent": "水晶终结",
+      "difficulty": 2,
+      "id": "exam_05_0029"
+    },
+    {
+      "type": "translation",
+      "prompt": "理解并翻译：\n\n\"It is universally acknowledged that education serves as the cornerstone of personal development and social progress, empowering individuals with the knowledge and skills necessary to navigate an increasingly complex world.\"\n\n这段话的核心观点是什么？",
+      "options": [
+        "Education is only about personal development.",
+        "Education is the foundation of personal and social development, equipping people with essential knowledge and skills.",
+        "Social progress does not require education.",
+        "Education is less important in a complex world."
+      ],
+      "answer": 1,
+      "explanation": "\"Education serves as the cornerstone of personal development and social progress\" = 教育是个人发展和社会进步的基石。",
+      "sourceEvent": "高地防守",
+      "difficulty": 2,
+      "id": "exam_05_0030"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「煽动，激发」对应的英文单词：",
+      "options": [
+        "proactive",
+        "aspiration",
+        "ignite",
+        "interfere"
+      ],
+      "answer": 2,
+      "explanation": "ignite 意为「煽动，激发」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 2,
+      "id": "exam_05_0031"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「辩论，争论」对应的英文单词：",
+      "options": [
+        "debate",
+        "pilot",
+        "equity",
+        "adjustment"
+      ],
+      "answer": 0,
+      "explanation": "debate 意为「辩论，争论」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1,
+      "id": "exam_05_0032"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「唤醒，引起」对应的英文单词：",
+      "options": [
+        "inference",
+        "discount",
+        "arouse",
+        "undertake"
+      ],
+      "answer": 2,
+      "explanation": "arouse 意为「唤醒，引起」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 2,
+      "id": "exam_05_0033"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「不平等的」对应的英文单词：",
+      "options": [
+        "creation",
+        "flourish",
+        "corresponding",
+        "inequitable"
+      ],
+      "answer": 3,
+      "explanation": "inequitable 意为「不平等的」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 3,
+      "id": "exam_05_0034"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「标准，准则」对应的英文单词：",
+      "options": [
+        "creation",
+        "adequate",
+        "criterion",
+        "unprecedented"
+      ],
+      "answer": 2,
+      "explanation": "criterion 意为「标准，准则」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 2,
+      "id": "exam_05_0035"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「内在的，本质的」对应的英文单词：",
+      "options": [
+        "external",
+        "collaboration",
+        "diversity",
+        "inherent"
+      ],
+      "answer": 3,
+      "explanation": "inherent 意为「内在的，本质的」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 2,
+      "id": "exam_05_0036"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「巨大的」对应的英文单词：",
+      "options": [
+        "tremendous",
+        "energetic",
+        "pilot",
+        "dramatic"
+      ],
+      "answer": 0,
+      "explanation": "tremendous 意为「巨大的」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1,
+      "id": "exam_05_0037"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「维度」对应的英文单词：",
+      "options": [
+        "dimension",
+        "categorize",
+        "permanent",
+        "exaggerate"
+      ],
+      "answer": 0,
+      "explanation": "dimension 意为「维度」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 2,
+      "id": "exam_05_0038"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「收购」对应的英文单词：",
+      "options": [
+        "convincing",
+        "advocacy",
+        "evaluate",
+        "acquire"
+      ],
+      "answer": 3,
+      "explanation": "acquire 意为「收购」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 2,
+      "id": "exam_05_0039"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「审美，美学」对应的英文单词：",
+      "options": [
+        "aesthetic",
+        "precedent",
+        "distinct",
+        "attribute"
+      ],
+      "answer": 0,
+      "explanation": "aesthetic 意为「审美，美学」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 3,
+      "id": "exam_05_0040"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「保证，确保」对应的英文单词：",
+      "options": [
+        "ensure",
+        "appropriate",
+        "assumption",
+        "forecast"
+      ],
+      "answer": 0,
+      "explanation": "ensure 意为「保证，确保」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1,
+      "id": "exam_05_0041"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「分类，归类」对应的英文单词：",
+      "options": [
+        "categorize",
+        "dominate",
+        "trigger",
+        "integration"
+      ],
+      "answer": 0,
+      "explanation": "categorize 意为「分类，归类」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 2,
+      "id": "exam_05_0042"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「分布」对应的英文单词：",
+      "options": [
+        "inspection",
+        "distribution",
+        "distortion",
+        "enterprise"
+      ],
+      "answer": 1,
+      "explanation": "distribution 意为「分布」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 2,
+      "id": "exam_05_0043"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「利用，开发」对应的英文单词：",
+      "options": [
+        "derivative",
+        "exploit",
+        "coexist",
+        "integrity"
+      ],
+      "answer": 1,
+      "explanation": "exploit 意为「利用，开发」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 2,
+      "id": "exam_05_0044"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「前兆」对应的英文单词：",
+      "options": [
+        "delegate",
+        "equivalent",
+        "income",
+        "forecast"
+      ],
+      "answer": 3,
+      "explanation": "forecast 意为「前兆」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 2,
+      "id": "exam_05_0045"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「工具」对应的英文单词：",
+      "options": [
+        "diffusion",
+        "expertise",
+        "instrument",
+        "dialogue"
+      ],
+      "answer": 2,
+      "explanation": "instrument 意为「工具」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1,
+      "id": "exam_05_0046"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「实质性的」对应的英文单词：",
+      "options": [
+        "custom",
+        "substantial",
+        "enormous",
+        "ethical"
+      ],
+      "answer": 1,
+      "explanation": "substantial 意为「实质性的」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1,
+      "id": "exam_05_0047"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「讨论」对应的英文单词：",
+      "options": [
+        "cumulative",
+        "permission",
+        "pragmatic",
+        "discussion"
+      ],
+      "answer": 3,
+      "explanation": "discussion 意为「讨论」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1,
+      "id": "exam_05_0048"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「数字的」对应的英文单词：",
+      "options": [
+        "substantial",
+        "intellectual",
+        "digital",
+        "generate"
+      ],
+      "answer": 2,
+      "explanation": "digital 意为「数字的」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1,
+      "id": "exam_05_0049"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「基础的，根本的」对应的英文单词：",
+      "options": [
+        "fundamental",
+        "expenditure",
+        "exclusive",
+        "persist"
+      ],
+      "answer": 0,
+      "explanation": "fundamental 意为「基础的，根本的」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1,
+      "id": "exam_05_0050"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「可适用的」对应的英文单词：",
+      "options": [
+        "funding",
+        "contribute",
+        "applicable",
+        "evolution"
+      ],
+      "answer": 2,
+      "explanation": "applicable 意为「可适用的」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 2,
+      "id": "exam_05_0051"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「贡献」对应的英文单词：",
+      "options": [
+        "contribute",
+        "persuade",
+        "adequate",
+        "acknowledge"
+      ],
+      "answer": 0,
+      "explanation": "contribute 意为「贡献」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1,
+      "id": "exam_05_0052"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「相关的」对应的英文单词：",
+      "options": [
+        "corresponding",
+        "proliferation",
+        "fluctuating",
+        "persuade"
+      ],
+      "answer": 0,
+      "explanation": "corresponding 意为「相关的」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 2,
+      "id": "exam_05_0053"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「人为的」对应的英文单词：",
+      "options": [
+        "essential",
+        "insurance",
+        "adjustment",
+        "artificial"
+      ],
+      "answer": 3,
+      "explanation": "artificial 意为「人为的」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1,
+      "id": "exam_05_0054"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「捐赠」对应的英文单词：",
+      "options": [
+        "accumulate",
+        "exaggerate",
+        "dominant",
+        "donation"
+      ],
+      "answer": 3,
+      "explanation": "donation 意为「捐赠」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1,
+      "id": "exam_05_0055"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「持续」对应的英文单词：",
+      "options": [
+        "persist",
+        "controversy",
+        "definite",
+        "assessment"
+      ],
+      "answer": 0,
+      "explanation": "persist 意为「持续」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 2,
+      "id": "exam_05_0056"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「歧视」对应的英文单词：",
+      "options": [
+        "discrimination",
+        "engage",
+        "induce",
+        "ensure"
+      ],
+      "answer": 0,
+      "explanation": "discrimination 意为「歧视」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 2,
+      "id": "exam_05_0057"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「制度」对应的英文单词：",
+      "options": [
+        "institution",
+        "deteriorate",
+        "inherent",
+        "acquire"
+      ],
+      "answer": 0,
+      "explanation": "institution 意为「制度」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1,
+      "id": "exam_05_0058"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「发展中国家」对应的英文单词：",
+      "options": [
+        "categorize",
+        "foresee",
+        "developing",
+        "considerable"
+      ],
+      "answer": 2,
+      "explanation": "developing 意为「发展中国家」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1,
+      "id": "exam_05_0059"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「消耗，耗尽」对应的英文单词：",
+      "options": [
+        "enterprise",
+        "drought",
+        "exhaust",
+        "extend"
+      ],
+      "answer": 2,
+      "explanation": "exhaust 意为「消耗，耗尽」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 2,
+      "id": "exam_05_0060"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「增强，加强」对应的英文单词：",
+      "options": [
+        "disclose",
+        "conflicting",
+        "aggregate",
+        "enhance"
+      ],
+      "answer": 3,
+      "explanation": "enhance 意为「增强，加强」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1,
+      "id": "exam_05_0061"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「前所未有的」对应的英文单词：",
+      "options": [
+        "unprecedented",
+        "primary",
+        "intuition",
+        "decline"
+      ],
+      "answer": 0,
+      "explanation": "unprecedented 意为「前所未有的」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1,
+      "id": "exam_05_0062"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「隐含的，暗示的」对应的英文单词：",
+      "options": [
+        "decline",
+        "disclose",
+        "implicit",
+        "facilitate"
+      ],
+      "answer": 2,
+      "explanation": "implicit 意为「隐含的，暗示的」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 3,
+      "id": "exam_05_0063"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「倾向」对应的英文单词：",
+      "options": [
+        "decline",
+        "predisposition",
+        "generation",
+        "categorize"
+      ],
+      "answer": 1,
+      "explanation": "predisposition 意为「倾向」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 3,
+      "id": "exam_05_0064"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「展示」对应的英文单词：",
+      "options": [
+        "convergence",
+        "robust",
+        "exhibit",
+        "delegate"
+      ],
+      "answer": 2,
+      "explanation": "exhibit 意为「展示」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1,
+      "id": "exam_05_0065"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「确定」对应的英文单词：",
+      "options": [
+        "function",
+        "permanent",
+        "determine",
+        "intricate"
+      ],
+      "answer": 2,
+      "explanation": "determine 意为「确定」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1,
+      "id": "exam_05_0066"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「根除，消灭」对应的英文单词：",
+      "options": [
+        "shift",
+        "developing",
+        "exhaust",
+        "eradicate"
+      ],
+      "answer": 3,
+      "explanation": "eradicate 意为「根除，消灭」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 3,
+      "id": "exam_05_0067"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「深刻的，深远的」对应的英文单词：",
+      "options": [
+        "diversity",
+        "profound",
+        "alliance",
+        "contamination"
+      ],
+      "answer": 1,
+      "explanation": "profound 意为「深刻的，深远的」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 2,
+      "id": "exam_05_0068"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「广泛的」对应的英文单词：",
+      "options": [
+        "dialogue",
+        "donation",
+        "extensive",
+        "evaluation"
+      ],
+      "answer": 2,
+      "explanation": "extensive 意为「广泛的」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1,
+      "id": "exam_05_0069"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「区分」对应的英文单词：",
+      "options": [
+        "distinguish",
+        "implicit",
+        "exposure",
+        "external"
+      ],
+      "answer": 0,
+      "explanation": "distinguish 意为「区分」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1,
+      "id": "exam_05_0070"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「选择，替代方案」对应的英文单词：",
+      "options": [
+        "foundation",
+        "alternative",
+        "contradictory",
+        "predisposition"
+      ],
+      "answer": 1,
+      "explanation": "alternative 意为「选择，替代方案」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1,
+      "id": "exam_05_0071"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「评估」对应的英文单词：",
+      "options": [
+        "assess",
+        "mitigate",
+        "homogenization",
+        "forecast"
+      ],
+      "answer": 0,
+      "explanation": "assess 意为「评估」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1,
+      "id": "exam_05_0072"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「有争议的」对应的英文单词：",
+      "options": [
+        "contentious",
+        "deviation",
+        "fulfill",
+        "enrich"
+      ],
+      "answer": 0,
+      "explanation": "contentious 意为「有争议的」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 3,
+      "id": "exam_05_0073"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「开支」对应的英文单词：",
+      "options": [
+        "expenditure",
+        "irreversible",
+        "cumulative",
+        "instrument"
+      ],
+      "answer": 0,
+      "explanation": "expenditure 意为「开支」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 2,
+      "id": "exam_05_0074"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「评估，估价」对应的英文单词：",
+      "options": [
+        "equity",
+        "advocacy",
+        "attribution",
+        "assessment"
+      ],
+      "answer": 3,
+      "explanation": "assessment 意为「评估，估价」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 2,
+      "id": "exam_05_0075"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「巨大的，庞大的」对应的英文单词：",
+      "options": [
+        "creation",
+        "immense",
+        "digital",
+        "volatility"
+      ],
+      "answer": 1,
+      "explanation": "immense 意为「巨大的，庞大的」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1,
+      "id": "exam_05_0076"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「对话」对应的英文单词：",
+      "options": [
+        "dialogue",
+        "assessment",
+        "discipline",
+        "extend"
+      ],
+      "answer": 0,
+      "explanation": "dialogue 意为「对话」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1,
+      "id": "exam_05_0077"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「因素」对应的英文单词：",
+      "options": [
+        "factor",
+        "assimilate",
+        "exposure",
+        "evaluate"
+      ],
+      "answer": 0,
+      "explanation": "factor 意为「因素」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1,
+      "id": "exam_05_0078"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「相互作用」对应的英文单词：",
+      "options": [
+        "interaction",
+        "deteriorate",
+        "adoption",
+        "generation"
+      ],
+      "answer": 0,
+      "explanation": "interaction 意为「相互作用」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1,
+      "id": "exam_05_0079"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「先例」对应的英文单词：",
+      "options": [
+        "precedent",
+        "intricate",
+        "extend",
+        "enterprise"
+      ],
+      "answer": 0,
+      "explanation": "precedent 意为「先例」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 3,
+      "id": "exam_05_0080"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「例外」对应的英文单词：",
+      "options": [
+        "income",
+        "exchange",
+        "exponentially",
+        "exception"
+      ],
+      "answer": 3,
+      "explanation": "exception 意为「例外」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1,
+      "id": "exam_05_0081"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「促进」对应的英文单词：",
+      "options": [
+        "homogenization",
+        "facilitate",
+        "division",
+        "convincing"
+      ],
+      "answer": 1,
+      "explanation": "facilitate 意为「促进」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 2,
+      "id": "exam_05_0082"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「缓和，减轻」对应的英文单词：",
+      "options": [
+        "adoption",
+        "implementation",
+        "contradictory",
+        "mitigate"
+      ],
+      "answer": 3,
+      "explanation": "mitigate 意为「缓和，减轻」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 2,
+      "id": "exam_05_0083"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「关键的，决定性的」对应的英文单词：",
+      "options": [
+        "critical",
+        "controversy",
+        "data",
+        "disaster"
+      ],
+      "answer": 0,
+      "explanation": "critical 意为「关键的，决定性的」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1,
+      "id": "exam_05_0084"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「资金」对应的英文单词：",
+      "options": [
+        "enduring",
+        "ambition",
+        "funding",
+        "criterion"
+      ],
+      "answer": 2,
+      "explanation": "funding 意为「资金」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1,
+      "id": "exam_05_0085"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「愤怒，愤慨」对应的英文单词：",
+      "options": [
+        "cooperative",
+        "fluctuating",
+        "institution",
+        "indignation"
+      ],
+      "answer": 3,
+      "explanation": "indignation 意为「愤怒，愤慨」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 3,
+      "id": "exam_05_0086"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「最终，归根结底」对应的英文单词：",
+      "options": [
+        "ultimately",
+        "disregard",
+        "debate",
+        "conflicting"
+      ],
+      "answer": 0,
+      "explanation": "ultimately 意为「最终，归根结底」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1,
+      "id": "exam_05_0087"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「外表」对应的英文单词：",
+      "options": [
+        "fundamental",
+        "external",
+        "instrumental",
+        "factor"
+      ],
+      "answer": 1,
+      "explanation": "external 意为「外表」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1,
+      "id": "exam_05_0088"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「草案」对应的英文单词：",
+      "options": [
+        "polarization",
+        "constraint",
+        "innovative",
+        "draft"
+      ],
+      "answer": 3,
+      "explanation": "draft 意为「草案」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1,
+      "id": "exam_05_0089"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「摩擦，冲突」对应的英文单词：",
+      "options": [
+        "considerable",
+        "interdisciplinary",
+        "friction",
+        "decline"
+      ],
+      "answer": 2,
+      "explanation": "friction 意为「摩擦，冲突」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 2,
+      "id": "exam_05_0090"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「数十年」对应的英文单词：",
+      "options": [
+        "function",
+        "detect",
+        "decade",
+        "unavoidable"
+      ],
+      "answer": 2,
+      "explanation": "decade 意为「数十年」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1,
+      "id": "exam_05_0091"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「功能」对应的英文单词：",
+      "options": [
+        "function",
+        "intimate",
+        "integrate",
+        "apprehensive"
+      ],
+      "answer": 0,
+      "explanation": "function 意为「功能」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1,
+      "id": "exam_05_0092"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「共存」对应的英文单词：",
+      "options": [
+        "coexist",
+        "generate",
+        "determine",
+        "contentious"
+      ],
+      "answer": 0,
+      "explanation": "coexist 意为「共存」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 2,
+      "id": "exam_05_0093"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「干预」对应的英文单词：",
+      "options": [
+        "intervention",
+        "ignite",
+        "disrupt",
+        "consumption"
+      ],
+      "answer": 0,
+      "explanation": "intervention 意为「干预」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 2,
+      "id": "exam_05_0094"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「承担」对应的英文单词：",
+      "options": [
+        "undertake",
+        "affection",
+        "corresponding",
+        "feasible"
+      ],
+      "answer": 0,
+      "explanation": "undertake 意为「承担」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 2,
+      "id": "exam_05_0095"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「聚焦，集中」对应的英文单词：",
+      "options": [
+        "distortion",
+        "philosophical",
+        "expertise",
+        "focus"
+      ],
+      "answer": 3,
+      "explanation": "focus 意为「聚焦，集中」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1,
+      "id": "exam_05_0096"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「商业化」对应的英文单词：",
+      "options": [
+        "friction",
+        "commercialization",
+        "aggregate",
+        "immense"
+      ],
+      "answer": 1,
+      "explanation": "commercialization 意为「商业化」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 3,
+      "id": "exam_05_0097"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「最终地」对应的英文单词：",
+      "options": [
+        "dramatic",
+        "ultimately",
+        "conflicting",
+        "intense"
+      ],
+      "answer": 1,
+      "explanation": "ultimately 意为「最终地」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1,
+      "id": "exam_05_0098"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「遥远的」对应的英文单词：",
+      "options": [
+        "expansion",
+        "distant",
+        "forecast",
+        "distribution"
+      ],
+      "answer": 1,
+      "explanation": "distant 意为「遥远的」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1,
+      "id": "exam_05_0099"
+    },
+    {
+      "type": "vocabulary",
+      "prompt": "选择与「企业家」对应的英文单词：",
+      "options": [
+        "entrepreneur",
+        "empower",
+        "consequence",
+        "dramatic"
+      ],
+      "answer": 0,
+      "explanation": "entrepreneur 意为「企业家」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 2,
+      "id": "exam_05_0100"
+    }
+  ]
+}
