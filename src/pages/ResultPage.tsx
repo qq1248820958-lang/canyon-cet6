@@ -89,7 +89,7 @@ export default function ResultPage({ result, onRestart, onHome, onReview }: Resu
         </div>
       </div>
 
-      {/* 经验条 */}
+      {/* XP Bar */}
       <div className="card">
         <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: 6 }}>
           <span style={{ fontSize: '0.85rem', fontWeight: 600 }}>
@@ -107,7 +107,7 @@ export default function ResultPage({ result, onRestart, onHome, onReview }: Resu
         </div>
       </div>
 
-      {/* 本局数据 */}
+      {/* Match Stats */}
       <div className="card">
         <h3 style={{ fontSize: '1rem', marginBottom: 10 }}>本局数据</h3>
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 8, fontSize: '0.85rem' }}>
@@ -122,7 +122,7 @@ export default function ResultPage({ result, onRestart, onHome, onReview }: Resu
         </div>
       </div>
 
-      {/* 己方队友 */}
+      {/* Allies */}
       <div className="card">
         <div style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', marginBottom: 6 }}>己方队友</div>
         <div style={{ display: 'flex', gap: 8 }}>
@@ -137,7 +137,7 @@ export default function ResultPage({ result, onRestart, onHome, onReview }: Resu
         </div>
       </div>
 
-      {/* 敌方阵容 */}
+      {/* Enemies */}
       <div className="card">
         <div style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', marginBottom: 6 }}>敌方阵容</div>
         <div style={{ display: 'flex', gap: 8 }}>
@@ -152,7 +152,58 @@ export default function ResultPage({ result, onRestart, onHome, onReview }: Resu
         </div>
       </div>
 
-      {/* 错题 */}
+      {/* Full Question Review */}
+      <div className="card" style={{ borderLeft: '3px solid var(--accent-blue)' }}>
+        <h3 style={{ fontSize: '1rem', marginBottom: 10 }}>题目回顾 ({result.allAnsweredQuestions.length}题)</h3>
+        {result.allAnsweredQuestions.map((q, i) => (
+          <div
+            key={q.id}
+            style={{
+              padding: '10px 0',
+              borderBottom: i < result.allAnsweredQuestions.length - 1 ? '1px solid var(--border)' : 'none',
+            }}
+          >
+            <div style={{ display: 'flex', alignItems: 'flex-start', gap: 8 }}>
+              <span style={{
+                flexShrink: 0,
+                width: 22,
+                height: 22,
+                borderRadius: '50%',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                fontSize: '0.75rem',
+                fontWeight: 700,
+                color: '#fff',
+                background: q.correct ? 'var(--accent-green)' : 'var(--accent-red)',
+                marginTop: 2,
+              }}>
+                {q.correct ? '✓' : '✗'}
+              </span>
+              <div style={{ flex: 1, minWidth: 0 }}>
+                <div style={{ fontSize: '0.8rem', fontWeight: 600, marginBottom: 4 }}>
+                  {q.prompt.length > 80 ? q.prompt.slice(0, 80) + '...' : q.prompt}
+                </div>
+                <div style={{ fontSize: '0.75rem', color: 'var(--text-secondary)', lineHeight: 1.6 }}>
+                  <div>你的答案：<span style={{ color: q.correct ? 'var(--accent-green)' : 'var(--accent-red)' }}>{q.userAnswer}</span></div>
+                  <div>正确答案：<span style={{ color: 'var(--accent-green)' }}>{q.correctAnswer}</span></div>
+                  <div style={{
+                    marginTop: 4,
+                    padding: 6,
+                    background: 'rgba(0,0,0,0.2)',
+                    borderRadius: 4,
+                    color: 'var(--text-secondary)',
+                  }}>
+                    {q.explanation}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      {/* Wrong Questions Summary */}
       {result.wrongQuestions.length > 0 && (
         <div className="card" style={{ borderLeft: '3px solid var(--accent-red)' }}>
           <div style={{ fontSize: '0.85rem', color: 'var(--accent-red)', marginBottom: 6 }}>
@@ -170,16 +221,16 @@ export default function ResultPage({ result, onRestart, onHome, onReview }: Resu
         </div>
       )}
 
-      {/* 按钮 */}
+      {/* Buttons */}
       <div style={{ display: 'flex', flexDirection: 'column', gap: 8, marginTop: 16, marginBottom: 40 }}>
         <button className="btn btn-primary" onClick={onRestart}>
-          🔄 再来一局
+          再来一局
         </button>
         <button className="btn btn-secondary" onClick={onHome}>
-          🏠 返回首页
+          返回首页
         </button>
         <button className="btn btn-secondary" onClick={onReview}>
-          📝 去复盘室
+          去复盘室
         </button>
       </div>
     </div>

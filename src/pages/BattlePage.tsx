@@ -29,10 +29,23 @@ export interface BattleResult {
   gankResult: string;
   teamfightResult: string;
   wrongQuestions: { prompt: string; correct: string; userAnswer: string }[];
+  allAnsweredQuestions: {
+    id: string;
+    type: string;
+    prompt: string;
+    passage?: string;
+    options: string[];
+    correctAnswer: string;
+    userAnswer: string;
+    explanation: string;
+    correct: boolean;
+  }[];
 }
 
 export default function BattlePage({ lineup, onEnd }: BattlePageProps) {
   const wrongAnswersRef = useRef<{ prompt: string; correct: string; userAnswer: string }[]>([]);
+  const allAnswersRef = useRef<BattleResult['allAnsweredQuestions']>([]);
+  const pendingAnswerRef = useRef<{ correct: boolean; question: Question; selectedAnswer: string } | null>(null);
 
   const [battle, setBattle] = useState<BattleState>(() => {
     const p = createHeroState(lineup.playerHero);
@@ -109,6 +122,20 @@ export default function BattlePage({ lineup, onEnd }: BattlePageProps) {
     const q = currentQuestion;
     const options = 'ABCD';
 
+    // Track ALL answered questions
+    allAnswersRef.current.push({
+      id: q.id,
+      type: q.type,
+      prompt: q.prompt,
+      passage: q.passage,
+      options: q.options,
+      correctAnswer: `${options[q.answer]}. ${q.options[q.answer]}`,
+      userAnswer: selectedAnswer,
+      explanation: q.explanation,
+      correct,
+    });
+
+    // Track wrong answers for review room
     if (!correct) {
       addReviewItem(
         q.id,
@@ -126,6 +153,16 @@ export default function BattlePage({ lineup, onEnd }: BattlePageProps) {
     }
 
     setAnsweredIds(prev => new Set(prev).add(q.id));
+
+    // Store pending answer result (applied on continue)
+    pendingAnswerRef.current = { correct, question: q, selectedAnswer };
+  }, [currentQuestion]);
+
+  const handleContinue = useCallback(() => {
+    const pending = pendingAnswerRef.current;
+    if (!pending) return;
+    const { correct, q } = pending;
+    pendingAnswerRef.current = null;
 
     setBattle(prev => {
       const next = { ...prev };
@@ -318,7 +355,7 @@ export default function BattlePage({ lineup, onEnd }: BattlePageProps) {
     setCurrentQuestion(null);
     setAnswerState('waiting');
     setQuestionKey(k => k + 1);
-  }, [currentQuestion, lineup]);
+  }, [lineup]);
 
   const startEvent = useCallback(() => {
     const used = battle.usedQuestionIds;
@@ -400,6 +437,7 @@ export default function BattlePage({ lineup, onEnd }: BattlePageProps) {
       gankResult: battle.gankResult === 'escaped' ? '成功逃脱' : battle.gankResult === 'countered' ? '反打成功' : '被击杀',
       teamfightResult: battle.teamfightResult === 'perfect' ? '完美团战' : battle.teamfightResult === 'win' ? '团战胜利' : battle.teamfightResult === 'trade' ? '团战平局' : '团战失败',
       wrongQuestions: wrongAnswersRef.current,
+      allAnsweredQuestions: allAnswersRef.current,
     };
     setTimeout(() => onEnd(result), 300);
     return (
@@ -551,6 +589,7 @@ export default function BattlePage({ lineup, onEnd }: BattlePageProps) {
           onAnswer={(correct, selectedAnswer, idx) => {
             handleAnswer(correct, selectedAnswer, idx);
           }}
+          onContinue={handleContinue}
         />
       )}
 
