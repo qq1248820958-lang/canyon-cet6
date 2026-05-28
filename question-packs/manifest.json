@@ -3,10 +3,38 @@
   "packs": [
     {
       "id": "vocab-001",
-      "version": 1,
+      "version": 3,
       "title": "六级词汇扩展包 #1",
-      "description": "100 道六级核心词汇题",
-      "questionCount": 100
+      "description": "500 道六级核心词汇题",
+      "questionCount": 500
+    },
+    {
+      "id": "vocab-002",
+      "version": 3,
+      "title": "六级词汇扩展包 #2",
+      "description": "500 道六级核心词汇题",
+      "questionCount": 500
+    },
+    {
+      "id": "vocab-003",
+      "version": 3,
+      "title": "六级词汇扩展包 #3",
+      "description": "500 道六级核心词汇题",
+      "questionCount": 500
+    },
+    {
+      "id": "vocab-004",
+      "version": 3,
+      "title": "六级词汇扩展包 #4",
+      "description": "500 道六级核心词汇题",
+      "questionCount": 500
+    },
+    {
+      "id": "vocab-005",
+      "version": 3,
+      "title": "六级词汇扩展包 #5",
+      "description": "273 道六级核心词汇题",
+      "questionCount": 273
     }
   ]
 }

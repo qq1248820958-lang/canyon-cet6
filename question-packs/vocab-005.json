@@ -1,0 +1,4103 @@
+{
+  "packId": "vocab-005",
+  "version": 3,
+  "title": "六级词汇扩展包 #5",
+  "description": "273 道六级核心词汇题",
+  "questions": [
+    {
+      "id": "remote_05_0001",
+      "type": "vocabulary",
+      "prompt": "选择与「简陋的 小屋，船舱，机舱」对应的英文单词：",
+      "options": [
+        "pole",
+        "committee",
+        "cabin",
+        "benefit"
+      ],
+      "answer": 2,
+      "explanation": "cabin 意为「简陋的 小屋，船舱，机舱」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 3
+    },
+    {
+      "id": "remote_05_0002",
+      "type": "vocabulary",
+      "prompt": "选择与「因恐惧、焦急、喜悦等 发狂 似 的，发疯的，狂乱的，令人绝望的，不顾一切的」对应的英文单词：",
+      "options": [
+        "frantic",
+        "furthermore",
+        "reunion",
+        "withhold"
+      ],
+      "answer": 0,
+      "explanation": "frantic 意为「因恐惧、焦急、喜悦等 发狂 似 的，发疯的，狂乱的，令人绝望的，不顾一切的」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0003",
+      "type": "vocabulary",
+      "prompt": "选择与「构造，外形，布置，结构」对应的英文单词：",
+      "options": [
+        "configuration",
+        "owe",
+        "discrepancy",
+        "slot"
+      ],
+      "answer": 0,
+      "explanation": "configuration 意为「构造，外形，布置，结构」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0004",
+      "type": "vocabulary",
+      "prompt": "选择与「反抗的，有抵抗力的」对应的英文单词：",
+      "options": [
+        "gleam",
+        "dean",
+        "resistant",
+        "slash"
+      ],
+      "answer": 2,
+      "explanation": "resistant 意为「反抗的，有抵抗力的」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0005",
+      "type": "vocabulary",
+      "prompt": "选择与「取回，复得，恢复，使 身体 复原，挽回，弥补」对应的英文单词：",
+      "options": [
+        "recover",
+        "additional",
+        "target",
+        "verge"
+      ],
+      "answer": 0,
+      "explanation": "recover 意为「取回，复得，恢复，使 身体 复原，挽回，弥补」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0006",
+      "type": "vocabulary",
+      "prompt": "选择与「摇篮，策源地，发源地」对应的英文单词：",
+      "options": [
+        "cancel",
+        "cradle",
+        "fracture",
+        "concern"
+      ],
+      "answer": 1,
+      "explanation": "cradle 意为「摇篮，策源地，发源地」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 2
+    },
+    {
+      "id": "remote_05_0007",
+      "type": "vocabulary",
+      "prompt": "选择与「洞察力，深入了解，洞悉」对应的英文单词：",
+      "options": [
+        "temperament",
+        "magnificent",
+        "insight",
+        "discrete"
+      ],
+      "answer": 2,
+      "explanation": "insight 意为「洞察力，深入了解，洞悉」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0008",
+      "type": "vocabulary",
+      "prompt": "选择与「人口调查，人口普查」对应的英文单词：",
+      "options": [
+        "compatible",
+        "census",
+        "confidential",
+        "tick"
+      ],
+      "answer": 1,
+      "explanation": "census 意为「人口调查，人口普查」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0009",
+      "type": "vocabulary",
+      "prompt": "选择与「毕业文凭，学位证书」对应的英文单词：",
+      "options": [
+        "diploma",
+        "hurricane",
+        "vary",
+        "howl"
+      ],
+      "answer": 0,
+      "explanation": "diploma 意为「毕业文凭，学位证书」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0010",
+      "type": "vocabulary",
+      "prompt": "选择与「补偿，抵消，分支，旁支，补偿，抵消」对应的英文单词：",
+      "options": [
+        "offset",
+        "continuity",
+        "unity",
+        "faith"
+      ],
+      "answer": 0,
+      "explanation": "offset 意为「补偿，抵消，分支，旁支，补偿，抵消」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0011",
+      "type": "vocabulary",
+      "prompt": "选择与「永远的，永恒的，不断的，四季开花的」对应的英文单词：",
+      "options": [
+        "perpetual",
+        "professional",
+        "assault",
+        "mask"
+      ],
+      "answer": 0,
+      "explanation": "perpetual 意为「永远的，永恒的，不断的，四季开花的」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 3
+    },
+    {
+      "id": "remote_05_0012",
+      "type": "vocabulary",
+      "prompt": "选择与「小口喝，抿 小口喝，一小口的量」对应的英文单词：",
+      "options": [
+        "sip",
+        "irrespective",
+        "assumption",
+        "authority"
+      ],
+      "answer": 0,
+      "explanation": "sip 意为「小口喝，抿 小口喝，一小口的量」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0013",
+      "type": "vocabulary",
+      "prompt": "选择与「恭维，称赞 称赞」对应的英文单词：",
+      "options": [
+        "compliment",
+        "burden",
+        "warfare",
+        "disposition"
+      ],
+      "answer": 0,
+      "explanation": "compliment 意为「恭维，称赞 称赞」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0014",
+      "type": "vocabulary",
+      "prompt": "选择与「认为，相信，视为」对应的英文单词：",
+      "options": [
+        "defendant",
+        "deem",
+        "scale",
+        "erroneous"
+      ],
+      "answer": 1,
+      "explanation": "deem 意为「认为，相信，视为」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0015",
+      "type": "vocabulary",
+      "prompt": "选择与「分数，小部分，片断，碎片，一点」对应的英文单词：",
+      "options": [
+        "preferable",
+        "thermal",
+        "fraction",
+        "scramble"
+      ],
+      "answer": 2,
+      "explanation": "fraction 意为「分数，小部分，片断，碎片，一点」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0016",
+      "type": "vocabulary",
+      "prompt": "选择与「动物脂，脂肪，润滑脂 涂油脂于，用油脂润滑，使润滑」对应的英文单词：",
+      "options": [
+        "shed",
+        "grease",
+        "ancient",
+        "optimism"
+      ],
+      "answer": 1,
+      "explanation": "grease 意为「动物脂，脂肪，润滑脂 涂油脂于，用油脂润滑，使润滑」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 2
+    },
+    {
+      "id": "remote_05_0017",
+      "type": "vocabulary",
+      "prompt": "选择与「婴儿，幼儿」对应的英文单词：",
+      "options": [
+        "slum",
+        "infant",
+        "unfold",
+        "invalid"
+      ],
+      "answer": 1,
+      "explanation": "infant 意为「婴儿，幼儿」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0018",
+      "type": "vocabulary",
+      "prompt": "选择与「侵略性的， 攻击性的，爱寻衅的，有进取心的」对应的英文单词：",
+      "options": [
+        "background",
+        "aggressive",
+        "lever",
+        "condense"
+      ],
+      "answer": 1,
+      "explanation": "aggressive 意为「侵略性的， 攻击性的，爱寻衅的，有进取心的」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0019",
+      "type": "vocabulary",
+      "prompt": "选择与「接待，欢迎，招待，招待会，欢迎会，接受，承认」对应的英文单词：",
+      "options": [
+        "sensible",
+        "complement",
+        "reception",
+        "murmur"
+      ],
+      "answer": 2,
+      "explanation": "reception 意为「接待，欢迎，招待，招待会，欢迎会，接受，承认」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0020",
+      "type": "vocabulary",
+      "prompt": "选择与「把 抛向空中，捻，快速地翻转 猛然移动，大怒，强烈地反应 轻弹 打、抛」对应的英文单词：",
+      "options": [
+        "prevail",
+        "clarity",
+        "flip",
+        "hesitate"
+      ],
+      "answer": 2,
+      "explanation": "flip 意为「把 抛向空中，捻，快速地翻转 猛然移动，大怒，强烈地反应 轻弹 打、抛」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0021",
+      "type": "vocabulary",
+      "prompt": "选择与「钻孔机，钻头，操练，训练，打眼，钻孔，操练，训练」对应的英文单词：",
+      "options": [
+        "endurance",
+        "drill",
+        "mingle",
+        "discrete"
+      ],
+      "answer": 1,
+      "explanation": "drill 意为「钻孔机，钻头，操练，训练，打眼，钻孔，操练，训练」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 3
+    },
+    {
+      "id": "remote_05_0022",
+      "type": "vocabulary",
+      "prompt": "选择与「授权，批准，委托」对应的英文单词：",
+      "options": [
+        "numerous",
+        "grin",
+        "authorize",
+        "cannon"
+      ],
+      "answer": 2,
+      "explanation": "authorize 意为「授权，批准，委托」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0023",
+      "type": "vocabulary",
+      "prompt": "选择与「最有意思 最精彩 的部分，绘画、摄影等上的 亮部 对 以特别的注意，强调」对应的英文单词：",
+      "options": [
+        "economical",
+        "smuggle",
+        "spiral",
+        "highlight"
+      ],
+      "answer": 3,
+      "explanation": "highlight 意为「最有意思 最精彩 的部分，绘画、摄影等上的 亮部 对 以特别的注意，强调」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0024",
+      "type": "vocabulary",
+      "prompt": "选择与「驱逐，开除，排出 气等」对应的英文单词：",
+      "options": [
+        "expel",
+        "oath",
+        "bronze",
+        "institution"
+      ],
+      "answer": 0,
+      "explanation": "expel 意为「驱逐，开除，排出 气等」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0025",
+      "type": "vocabulary",
+      "prompt": "选择与「娱乐，消遣」对应的英文单词：",
+      "options": [
+        "relief",
+        "brutal",
+        "stock",
+        "recreation"
+      ],
+      "answer": 3,
+      "explanation": "recreation 意为「娱乐，消遣」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0026",
+      "type": "vocabulary",
+      "prompt": "选择与「消费者」对应的英文单词：",
+      "options": [
+        "constituent",
+        "champion",
+        "consumer",
+        "scorn"
+      ],
+      "answer": 2,
+      "explanation": "consumer 意为「消费者」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 2
+    },
+    {
+      "id": "remote_05_0027",
+      "type": "vocabulary",
+      "prompt": "选择与「在头顶上 的 ，在上面 的」对应的英文单词：",
+      "options": [
+        "overhead",
+        "lame",
+        "modify",
+        "exclaim"
+      ],
+      "answer": 0,
+      "explanation": "overhead 意为「在头顶上 的 ，在上面 的」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0028",
+      "type": "vocabulary",
+      "prompt": "选择与「喘气，喘息，透不过气，气吁吁地说 喘气，喘息」对应的英文单词：",
+      "options": [
+        "gasp",
+        "summon",
+        "remain",
+        "likelihood"
+      ],
+      "answer": 0,
+      "explanation": "gasp 意为「喘气，喘息，透不过气，气吁吁地说 喘气，喘息」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0029",
+      "type": "vocabulary",
+      "prompt": "选择与「同意，准予 补助等 授予 权利等 认为某事当然 同意，准许，授予」对应的英文单词：",
+      "options": [
+        "grant",
+        "combine",
+        "graduate",
+        "council"
+      ],
+      "answer": 0,
+      "explanation": "grant 意为「同意，准予 补助等 授予 权利等 认为某事当然 同意，准许，授予」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0030",
+      "type": "vocabulary",
+      "prompt": "选择与「听众，观众，接见，会见」对应的英文单词：",
+      "options": [
+        "audience",
+        "contend",
+        "management",
+        "tract"
+      ],
+      "answer": 0,
+      "explanation": "audience 意为「听众，观众，接见，会见」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0031",
+      "type": "vocabulary",
+      "prompt": "选择与「小型公共汽车，小巴」对应的英文单词：",
+      "options": [
+        "involve",
+        "minibus",
+        "lunar",
+        "weary"
+      ],
+      "answer": 1,
+      "explanation": "minibus 意为「小型公共汽车，小巴」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 3
+    },
+    {
+      "id": "remote_05_0032",
+      "type": "vocabulary",
+      "prompt": "选择与「花费，用光」对应的英文单词：",
+      "options": [
+        "expend",
+        "account",
+        "reassure",
+        "infectious"
+      ],
+      "answer": 0,
+      "explanation": "expend 意为「花费，用光」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0033",
+      "type": "vocabulary",
+      "prompt": "选择与「尽管，还是」对应的英文单词：",
+      "options": [
+        "rank",
+        "thrive",
+        "deliberate",
+        "notwithstanding"
+      ],
+      "answer": 3,
+      "explanation": "notwithstanding 意为「尽管，还是」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0034",
+      "type": "vocabulary",
+      "prompt": "选择与「部分，片，片段 分割」对应的英文单词：",
+      "options": [
+        "deceive",
+        "flatter",
+        "segment",
+        "legislation"
+      ],
+      "answer": 2,
+      "explanation": "segment 意为「部分，片，片段 分割」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0035",
+      "type": "vocabulary",
+      "prompt": "选择与「相当的，一致的，通信的」对应的英文单词：",
+      "options": [
+        "nil",
+        "financial",
+        "insight",
+        "corresponding"
+      ],
+      "answer": 3,
+      "explanation": "corresponding 意为「相当的，一致的，通信的」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0036",
+      "type": "vocabulary",
+      "prompt": "选择与「即将发生的，即将来到的，现成的，随要随有的，乐于助人的」对应的英文单词：",
+      "options": [
+        "flush",
+        "thorn",
+        "presumably",
+        "forthcoming"
+      ],
+      "answer": 3,
+      "explanation": "forthcoming 意为「即将发生的，即将来到的，现成的，随要随有的，乐于助人的」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 2
+    },
+    {
+      "id": "remote_05_0037",
+      "type": "vocabulary",
+      "prompt": "选择与「橱柜，私室，小房间，盥洗室，厕所」对应的英文单词：",
+      "options": [
+        "ethnic",
+        "trend",
+        "closet",
+        "glow"
+      ],
+      "answer": 2,
+      "explanation": "closet 意为「橱柜，私室，小房间，盥洗室，厕所」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0038",
+      "type": "vocabulary",
+      "prompt": "选择与「经济 体系，节约，节省，简练 便宜的，经济的，二等的」对应的英文单词：",
+      "options": [
+        "economy",
+        "cafeteria",
+        "credible",
+        "behave"
+      ],
+      "answer": 0,
+      "explanation": "economy 意为「经济 体系，节约，节省，简练 便宜的，经济的，二等的」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0039",
+      "type": "vocabulary",
+      "prompt": "选择与「职员，办事员，书记员，管理员，店员」对应的英文单词：",
+      "options": [
+        "bust",
+        "clerk",
+        "inhabit",
+        "contrive"
+      ],
+      "answer": 1,
+      "explanation": "clerk 意为「职员，办事员，书记员，管理员，店员」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0040",
+      "type": "vocabulary",
+      "prompt": "选择与「区别，辨别，有差别的对待 有区别的，有差别的，有识别力的」对应的英文单词：",
+      "options": [
+        "cope",
+        "convenience",
+        "default",
+        "discriminate"
+      ],
+      "answer": 3,
+      "explanation": "discriminate 意为「区别，辨别，有差别的对待 有区别的，有差别的，有识别力的」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0041",
+      "type": "vocabulary",
+      "prompt": "选择与「奉承，恭维，使高兴，使满意」对应的英文单词：",
+      "options": [
+        "flatter",
+        "oxygen",
+        "mission",
+        "hawk"
+      ],
+      "answer": 0,
+      "explanation": "flatter 意为「奉承，恭维，使高兴，使满意」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 3
+    },
+    {
+      "id": "remote_05_0042",
+      "type": "vocabulary",
+      "prompt": "选择与「使和解，使和好，调和，使一致」对应的英文单词：",
+      "options": [
+        "reconcile",
+        "dizzy",
+        "alternate",
+        "manifest"
+      ],
+      "answer": 0,
+      "explanation": "reconcile 意为「使和解，使和好，调和，使一致」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0043",
+      "type": "vocabulary",
+      "prompt": "选择与「阻挠，使挫败」对应的英文单词：",
+      "options": [
+        "series",
+        "foil",
+        "consist",
+        "illustrate"
+      ],
+      "answer": 1,
+      "explanation": "foil 意为「阻挠，使挫败」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0044",
+      "type": "vocabulary",
+      "prompt": "选择与「瘫痪，使麻痹」对应的英文单词：",
+      "options": [
+        "sponge",
+        "consist",
+        "paralyze",
+        "skeptical"
+      ],
+      "answer": 2,
+      "explanation": "paralyze 意为「瘫痪，使麻痹」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0045",
+      "type": "vocabulary",
+      "prompt": "选择与「电讯，远距离通讯，无线电通讯」对应的英文单词：",
+      "options": [
+        "advocate",
+        "perfume",
+        "discrepancy",
+        "telecommunication"
+      ],
+      "answer": 3,
+      "explanation": "telecommunication 意为「电讯，远距离通讯，无线电通讯」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0046",
+      "type": "vocabulary",
+      "prompt": "选择与「温和的，温暖的，味淡的，轻微的」对应的英文单词：",
+      "options": [
+        "counter",
+        "complex",
+        "mild",
+        "orbit"
+      ],
+      "answer": 2,
+      "explanation": "mild 意为「温和的，温暖的，味淡的，轻微的」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 2
+    },
+    {
+      "id": "remote_05_0047",
+      "type": "vocabulary",
+      "prompt": "选择与「路障，街垒 设路障，封闭，拦阻」对应的英文单词：",
+      "options": [
+        "dramatic",
+        "mingle",
+        "barricade",
+        "clash"
+      ],
+      "answer": 2,
+      "explanation": "barricade 意为「路障，街垒 设路障，封闭，拦阻」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0048",
+      "type": "vocabulary",
+      "prompt": "选择与「利用」对应的英文单词：",
+      "options": [
+        "interrupt",
+        "contaminate",
+        "fusion",
+        "avail"
+      ],
+      "answer": 3,
+      "explanation": "avail 意为「利用」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0049",
+      "type": "vocabulary",
+      "prompt": "选择与「统治，支配，势力范围，朝代，在位期间」对应的英文单词：",
+      "options": [
+        "presumably",
+        "reign",
+        "aesthetic",
+        "frequency"
+      ],
+      "answer": 1,
+      "explanation": "reign 意为「统治，支配，势力范围，朝代，在位期间」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0050",
+      "type": "vocabulary",
+      "prompt": "选择与「平头钉，大头钉，思路，行动方针，以大头针钉住，附加」对应的英文单词：",
+      "options": [
+        "watt",
+        "tack",
+        "concept",
+        "volunteer"
+      ],
+      "answer": 1,
+      "explanation": "tack 意为「平头钉，大头钉，思路，行动方针，以大头针钉住，附加」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0051",
+      "type": "vocabulary",
+      "prompt": "选择与「不给，拒绝」对应的英文单词：",
+      "options": [
+        "acquire",
+        "withhold",
+        "luggage",
+        "practicable"
+      ],
+      "answer": 1,
+      "explanation": "withhold 意为「不给，拒绝」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 3
+    },
+    {
+      "id": "remote_05_0052",
+      "type": "vocabulary",
+      "prompt": "选择与「暗中 摸索，探索 摸索」对应的英文单词：",
+      "options": [
+        "grope",
+        "random",
+        "similar",
+        "electric"
+      ],
+      "answer": 0,
+      "explanation": "grope 意为「暗中 摸索，探索 摸索」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0053",
+      "type": "vocabulary",
+      "prompt": "选择与「抱怨，叫屈，控诉」对应的英文单词：",
+      "options": [
+        "rap",
+        "remedy",
+        "ozone",
+        "complain"
+      ],
+      "answer": 3,
+      "explanation": "complain 意为「抱怨，叫屈，控诉」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0054",
+      "type": "vocabulary",
+      "prompt": "选择与「强调，着重，加强」对应的英文单词：",
+      "options": [
+        "emphasize",
+        "legal",
+        "booklet",
+        "pore"
+      ],
+      "answer": 0,
+      "explanation": "emphasize 意为「强调，着重，加强」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0055",
+      "type": "vocabulary",
+      "prompt": "选择与「言行 谨慎的，慎重的，不显眼的」对应的英文单词：",
+      "options": [
+        "settlement",
+        "discreet",
+        "extinct",
+        "emerge"
+      ],
+      "answer": 1,
+      "explanation": "discreet 意为「言行 谨慎的，慎重的，不显眼的」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0056",
+      "type": "vocabulary",
+      "prompt": "选择与「制造业者，厂商，制造商」对应的英文单词：",
+      "options": [
+        "fling",
+        "remain",
+        "skeleton",
+        "manufacturer"
+      ],
+      "answer": 3,
+      "explanation": "manufacturer 意为「制造业者，厂商，制造商」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 2
+    },
+    {
+      "id": "remote_05_0057",
+      "type": "vocabulary",
+      "prompt": "选择与「行政 管理，政府」对应的英文单词：",
+      "options": [
+        "constant",
+        "aggregate",
+        "administration",
+        "feasible"
+      ],
+      "answer": 2,
+      "explanation": "administration 意为「行政 管理，政府」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0058",
+      "type": "vocabulary",
+      "prompt": "选择与「大炮，炮兵部队」对应的英文单词：",
+      "options": [
+        "converge",
+        "rhythm",
+        "artillery",
+        "geology"
+      ],
+      "answer": 2,
+      "explanation": "artillery 意为「大炮，炮兵部队」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0059",
+      "type": "vocabulary",
+      "prompt": "选择与「此后，其后」对应的英文单词：",
+      "options": [
+        "evolution",
+        "thereafter",
+        "flat",
+        "oath"
+      ],
+      "answer": 1,
+      "explanation": "thereafter 意为「此后，其后」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0060",
+      "type": "vocabulary",
+      "prompt": "选择与「使 破碎，粉碎，打碎，猛撞，猛冲，猛击，痛击，打败，打破 记录等」对应的英文单词：",
+      "options": [
+        "illegal",
+        "smash",
+        "flaw",
+        "foil"
+      ],
+      "answer": 1,
+      "explanation": "smash 意为「使 破碎，粉碎，打碎，猛撞，猛冲，猛击，痛击，打败，打破 记录等」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0061",
+      "type": "vocabulary",
+      "prompt": "选择与「洞，穴」对应的英文单词：",
+      "options": [
+        "cavity",
+        "champagne",
+        "criterion",
+        "retort"
+      ],
+      "answer": 0,
+      "explanation": "cavity 意为「洞，穴」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 3
+    },
+    {
+      "id": "remote_05_0062",
+      "type": "vocabulary",
+      "prompt": "选择与「知晓，察觉，意识到」对应的英文单词：",
+      "options": [
+        "continuity",
+        "adore",
+        "cardinal",
+        "aware"
+      ],
+      "answer": 3,
+      "explanation": "aware 意为「知晓，察觉，意识到」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0063",
+      "type": "vocabulary",
+      "prompt": "选择与「轴，轴心，轴线」对应的英文单词：",
+      "options": [
+        "axis",
+        "compromise",
+        "addition",
+        "rival"
+      ],
+      "answer": 0,
+      "explanation": "axis 意为「轴，轴心，轴线」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0064",
+      "type": "vocabulary",
+      "prompt": "选择与「聪明的，理智的，明智的」对应的英文单词：",
+      "options": [
+        "reciprocal",
+        "mistress",
+        "oak",
+        "intelligent"
+      ],
+      "answer": 3,
+      "explanation": "intelligent 意为「聪明的，理智的，明智的」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0065",
+      "type": "vocabulary",
+      "prompt": "选择与「道路、桥梁等的 通行税，因疾病、不幸等而付出的 代价，伤亡，损失」对应的英文单词：",
+      "options": [
+        "chapel",
+        "toll",
+        "exchange",
+        "species"
+      ],
+      "answer": 1,
+      "explanation": "toll 意为「道路、桥梁等的 通行税，因疾病、不幸等而付出的 代价，伤亡，损失」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0066",
+      "type": "vocabulary",
+      "prompt": "选择与「补充物资，接替人员，替班，中继器，继电器，中继，转播，接力赛，转播的无线电节目 重新放置，再铺设」对应的英文单词：",
+      "options": [
+        "preside",
+        "relay",
+        "federal",
+        "independence"
+      ],
+      "answer": 1,
+      "explanation": "relay 意为「补充物资，接替人员，替班，中继器，继电器，中继，转播，接力赛，转播的无线电节目 重新放置，再铺设」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 2
+    },
+    {
+      "id": "remote_05_0067",
+      "type": "vocabulary",
+      "prompt": "选择与「奉献，把 专用于 献身于，致力于， 沉溺于」对应的英文单词：",
+      "options": [
+        "menace",
+        "eternal",
+        "devote",
+        "annoy"
+      ],
+      "answer": 2,
+      "explanation": "devote 意为「奉献，把 专用于 献身于，致力于， 沉溺于」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0068",
+      "type": "vocabulary",
+      "prompt": "选择与「倾向，趋势」对应的英文单词：",
+      "options": [
+        "integral",
+        "arrangement",
+        "tendency",
+        "thigh"
+      ],
+      "answer": 2,
+      "explanation": "tendency 意为「倾向，趋势」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0069",
+      "type": "vocabulary",
+      "prompt": "选择与「家庭，户 家庭的，家常的，普通的」对应的英文单词：",
+      "options": [
+        "pedal",
+        "modest",
+        "alleviate",
+        "household"
+      ],
+      "answer": 3,
+      "explanation": "household 意为「家庭，户 家庭的，家常的，普通的」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0070",
+      "type": "vocabulary",
+      "prompt": "选择与「召集会议」对应的英文单词：",
+      "options": [
+        "convene",
+        "heritage",
+        "execution",
+        "indulge"
+      ],
+      "answer": 0,
+      "explanation": "convene 意为「召集会议」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0071",
+      "type": "vocabulary",
+      "prompt": "选择与「起始的，初步的，创始的，进取心，首创精神，倡议，主动性，主动权 主动地 采取主动，首先采取行动」对应的英文单词：",
+      "options": [
+        "quest",
+        "initiative",
+        "distort",
+        "illustrate"
+      ],
+      "answer": 1,
+      "explanation": "initiative 意为「起始的，初步的，创始的，进取心，首创精神，倡议，主动性，主动权 主动地 采取主动，首先采取行动」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 3
+    },
+    {
+      "id": "remote_05_0072",
+      "type": "vocabulary",
+      "prompt": "选择与「专题 研讨会，讨论会」对应的英文单词：",
+      "options": [
+        "zinc",
+        "symposium",
+        "clockwise",
+        "plausible"
+      ],
+      "answer": 1,
+      "explanation": "symposium 意为「专题 研讨会，讨论会」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0073",
+      "type": "vocabulary",
+      "prompt": "选择与「中立的，中性的」对应的英文单词：",
+      "options": [
+        "strain",
+        "gross",
+        "neutral",
+        "ballet"
+      ],
+      "answer": 2,
+      "explanation": "neutral 意为「中立的，中性的」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0074",
+      "type": "vocabulary",
+      "prompt": "选择与「履行，执行，演出」对应的英文单词：",
+      "options": [
+        "performance",
+        "classification",
+        "verge",
+        "therefore"
+      ],
+      "answer": 0,
+      "explanation": "performance 意为「履行，执行，演出」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0075",
+      "type": "vocabulary",
+      "prompt": "选择与「祖先，祖宗」对应的英文单词：",
+      "options": [
+        "sheer",
+        "glamour",
+        "aspect",
+        "ancestor"
+      ],
+      "answer": 3,
+      "explanation": "ancestor 意为「祖先，祖宗」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0076",
+      "type": "vocabulary",
+      "prompt": "选择与「单调乏味的，令人厌倦的」对应的英文单词：",
+      "options": [
+        "boring",
+        "olive",
+        "complain",
+        "compartment"
+      ],
+      "answer": 0,
+      "explanation": "boring 意为「单调乏味的，令人厌倦的」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 2
+    },
+    {
+      "id": "remote_05_0077",
+      "type": "vocabulary",
+      "prompt": "选择与「探险，远征，远征军，探险队」对应的英文单词：",
+      "options": [
+        "expedition",
+        "loom",
+        "oppress",
+        "trial"
+      ],
+      "answer": 0,
+      "explanation": "expedition 意为「探险，远征，远征军，探险队」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0078",
+      "type": "vocabulary",
+      "prompt": "选择与「使 燃烧，点燃」对应的英文单词：",
+      "options": [
+        "ignite",
+        "entitle",
+        "pledge",
+        "dwell"
+      ],
+      "answer": 0,
+      "explanation": "ignite 意为「使 燃烧，点燃」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0079",
+      "type": "vocabulary",
+      "prompt": "选择与「忠诚的，忠实的」对应的英文单词：",
+      "options": [
+        "resemblance",
+        "remain",
+        "discard",
+        "loyal"
+      ],
+      "answer": 3,
+      "explanation": "loyal 意为「忠诚的，忠实的」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0080",
+      "type": "vocabulary",
+      "prompt": "选择与「泡沫， 马等的 涎沫 大汗 ，白沫，泡沫材料，起泡沫，冒汗，吐白沫，唾沫四溅」对应的英文单词：",
+      "options": [
+        "foam",
+        "humble",
+        "stack",
+        "chip"
+      ],
+      "answer": 0,
+      "explanation": "foam 意为「泡沫， 马等的 涎沫 大汗 ，白沫，泡沫材料，起泡沫，冒汗，吐白沫，唾沫四溅」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0081",
+      "type": "vocabulary",
+      "prompt": "选择与「猛地摇晃，急拉，急抽」对应的英文单词：",
+      "options": [
+        "watt",
+        "jerk",
+        "galaxy",
+        "modify"
+      ],
+      "answer": 1,
+      "explanation": "jerk 意为「猛地摇晃，急拉，急抽」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 3
+    },
+    {
+      "id": "remote_05_0082",
+      "type": "vocabulary",
+      "prompt": "选择与「行为，举止」对应的英文单词：",
+      "options": [
+        "axis",
+        "behavior",
+        "cable",
+        "gross"
+      ],
+      "answer": 1,
+      "explanation": "behavior 意为「行为，举止」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0083",
+      "type": "vocabulary",
+      "prompt": "选择与「熄灭，扑灭，破灭，幻灭，使消亡，压制，压抑」对应的英文单词：",
+      "options": [
+        "extinguish",
+        "ornament",
+        "enthusiastic",
+        "cannon"
+      ],
+      "answer": 0,
+      "explanation": "extinguish 意为「熄灭，扑灭，破灭，幻灭，使消亡，压制，压抑」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0084",
+      "type": "vocabulary",
+      "prompt": "选择与「活跃的，轻快的，天气等 清新的，令人爽快的，兴旺的，生气勃勃的，使活泼，使活跃，兴旺，活泼起来，兴旺起来」对应的英文单词：",
+      "options": [
+        "syndrome",
+        "brisk",
+        "crowd",
+        "toll"
+      ],
+      "answer": 1,
+      "explanation": "brisk 意为「活跃的，轻快的，天气等 清新的，令人爽快的，兴旺的，生气勃勃的，使活泼，使活跃，兴旺，活泼起来，兴旺起来」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0085",
+      "type": "vocabulary",
+      "prompt": "选择与「识字，会读会写，有学识」对应的英文单词：",
+      "options": [
+        "salute",
+        "literacy",
+        "suspicion",
+        "tedious"
+      ],
+      "answer": 1,
+      "explanation": "literacy 意为「识字，会读会写，有学识」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0086",
+      "type": "vocabulary",
+      "prompt": "选择与「书面或口头的 证词 尤指发誓后作出的，对事物的 见证或证明」对应的英文单词：",
+      "options": [
+        "testimony",
+        "reel",
+        "mistress",
+        "concede"
+      ],
+      "answer": 0,
+      "explanation": "testimony 意为「书面或口头的 证词 尤指发誓后作出的，对事物的 见证或证明」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 2
+    },
+    {
+      "id": "remote_05_0087",
+      "type": "vocabulary",
+      "prompt": "选择与「踏板 踩踏板，骑 车」对应的英文单词：",
+      "options": [
+        "solemn",
+        "abandon",
+        "pedal",
+        "background"
+      ],
+      "answer": 2,
+      "explanation": "pedal 意为「踏板 踩踏板，骑 车」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0088",
+      "type": "vocabulary",
+      "prompt": "选择与「排水系统」对应的英文单词：",
+      "options": [
+        "instinct",
+        "drainage",
+        "project",
+        "murmur"
+      ],
+      "answer": 1,
+      "explanation": "drainage 意为「排水系统」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0089",
+      "type": "vocabulary",
+      "prompt": "选择与「退步的，退化的，堕落的 堕落者，腐化者 退化，衰败，堕落」对应的英文单词：",
+      "options": [
+        "degenerate",
+        "portray",
+        "embark",
+        "bang"
+      ],
+      "answer": 0,
+      "explanation": "degenerate 意为「退步的，退化的，堕落的 堕落者，腐化者 退化，衰败，堕落」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0090",
+      "type": "vocabulary",
+      "prompt": "选择与「地形，地势」对应的英文单词：",
+      "options": [
+        "terrain",
+        "tuition",
+        "visa",
+        "reassure"
+      ],
+      "answer": 0,
+      "explanation": "terrain 意为「地形，地势」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0091",
+      "type": "vocabulary",
+      "prompt": "选择与「连续的，接续的」对应的英文单词：",
+      "options": [
+        "consultant",
+        "narrative",
+        "prohibit",
+        "consecutive"
+      ],
+      "answer": 3,
+      "explanation": "consecutive 意为「连续的，接续的」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 3
+    },
+    {
+      "id": "remote_05_0092",
+      "type": "vocabulary",
+      "prompt": "选择与「保证，保证书 保证，担保」对应的英文单词：",
+      "options": [
+        "guarantee",
+        "resemblance",
+        "competence",
+        "dome"
+      ],
+      "answer": 0,
+      "explanation": "guarantee 意为「保证，保证书 保证，担保」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0093",
+      "type": "vocabulary",
+      "prompt": "选择与「神话，神话式的人 或物，虚构的故事，荒诞的说法」对应的英文单词：",
+      "options": [
+        "disregard",
+        "myth",
+        "frequent",
+        "participant"
+      ],
+      "answer": 1,
+      "explanation": "myth 意为「神话，神话式的人 或物，虚构的故事，荒诞的说法」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0094",
+      "type": "vocabulary",
+      "prompt": "选择与「珍珠，珍珠色，珍品」对应的英文单词：",
+      "options": [
+        "pearl",
+        "adolescent",
+        "periodical",
+        "innumerable"
+      ],
+      "answer": 0,
+      "explanation": "pearl 意为「珍珠，珍珠色，珍品」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0095",
+      "type": "vocabulary",
+      "prompt": "选择与「优势，益处，利益 利用，乘 机 对某人有利」对应的英文单词：",
+      "options": [
+        "advantage",
+        "lever",
+        "revolutionary",
+        "demonstrate"
+      ],
+      "answer": 0,
+      "explanation": "advantage 意为「优势，益处，利益 利用，乘 机 对某人有利」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0096",
+      "type": "vocabulary",
+      "prompt": "选择与「将 人或动物 打昏 尤指击打头部，使目瞪口呆，使吃惊，令人喜悦」对应的英文单词：",
+      "options": [
+        "stun",
+        "cater",
+        "accumulate",
+        "scrub"
+      ],
+      "answer": 0,
+      "explanation": "stun 意为「将 人或动物 打昏 尤指击打头部，使目瞪口呆，使吃惊，令人喜悦」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 2
+    },
+    {
+      "id": "remote_05_0097",
+      "type": "vocabulary",
+      "prompt": "选择与「天鹅绒 天鹅绒的，如天鹅绒的，柔软的，光滑的」对应的英文单词：",
+      "options": [
+        "nominal",
+        "ensue",
+        "artificial",
+        "velvet"
+      ],
+      "answer": 3,
+      "explanation": "velvet 意为「天鹅绒 天鹅绒的，如天鹅绒的，柔软的，光滑的」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0098",
+      "type": "vocabulary",
+      "prompt": "选择与「双的，双重的」对应的英文单词：",
+      "options": [
+        "solo",
+        "modest",
+        "incredible",
+        "dual"
+      ],
+      "answer": 3,
+      "explanation": "dual 意为「双的，双重的」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0099",
+      "type": "vocabulary",
+      "prompt": "选择与「轻视，轻蔑」对应的英文单词：",
+      "options": [
+        "bug",
+        "prototype",
+        "contempt",
+        "canon"
+      ],
+      "answer": 2,
+      "explanation": "contempt 意为「轻视，轻蔑」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0100",
+      "type": "vocabulary",
+      "prompt": "选择与「前途，前景，情景，景色，指望，预期」对应的英文单词：",
+      "options": [
+        "original",
+        "considerate",
+        "manufacturer",
+        "prospect"
+      ],
+      "answer": 3,
+      "explanation": "prospect 意为「前途，前景，情景，景色，指望，预期」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0101",
+      "type": "vocabulary",
+      "prompt": "选择与「根据权利 要求，认领，索取，声称，主张，根据权利而提出的 要求，对某事物的 权利，所有权」对应的英文单词：",
+      "options": [
+        "startle",
+        "grip",
+        "mass",
+        "claim"
+      ],
+      "answer": 3,
+      "explanation": "claim 意为「根据权利 要求，认领，索取，声称，主张，根据权利而提出的 要求，对某事物的 权利，所有权」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 3
+    },
+    {
+      "id": "remote_05_0102",
+      "type": "vocabulary",
+      "prompt": "选择与「资料库，数据库」对应的英文单词：",
+      "options": [
+        "database",
+        "ore",
+        "eliminate",
+        "chunk"
+      ],
+      "answer": 0,
+      "explanation": "database 意为「资料库，数据库」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0103",
+      "type": "vocabulary",
+      "prompt": "选择与「节奏，韵律，有规律的重复」对应的英文单词：",
+      "options": [
+        "pasture",
+        "rhythm",
+        "infant",
+        "volume"
+      ],
+      "answer": 1,
+      "explanation": "rhythm 意为「节奏，韵律，有规律的重复」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0104",
+      "type": "vocabulary",
+      "prompt": "选择与「缘故 为了 的利益或好处，为了 起见」对应的英文单词：",
+      "options": [
+        "staple",
+        "costume",
+        "sake",
+        "parasite"
+      ],
+      "answer": 2,
+      "explanation": "sake 意为「缘故 为了 的利益或好处，为了 起见」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0105",
+      "type": "vocabulary",
+      "prompt": "选择与「使公式化，确切地表述，构想，制订」对应的英文单词：",
+      "options": [
+        "formulate",
+        "flush",
+        "incident",
+        "bug"
+      ],
+      "answer": 0,
+      "explanation": "formulate 意为「使公式化，确切地表述，构想，制订」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0106",
+      "type": "vocabulary",
+      "prompt": "选择与「厄运，不幸」对应的英文单词：",
+      "options": [
+        "genetic",
+        "hostile",
+        "misfortune",
+        "label"
+      ],
+      "answer": 2,
+      "explanation": "misfortune 意为「厄运，不幸」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 2
+    },
+    {
+      "id": "remote_05_0107",
+      "type": "vocabulary",
+      "prompt": "选择与「纯洁，纯净，纯粹」对应的英文单词：",
+      "options": [
+        "decisive",
+        "crime",
+        "purity",
+        "radiant"
+      ],
+      "answer": 2,
+      "explanation": "purity 意为「纯洁，纯净，纯粹」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0108",
+      "type": "vocabulary",
+      "prompt": "选择与「符合逻辑的，逻辑上的」对应的英文单词：",
+      "options": [
+        "repay",
+        "domestic",
+        "spiral",
+        "logical"
+      ],
+      "answer": 3,
+      "explanation": "logical 意为「符合逻辑的，逻辑上的」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0109",
+      "type": "vocabulary",
+      "prompt": "选择与「聚在一起，挤作一团 杂乱的一群」对应的英文单词：",
+      "options": [
+        "huddle",
+        "fulfill",
+        "supplementary",
+        "recall"
+      ],
+      "answer": 0,
+      "explanation": "huddle 意为「聚在一起，挤作一团 杂乱的一群」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0110",
+      "type": "vocabulary",
+      "prompt": "选择与「容许的，可准许的」对应的英文单词：",
+      "options": [
+        "overhear",
+        "permissible",
+        "maximum",
+        "format"
+      ],
+      "answer": 1,
+      "explanation": "permissible 意为「容许的，可准许的」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0111",
+      "type": "vocabulary",
+      "prompt": "选择与「直觉，直观」对应的英文单词：",
+      "options": [
+        "visa",
+        "intuition",
+        "brilliant",
+        "lure"
+      ],
+      "answer": 1,
+      "explanation": "intuition 意为「直觉，直观」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 3
+    },
+    {
+      "id": "remote_05_0112",
+      "type": "vocabulary",
+      "prompt": "选择与「草本植物，药草，香草」对应的英文单词：",
+      "options": [
+        "legislation",
+        "propagate",
+        "herb",
+        "dole"
+      ],
+      "answer": 2,
+      "explanation": "herb 意为「草本植物，药草，香草」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0113",
+      "type": "vocabulary",
+      "prompt": "选择与「登高，上升，升高」对应的英文单词：",
+      "options": [
+        "catastrophe",
+        "appliance",
+        "ascend",
+        "provocative"
+      ],
+      "answer": 2,
+      "explanation": "ascend 意为「登高，上升，升高」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0114",
+      "type": "vocabulary",
+      "prompt": "选择与「稳步前进」对应的英文单词：",
+      "options": [
+        "drain",
+        "deviate",
+        "forge",
+        "kidney"
+      ],
+      "answer": 2,
+      "explanation": "forge 意为「稳步前进」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0115",
+      "type": "vocabulary",
+      "prompt": "选择与「揭露，透露，揭露出来 而始料未及 的事物」对应的英文单词：",
+      "options": [
+        "rigorous",
+        "revelation",
+        "establish",
+        "potential"
+      ],
+      "answer": 1,
+      "explanation": "revelation 意为「揭露，透露，揭露出来 而始料未及 的事物」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0116",
+      "type": "vocabulary",
+      "prompt": "选择与「严苛的，严格的，严厉的，严肃的」对应的英文单词：",
+      "options": [
+        "occupation",
+        "stern",
+        "arrange",
+        "edible"
+      ],
+      "answer": 1,
+      "explanation": "stern 意为「严苛的，严格的，严厉的，严肃的」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 2
+    },
+    {
+      "id": "remote_05_0117",
+      "type": "vocabulary",
+      "prompt": "选择与「称赞，赞扬，委托，托付」对应的英文单词：",
+      "options": [
+        "alien",
+        "brood",
+        "forge",
+        "commend"
+      ],
+      "answer": 3,
+      "explanation": "commend 意为「称赞，赞扬，委托，托付」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0118",
+      "type": "vocabulary",
+      "prompt": "选择与「主要的，首要的 校长」对应的英文单词：",
+      "options": [
+        "absurd",
+        "principal",
+        "knob",
+        "controversial"
+      ],
+      "answer": 1,
+      "explanation": "principal 意为「主要的，首要的 校长」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0119",
+      "type": "vocabulary",
+      "prompt": "选择与「因而，所以」对应的英文单词：",
+      "options": [
+        "token",
+        "transplant",
+        "delicate",
+        "consequently"
+      ],
+      "answer": 3,
+      "explanation": "consequently 意为「因而，所以」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0120",
+      "type": "vocabulary",
+      "prompt": "选择与「在浪涛中或如同波浪般前进，急剧上升，向前或向上的运动，突然发生，激增」对应的英文单词：",
+      "options": [
+        "neutral",
+        "deserve",
+        "surge",
+        "consistent"
+      ],
+      "answer": 2,
+      "explanation": "surge 意为「在浪涛中或如同波浪般前进，急剧上升，向前或向上的运动，突然发生，激增」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0121",
+      "type": "vocabulary",
+      "prompt": "选择与「清除，销毁，丢掉，处置，处理，布置 任某人处理，任某人支配」对应的英文单词：",
+      "options": [
+        "subsidiary",
+        "safeguard",
+        "rim",
+        "disposal"
+      ],
+      "answer": 3,
+      "explanation": "disposal 意为「清除，销毁，丢掉，处置，处理，布置 任某人处理，任某人支配」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 3
+    },
+    {
+      "id": "remote_05_0122",
+      "type": "vocabulary",
+      "prompt": "选择与「安全保障，保险，保险业，保险费」对应的英文单词：",
+      "options": [
+        "process",
+        "imitation",
+        "interact",
+        "insurance"
+      ],
+      "answer": 3,
+      "explanation": "insurance 意为「安全保障，保险，保险业，保险费」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0123",
+      "type": "vocabulary",
+      "prompt": "选择与「脆的，硬而易碎的，清新的，爽快的，干脆明确的 态度等」对应的英文单词：",
+      "options": [
+        "crisp",
+        "conceive",
+        "prey",
+        "hardy"
+      ],
+      "answer": 0,
+      "explanation": "crisp 意为「脆的，硬而易碎的，清新的，爽快的，干脆明确的 态度等」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0124",
+      "type": "vocabulary",
+      "prompt": "选择与「披肩」对应的英文单词：",
+      "options": [
+        "skip",
+        "analyse",
+        "cape",
+        "sour"
+      ],
+      "answer": 2,
+      "explanation": "cape 意为「披肩」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0125",
+      "type": "vocabulary",
+      "prompt": "选择与「思索，推测，投机，做投机生意」对应的英文单词：",
+      "options": [
+        "speculate",
+        "exotic",
+        "migrate",
+        "imaginative"
+      ],
+      "answer": 0,
+      "explanation": "speculate 意为「思索，推测，投机，做投机生意」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0126",
+      "type": "vocabulary",
+      "prompt": "选择与「深厚的，深刻的，深奥的，知识渊博的」对应的英文单词：",
+      "options": [
+        "profound",
+        "deem",
+        "grain",
+        "illustrate"
+      ],
+      "answer": 0,
+      "explanation": "profound 意为「深厚的，深刻的，深奥的，知识渊博的」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 2
+    },
+    {
+      "id": "remote_05_0127",
+      "type": "vocabulary",
+      "prompt": "选择与「柔韧的，易弯曲的，可变通的，灵活的，易适应的」对应的英文单词：",
+      "options": [
+        "hop",
+        "versatile",
+        "flexible",
+        "amplify"
+      ],
+      "answer": 2,
+      "explanation": "flexible 意为「柔韧的，易弯曲的，可变通的，灵活的，易适应的」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0128",
+      "type": "vocabulary",
+      "prompt": "选择与「订书钉 用订书钉订住」对应的英文单词：",
+      "options": [
+        "slip",
+        "booklet",
+        "staple",
+        "analogy"
+      ],
+      "answer": 2,
+      "explanation": "staple 意为「订书钉 用订书钉订住」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0129",
+      "type": "vocabulary",
+      "prompt": "选择与「最著名的，最重要的，最好的」对应的英文单词：",
+      "options": [
+        "foremost",
+        "rational",
+        "ascribe",
+        "midst"
+      ],
+      "answer": 0,
+      "explanation": "foremost 意为「最著名的，最重要的，最好的」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0130",
+      "type": "vocabulary",
+      "prompt": "选择与「推挤，推撞」对应的英文单词：",
+      "options": [
+        "pirate",
+        "shove",
+        "evil",
+        "heel"
+      ],
+      "answer": 1,
+      "explanation": "shove 意为「推挤，推撞」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0131",
+      "type": "vocabulary",
+      "prompt": "选择与「叫喊，叫嚷 叫喊声，呐喊」对应的英文单词：",
+      "options": [
+        "consistent",
+        "captive",
+        "fraction",
+        "yell"
+      ],
+      "answer": 3,
+      "explanation": "yell 意为「叫喊，叫嚷 叫喊声，呐喊」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 3
+    },
+    {
+      "id": "remote_05_0132",
+      "type": "vocabulary",
+      "prompt": "选择与「转移，转向，偏离，消遣，娱乐」对应的英文单词：",
+      "options": [
+        "distribution",
+        "diversion",
+        "burial",
+        "endeavor"
+      ],
+      "answer": 1,
+      "explanation": "diversion 意为「转移，转向，偏离，消遣，娱乐」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0133",
+      "type": "vocabulary",
+      "prompt": "选择与「继承 财产等 从 前人等 接过，得到」对应的英文单词：",
+      "options": [
+        "seam",
+        "flush",
+        "inherit",
+        "gigantic"
+      ],
+      "answer": 2,
+      "explanation": "inherit 意为「继承 财产等 从 前人等 接过，得到」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0134",
+      "type": "vocabulary",
+      "prompt": "选择与「地区，区域，领域，范围」对应的英文单词：",
+      "options": [
+        "avert",
+        "prospect",
+        "region",
+        "trademark"
+      ],
+      "answer": 2,
+      "explanation": "region 意为「地区，区域，领域，范围」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0135",
+      "type": "vocabulary",
+      "prompt": "选择与「摩擦 力 ，冲突，不和」对应的英文单词：",
+      "options": [
+        "instrumental",
+        "friction",
+        "finance",
+        "disturbance"
+      ],
+      "answer": 1,
+      "explanation": "friction 意为「摩擦 力 ，冲突，不和」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0136",
+      "type": "vocabulary",
+      "prompt": "选择与「描绘，描写，扮演」对应的英文单词：",
+      "options": [
+        "calorie",
+        "portray",
+        "incident",
+        "feasible"
+      ],
+      "answer": 1,
+      "explanation": "portray 意为「描绘，描写，扮演」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 2
+    },
+    {
+      "id": "remote_05_0137",
+      "type": "vocabulary",
+      "prompt": "选择与「明确的，详尽的，特定的，特指的」对应的英文单词：",
+      "options": [
+        "imaginary",
+        "object",
+        "specific",
+        "literacy"
+      ],
+      "answer": 2,
+      "explanation": "specific 意为「明确的，详尽的，特定的，特指的」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0138",
+      "type": "vocabulary",
+      "prompt": "选择与「施舍，少量分发」对应的英文单词：",
+      "options": [
+        "articulate",
+        "multitude",
+        "dole",
+        "instantaneous"
+      ],
+      "answer": 2,
+      "explanation": "dole 意为「施舍，少量分发」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0139",
+      "type": "vocabulary",
+      "prompt": "选择与「惬意的，爽快的，易相处的，适宜的，适合的」对应的英文单词：",
+      "options": [
+        "serial",
+        "proceedings",
+        "agreeable",
+        "pursue"
+      ],
+      "answer": 2,
+      "explanation": "agreeable 意为「惬意的，爽快的，易相处的，适宜的，适合的」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0140",
+      "type": "vocabulary",
+      "prompt": "选择与「背离，偏离，越 轨」对应的英文单词：",
+      "options": [
+        "deviate",
+        "absorb",
+        "sneak",
+        "executive"
+      ],
+      "answer": 0,
+      "explanation": "deviate 意为「背离，偏离，越 轨」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0141",
+      "type": "vocabulary",
+      "prompt": "选择与「电，电气，电学，电流，电力」对应的英文单词：",
+      "options": [
+        "plead",
+        "garment",
+        "avert",
+        "electricity"
+      ],
+      "answer": 3,
+      "explanation": "electricity 意为「电，电气，电学，电流，电力」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 3
+    },
+    {
+      "id": "remote_05_0142",
+      "type": "vocabulary",
+      "prompt": "选择与「讨论，会谈，正式的 会议，讨论会」对应的英文单词：",
+      "options": [
+        "contradiction",
+        "web",
+        "conference",
+        "response"
+      ],
+      "answer": 2,
+      "explanation": "conference 意为「讨论，会谈，正式的 会议，讨论会」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0143",
+      "type": "vocabulary",
+      "prompt": "选择与「使 慢慢流走，排出，把 弄干，喝干，使精疲力竭，排水沟 管，消耗， 人才等 外流 被浪费掉，化为乌有」对应的英文单词：",
+      "options": [
+        "drain",
+        "residential",
+        "impair",
+        "culture"
+      ],
+      "answer": 0,
+      "explanation": "drain 意为「使 慢慢流走，排出，把 弄干，喝干，使精疲力竭，排水沟 管，消耗， 人才等 外流 被浪费掉，化为乌有」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0144",
+      "type": "vocabulary",
+      "prompt": "选择与「战斗，格斗，反对，竞争 跟 战斗，反对」对应的英文单词：",
+      "options": [
+        "confidence",
+        "compulsory",
+        "combat",
+        "brink"
+      ],
+      "answer": 2,
+      "explanation": "combat 意为「战斗，格斗，反对，竞争 跟 战斗，反对」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0145",
+      "type": "vocabulary",
+      "prompt": "选择与「有吸引力的，诱人的，令人愉快的」对应的英文单词：",
+      "options": [
+        "gland",
+        "series",
+        "vocational",
+        "attractive"
+      ],
+      "answer": 3,
+      "explanation": "attractive 意为「有吸引力的，诱人的，令人愉快的」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0146",
+      "type": "vocabulary",
+      "prompt": "选择与「大都市的，首都的」对应的英文单词：",
+      "options": [
+        "norm",
+        "essence",
+        "metropolitan",
+        "float"
+      ],
+      "answer": 2,
+      "explanation": "metropolitan 意为「大都市的，首都的」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 2
+    },
+    {
+      "id": "remote_05_0147",
+      "type": "vocabulary",
+      "prompt": "选择与「一 罗 计量单位，等于 打」对应的英文单词：",
+      "options": [
+        "evaluate",
+        "gross",
+        "cholesterol",
+        "devote"
+      ],
+      "answer": 1,
+      "explanation": "gross 意为「一 罗 计量单位，等于 打」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0148",
+      "type": "vocabulary",
+      "prompt": "选择与「闪闪发光，闪烁，闪耀 闪光，闪耀，火花」对应的英文单词：",
+      "options": [
+        "witness",
+        "amend",
+        "sparkle",
+        "distinct"
+      ],
+      "answer": 2,
+      "explanation": "sparkle 意为「闪闪发光，闪烁，闪耀 闪光，闪耀，火花」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0149",
+      "type": "vocabulary",
+      "prompt": "选择与「利益，好处，恩惠，津贴，救济金，保险赔偿费 有益于」对应的英文单词：",
+      "options": [
+        "benefit",
+        "savage",
+        "clasp",
+        "promote"
+      ],
+      "answer": 0,
+      "explanation": "benefit 意为「利益，好处，恩惠，津贴，救济金，保险赔偿费 有益于」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0150",
+      "type": "vocabulary",
+      "prompt": "选择与「美学的，审美的，有美感的」对应的英文单词：",
+      "options": [
+        "aesthetic",
+        "suffice",
+        "ensue",
+        "mansion"
+      ],
+      "answer": 0,
+      "explanation": "aesthetic 意为「美学的，审美的，有美感的」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0151",
+      "type": "vocabulary",
+      "prompt": "选择与「主要的，基本的，标准的，某国家或地区买卖的 主要产品，主要成分，主要内容，主食」对应的英文单词：",
+      "options": [
+        "desirable",
+        "criticism",
+        "defendant",
+        "staple"
+      ],
+      "answer": 3,
+      "explanation": "staple 意为「主要的，基本的，标准的，某国家或地区买卖的 主要产品，主要成分，主要内容，主食」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 3
+    },
+    {
+      "id": "remote_05_0152",
+      "type": "vocabulary",
+      "prompt": "选择与「信任，信念，信仰，信条，信义，诚意，忠诚，保证，诺言，约定 信任」对应的英文单词：",
+      "options": [
+        "tub",
+        "transition",
+        "faith",
+        "cape"
+      ],
+      "answer": 2,
+      "explanation": "faith 意为「信任，信念，信仰，信条，信义，诚意，忠诚，保证，诺言，约定 信任」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0153",
+      "type": "vocabulary",
+      "prompt": "选择与「乐曲的 速度节拍，运动或活动的 速度，进度」对应的英文单词：",
+      "options": [
+        "leather",
+        "foil",
+        "tempo",
+        "artery"
+      ],
+      "answer": 2,
+      "explanation": "tempo 意为「乐曲的 速度节拍，运动或活动的 速度，进度」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0154",
+      "type": "vocabulary",
+      "prompt": "选择与「进入，介入，在其间，干涉，干预」对应的英文单词：",
+      "options": [
+        "intervene",
+        "mask",
+        "casual",
+        "minibus"
+      ],
+      "answer": 0,
+      "explanation": "intervene 意为「进入，介入，在其间，干涉，干预」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0155",
+      "type": "vocabulary",
+      "prompt": "选择与「绊脚，绊跌，蹒跚而行，行动不稳，结结巴巴地说 偶然碰见，偶尔发现」对应的英文单词：",
+      "options": [
+        "stumble",
+        "ammunition",
+        "temperament",
+        "scorn"
+      ],
+      "answer": 0,
+      "explanation": "stumble 意为「绊脚，绊跌，蹒跚而行，行动不稳，结结巴巴地说 偶然碰见，偶尔发现」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0156",
+      "type": "vocabulary",
+      "prompt": "选择与「容量，能力，资格，地位」对应的英文单词：",
+      "options": [
+        "electric",
+        "tuition",
+        "grieve",
+        "capacity"
+      ],
+      "answer": 3,
+      "explanation": "capacity 意为「容量，能力，资格，地位」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 2
+    },
+    {
+      "id": "remote_05_0157",
+      "type": "vocabulary",
+      "prompt": "选择与「坚持，坚决认为，坚决要求，强调」对应的英文单词：",
+      "options": [
+        "reaction",
+        "telecommunication",
+        "insist",
+        "interrupt"
+      ],
+      "answer": 2,
+      "explanation": "insist 意为「坚持，坚决认为，坚决要求，强调」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0158",
+      "type": "vocabulary",
+      "prompt": "选择与「复杂情况，并发症」对应的英文单词：",
+      "options": [
+        "cable",
+        "quest",
+        "complication",
+        "penguin"
+      ],
+      "answer": 2,
+      "explanation": "complication 意为「复杂情况，并发症」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0159",
+      "type": "vocabulary",
+      "prompt": "选择与「长时间的 搜寻，探求」对应的英文单词：",
+      "options": [
+        "quest",
+        "marsh",
+        "friction",
+        "contradict"
+      ],
+      "answer": 0,
+      "explanation": "quest 意为「长时间的 搜寻，探求」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0160",
+      "type": "vocabulary",
+      "prompt": "选择与「贿赂 贿赂，收买」对应的英文单词：",
+      "options": [
+        "divorce",
+        "vice",
+        "bribe",
+        "electron"
+      ],
+      "answer": 2,
+      "explanation": "bribe 意为「贿赂 贿赂，收买」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0161",
+      "type": "vocabulary",
+      "prompt": "选择与「自我，自负」对应的英文单词：",
+      "options": [
+        "recruit",
+        "ego",
+        "apartment",
+        "bust"
+      ],
+      "answer": 1,
+      "explanation": "ego 意为「自我，自负」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 3
+    },
+    {
+      "id": "remote_05_0162",
+      "type": "vocabulary",
+      "prompt": "选择与「值得注意的，显著的」对应的英文单词：",
+      "options": [
+        "quarterly",
+        "navigation",
+        "kidney",
+        "notable"
+      ],
+      "answer": 3,
+      "explanation": "notable 意为「值得注意的，显著的」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0163",
+      "type": "vocabulary",
+      "prompt": "选择与「总称 机器，机械，政府、政党等 机构」对应的英文单词：",
+      "options": [
+        "domestic",
+        "machinery",
+        "relative",
+        "contribution"
+      ],
+      "answer": 1,
+      "explanation": "machinery 意为「总称 机器，机械，政府、政党等 机构」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0164",
+      "type": "vocabulary",
+      "prompt": "选择与「要素，成分，元素，自然环境，适宜的环境，学科的 基本原则，原理，基础 很适应，得其所 不适应，不得其所」对应的英文单词：",
+      "options": [
+        "calcium",
+        "destined",
+        "element",
+        "drag"
+      ],
+      "answer": 2,
+      "explanation": "element 意为「要素，成分，元素，自然环境，适宜的环境，学科的 基本原则，原理，基础 很适应，得其所 不适应，不得其所」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0165",
+      "type": "vocabulary",
+      "prompt": "选择与「香槟酒」对应的英文单词：",
+      "options": [
+        "criminal",
+        "champagne",
+        "plunge",
+        "settlement"
+      ],
+      "answer": 1,
+      "explanation": "champagne 意为「香槟酒」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0166",
+      "type": "vocabulary",
+      "prompt": "选择与「尊严，高贵，体面，庄严，端庄，官阶，职位 有失某人身份 体面 坚持受到应有的礼遇，保持尊严」对应的英文单词：",
+      "options": [
+        "residential",
+        "participant",
+        "dignity",
+        "oak"
+      ],
+      "answer": 2,
+      "explanation": "dignity 意为「尊严，高贵，体面，庄严，端庄，官阶，职位 有失某人身份 体面 坚持受到应有的礼遇，保持尊严」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 2
+    },
+    {
+      "id": "remote_05_0167",
+      "type": "vocabulary",
+      "prompt": "选择与「关税，酒店、餐馆等的 价目表」对应的英文单词：",
+      "options": [
+        "caution",
+        "tariff",
+        "melody",
+        "lever"
+      ],
+      "answer": 1,
+      "explanation": "tariff 意为「关税，酒店、餐馆等的 价目表」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0168",
+      "type": "vocabulary",
+      "prompt": "选择与「地球的 极点，看法等 极端相反」对应的英文单词：",
+      "options": [
+        "flap",
+        "decent",
+        "flutter",
+        "pole"
+      ],
+      "answer": 3,
+      "explanation": "pole 意为「地球的 极点，看法等 极端相反」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0169",
+      "type": "vocabulary",
+      "prompt": "选择与「不明确的，模糊的，，不确定的，未定的，无限期的」对应的英文单词：",
+      "options": [
+        "indefinite",
+        "appropriate",
+        "hierarchy",
+        "armor"
+      ],
+      "answer": 0,
+      "explanation": "indefinite 意为「不明确的，模糊的，，不确定的，未定的，无限期的」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0170",
+      "type": "vocabulary",
+      "prompt": "选择与「蜘蛛网，网状物」对应的英文单词：",
+      "options": [
+        "obedient",
+        "beyond",
+        "web",
+        "spectator"
+      ],
+      "answer": 2,
+      "explanation": "web 意为「蜘蛛网，网状物」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0171",
+      "type": "vocabulary",
+      "prompt": "选择与「补充的，附加的，指角 补角的」对应的英文单词：",
+      "options": [
+        "sprinkle",
+        "tow",
+        "supplementary",
+        "crucial"
+      ],
+      "answer": 2,
+      "explanation": "supplementary 意为「补充的，附加的，指角 补角的」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 3
+    },
+    {
+      "id": "remote_05_0172",
+      "type": "vocabulary",
+      "prompt": "选择与「达到，完成，获得，实现，到达，至」对应的英文单词：",
+      "options": [
+        "attain",
+        "vice",
+        "sulfur",
+        "addition"
+      ],
+      "answer": 0,
+      "explanation": "attain 意为「达到，完成，获得，实现，到达，至」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0173",
+      "type": "vocabulary",
+      "prompt": "选择与「有法律责任的，有义务的，易于 的，有 倾向的」对应的英文单词：",
+      "options": [
+        "logical",
+        "liable",
+        "suburb",
+        "preach"
+      ],
+      "answer": 1,
+      "explanation": "liable 意为「有法律责任的，有义务的，易于 的，有 倾向的」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0174",
+      "type": "vocabulary",
+      "prompt": "选择与「意欲，渴望，愿望，要求，请求」对应的英文单词：",
+      "options": [
+        "desire",
+        "capacity",
+        "elegant",
+        "assimilate"
+      ],
+      "answer": 0,
+      "explanation": "desire 意为「意欲，渴望，愿望，要求，请求」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0175",
+      "type": "vocabulary",
+      "prompt": "选择与「使某物 乱作一团，使 纠缠， 使 混乱，乱七八糟的一堆，混乱」对应的英文单词：",
+      "options": [
+        "recipe",
+        "challenge",
+        "consistent",
+        "tangle"
+      ],
+      "answer": 3,
+      "explanation": "tangle 意为「使某物 乱作一团，使 纠缠， 使 混乱，乱七八糟的一堆，混乱」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0176",
+      "type": "vocabulary",
+      "prompt": "选择与「累积的，渐增的」对应的英文单词：",
+      "options": [
+        "resort",
+        "cumulative",
+        "gross",
+        "proximity"
+      ],
+      "answer": 1,
+      "explanation": "cumulative 意为「累积的，渐增的」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 2
+    },
+    {
+      "id": "remote_05_0177",
+      "type": "vocabulary",
+      "prompt": "选择与「混合成的，综合成的 合成物，复合材料」对应的英文单词：",
+      "options": [
+        "lofty",
+        "composite",
+        "layer",
+        "orient"
+      ],
+      "answer": 1,
+      "explanation": "composite 意为「混合成的，综合成的 合成物，复合材料」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0178",
+      "type": "vocabulary",
+      "prompt": "选择与「肠，内脏，内部，深处 挖 的内脏」对应的英文单词：",
+      "options": [
+        "bowel",
+        "groan",
+        "paradox",
+        "offset"
+      ],
+      "answer": 0,
+      "explanation": "bowel 意为「肠，内脏，内部，深处 挖 的内脏」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0179",
+      "type": "vocabulary",
+      "prompt": "选择与「预先，事先」对应的英文单词：",
+      "options": [
+        "beforehand",
+        "module",
+        "comply",
+        "transcend"
+      ],
+      "answer": 0,
+      "explanation": "beforehand 意为「预先，事先」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0180",
+      "type": "vocabulary",
+      "prompt": "选择与「讲道，布道，说教，宣扬」对应的英文单词：",
+      "options": [
+        "belly",
+        "poverty",
+        "current",
+        "preach"
+      ],
+      "answer": 3,
+      "explanation": "preach 意为「讲道，布道，说教，宣扬」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0181",
+      "type": "vocabulary",
+      "prompt": "选择与「遗传 学 的」对应的英文单词：",
+      "options": [
+        "brew",
+        "genetic",
+        "hug",
+        "dilemma"
+      ],
+      "answer": 1,
+      "explanation": "genetic 意为「遗传 学 的」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 3
+    },
+    {
+      "id": "remote_05_0182",
+      "type": "vocabulary",
+      "prompt": "选择与「漏勺，筛子 筛，筛分」对应的英文单词：",
+      "options": [
+        "proclaim",
+        "religion",
+        "sieve",
+        "depict"
+      ],
+      "answer": 2,
+      "explanation": "sieve 意为「漏勺，筛子 筛，筛分」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0183",
+      "type": "vocabulary",
+      "prompt": "选择与「汽车旅馆」对应的英文单词：",
+      "options": [
+        "refrain",
+        "wallet",
+        "motel",
+        "grieve"
+      ],
+      "answer": 2,
+      "explanation": "motel 意为「汽车旅馆」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0184",
+      "type": "vocabulary",
+      "prompt": "选择与「小册子，散页印刷品，传单」对应的英文单词：",
+      "options": [
+        "bypass",
+        "leaflet",
+        "offense",
+        "abolish"
+      ],
+      "answer": 1,
+      "explanation": "leaflet 意为「小册子，散页印刷品，传单」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0185",
+      "type": "vocabulary",
+      "prompt": "选择与「大量的，充裕的，丰富的 有丰富的，有大量的」对应的英文单词：",
+      "options": [
+        "jog",
+        "paradise",
+        "conflict",
+        "abundant"
+      ],
+      "answer": 3,
+      "explanation": "abundant 意为「大量的，充裕的，丰富的 有丰富的，有大量的」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0186",
+      "type": "vocabulary",
+      "prompt": "选择与「阻碍，妨碍」对应的英文单词：",
+      "options": [
+        "meadow",
+        "crime",
+        "hamper",
+        "criminal"
+      ],
+      "answer": 2,
+      "explanation": "hamper 意为「阻碍，妨碍」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 2
+    },
+    {
+      "id": "remote_05_0187",
+      "type": "vocabulary",
+      "prompt": "选择与「沥青，掷，音高 投掷，扔」对应的英文单词：",
+      "options": [
+        "ignite",
+        "manual",
+        "exploit",
+        "pitch"
+      ],
+      "answer": 3,
+      "explanation": "pitch 意为「沥青，掷，音高 投掷，扔」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0188",
+      "type": "vocabulary",
+      "prompt": "选择与「使接触，与 接触 或联系，接触，联系，交往，交际 与某人 事 交谈、会晤、取得联系」对应的英文单词：",
+      "options": [
+        "accommodation",
+        "lame",
+        "volunteer",
+        "contact"
+      ],
+      "answer": 3,
+      "explanation": "contact 意为「使接触，与 接触 或联系，接触，联系，交往，交际 与某人 事 交谈、会晤、取得联系」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0189",
+      "type": "vocabulary",
+      "prompt": "选择与「吸收 水、热、光等，吸引 注意 ，使专心，使全神贯注」对应的英文单词：",
+      "options": [
+        "absorb",
+        "overflow",
+        "marsh",
+        "bizarre"
+      ],
+      "answer": 0,
+      "explanation": "absorb 意为「吸收 水、热、光等，吸引 注意 ，使专心，使全神贯注」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0190",
+      "type": "vocabulary",
+      "prompt": "选择与「怀疑的，疑心的，多疑的，可疑的」对应的英文单词：",
+      "options": [
+        "hamper",
+        "brand",
+        "bronze",
+        "suspicious"
+      ],
+      "answer": 3,
+      "explanation": "suspicious 意为「怀疑的，疑心的，多疑的，可疑的」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0191",
+      "type": "vocabulary",
+      "prompt": "选择与「租赁，租约 出租，租得」对应的英文单词：",
+      "options": [
+        "restraint",
+        "preside",
+        "lease",
+        "transition"
+      ],
+      "answer": 2,
+      "explanation": "lease 意为「租赁，租约 出租，租得」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 3
+    },
+    {
+      "id": "remote_05_0192",
+      "type": "vocabulary",
+      "prompt": "选择与「使 旋转， 使 绕转，考虑，深思」对应的英文单词：",
+      "options": [
+        "revolve",
+        "arrest",
+        "immerse",
+        "initiate"
+      ],
+      "answer": 0,
+      "explanation": "revolve 意为「使 旋转， 使 绕转，考虑，深思」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0193",
+      "type": "vocabulary",
+      "prompt": "选择与「竞赛，较量」对应的英文单词：",
+      "options": [
+        "dedicate",
+        "mass",
+        "rivalry",
+        "deport"
+      ],
+      "answer": 2,
+      "explanation": "rivalry 意为「竞赛，较量」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0194",
+      "type": "vocabulary",
+      "prompt": "选择与「捐助，捐赠，投稿，贡献，对 作出贡献」对应的英文单词：",
+      "options": [
+        "responsible",
+        "proof",
+        "loyal",
+        "contribute"
+      ],
+      "answer": 3,
+      "explanation": "contribute 意为「捐助，捐赠，投稿，贡献，对 作出贡献」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0195",
+      "type": "vocabulary",
+      "prompt": "选择与「物，物体，目的，目标，宾语，对象」对应的英文单词：",
+      "options": [
+        "object",
+        "ambition",
+        "complication",
+        "tow"
+      ],
+      "answer": 0,
+      "explanation": "object 意为「物，物体，目的，目标，宾语，对象」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0196",
+      "type": "vocabulary",
+      "prompt": "选择与「指引擎因动力不足而 停止转动，拖延，支吾」对应的英文单词：",
+      "options": [
+        "rebel",
+        "represent",
+        "stall",
+        "asset"
+      ],
+      "answer": 2,
+      "explanation": "stall 意为「指引擎因动力不足而 停止转动，拖延，支吾」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 2
+    },
+    {
+      "id": "remote_05_0197",
+      "type": "vocabulary",
+      "prompt": "选择与「丢掉，舍弃」对应的英文单词：",
+      "options": [
+        "liner",
+        "discard",
+        "attendant",
+        "deadly"
+      ],
+      "answer": 1,
+      "explanation": "discard 意为「丢掉，舍弃」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0198",
+      "type": "vocabulary",
+      "prompt": "选择与「吠，嚎叫，咆哮，高叫，欢闹，风 呼啸」对应的英文单词：",
+      "options": [
+        "definition",
+        "avail",
+        "howl",
+        "atmosphere"
+      ],
+      "answer": 2,
+      "explanation": "howl 意为「吠，嚎叫，咆哮，高叫，欢闹，风 呼啸」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0199",
+      "type": "vocabulary",
+      "prompt": "选择与「历史学家，记事者」对应的英文单词：",
+      "options": [
+        "flaw",
+        "domestic",
+        "historian",
+        "culture"
+      ],
+      "answer": 2,
+      "explanation": "historian 意为「历史学家，记事者」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0200",
+      "type": "vocabulary",
+      "prompt": "选择与「供应，准备，预备，规定，条款，粮食，食品」对应的英文单词：",
+      "options": [
+        "menace",
+        "provision",
+        "stray",
+        "enthusiastic"
+      ],
+      "answer": 1,
+      "explanation": "provision 意为「供应，准备，预备，规定，条款，粮食，食品」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0201",
+      "type": "vocabulary",
+      "prompt": "选择与「利用，应用」对应的英文单词：",
+      "options": [
+        "utilize",
+        "display",
+        "lieutenant",
+        "accord"
+      ],
+      "answer": 0,
+      "explanation": "utilize 意为「利用，应用」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 3
+    },
+    {
+      "id": "remote_05_0202",
+      "type": "vocabulary",
+      "prompt": "选择与「女主人，老板娘，情妇」对应的英文单词：",
+      "options": [
+        "depict",
+        "transaction",
+        "incur",
+        "mistress"
+      ],
+      "answer": 3,
+      "explanation": "mistress 意为「女主人，老板娘，情妇」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0203",
+      "type": "vocabulary",
+      "prompt": "选择与「陛下 对国王或王后的称呼，宏伟，庄严」对应的英文单词：",
+      "options": [
+        "behave",
+        "majesty",
+        "reckless",
+        "missionary"
+      ],
+      "answer": 1,
+      "explanation": "majesty 意为「陛下 对国王或王后的称呼，宏伟，庄严」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0204",
+      "type": "vocabulary",
+      "prompt": "选择与「生态 学」对应的英文单词：",
+      "options": [
+        "update",
+        "ecology",
+        "caption",
+        "assure"
+      ],
+      "answer": 1,
+      "explanation": "ecology 意为「生态 学」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0205",
+      "type": "vocabulary",
+      "prompt": "选择与「定标题，定名称，称呼，给权利，给 资格」对应的英文单词：",
+      "options": [
+        "entitle",
+        "medieval",
+        "communicate",
+        "manifest"
+      ],
+      "answer": 0,
+      "explanation": "entitle 意为「定标题，定名称，称呼，给权利，给 资格」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0206",
+      "type": "vocabulary",
+      "prompt": "选择与「使喜悦，使欢乐，欣喜，高兴」对应的英文单词：",
+      "options": [
+        "rejoice",
+        "ultraviolet",
+        "violent",
+        "napkin"
+      ],
+      "answer": 0,
+      "explanation": "rejoice 意为「使喜悦，使欢乐，欣喜，高兴」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 2
+    },
+    {
+      "id": "remote_05_0207",
+      "type": "vocabulary",
+      "prompt": "选择与「同时发生，一致，不谋而合」对应的英文单词：",
+      "options": [
+        "refrain",
+        "coincide",
+        "arbitrary",
+        "recycle"
+      ],
+      "answer": 1,
+      "explanation": "coincide 意为「同时发生，一致，不谋而合」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0208",
+      "type": "vocabulary",
+      "prompt": "选择与「垄断，独占，专卖 权」对应的英文单词：",
+      "options": [
+        "courtesy",
+        "aspiration",
+        "monopoly",
+        "graze"
+      ],
+      "answer": 2,
+      "explanation": "monopoly 意为「垄断，独占，专卖 权」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0209",
+      "type": "vocabulary",
+      "prompt": "选择与「编辑，汇编，编纂」对应的英文单词：",
+      "options": [
+        "compile",
+        "stump",
+        "staple",
+        "heighten"
+      ],
+      "answer": 0,
+      "explanation": "compile 意为「编辑，汇编，编纂」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0210",
+      "type": "vocabulary",
+      "prompt": "选择与「法院，法庭，网球等 球场 求爱」对应的英文单词：",
+      "options": [
+        "comparable",
+        "entertainment",
+        "court",
+        "agony"
+      ],
+      "answer": 2,
+      "explanation": "court 意为「法院，法庭，网球等 球场 求爱」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0211",
+      "type": "vocabulary",
+      "prompt": "选择与「外交家，外交官」对应的英文单词：",
+      "options": [
+        "diplomat",
+        "prescription",
+        "intermittent",
+        "quart"
+      ],
+      "answer": 0,
+      "explanation": "diplomat 意为「外交家，外交官」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 3
+    },
+    {
+      "id": "remote_05_0212",
+      "type": "vocabulary",
+      "prompt": "选择与「加强，增强，加剧」对应的英文单词：",
+      "options": [
+        "regiment",
+        "hug",
+        "beneficial",
+        "intensify"
+      ],
+      "answer": 3,
+      "explanation": "intensify 意为「加强，增强，加剧」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0213",
+      "type": "vocabulary",
+      "prompt": "选择与「动物 吃草，放牧」对应的英文单词：",
+      "options": [
+        "whirl",
+        "graze",
+        "shatter",
+        "arbitrary"
+      ],
+      "answer": 1,
+      "explanation": "graze 意为「动物 吃草，放牧」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0214",
+      "type": "vocabulary",
+      "prompt": "选择与「毁坏， 毁灭，消灭」对应的英文单词：",
+      "options": [
+        "destruction",
+        "assert",
+        "visualize",
+        "cycle"
+      ],
+      "answer": 0,
+      "explanation": "destruction 意为「毁坏， 毁灭，消灭」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0215",
+      "type": "vocabulary",
+      "prompt": "选择与「沉默的，不说话的 哑巴」对应的英文单词：",
+      "options": [
+        "drought",
+        "mute",
+        "figure",
+        "classic"
+      ],
+      "answer": 1,
+      "explanation": "mute 意为「沉默的，不说话的 哑巴」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0216",
+      "type": "vocabulary",
+      "prompt": "选择与「镍，五分硬币」对应的英文单词：",
+      "options": [
+        "deport",
+        "nickel",
+        "plague",
+        "supersonic"
+      ],
+      "answer": 1,
+      "explanation": "nickel 意为「镍，五分硬币」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 2
+    },
+    {
+      "id": "remote_05_0217",
+      "type": "vocabulary",
+      "prompt": "选择与「容纳，接纳，提供 住宿，使适应，使适合，调节，帮助解决 困难」对应的英文单词：",
+      "options": [
+        "management",
+        "evil",
+        "accommodate",
+        "concede"
+      ],
+      "answer": 2,
+      "explanation": "accommodate 意为「容纳，接纳，提供 住宿，使适应，使适合，调节，帮助解决 困难」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0218",
+      "type": "vocabulary",
+      "prompt": "选择与「破旧的，褴褛的」对应的英文单词：",
+      "options": [
+        "garbage",
+        "partial",
+        "restore",
+        "shabby"
+      ],
+      "answer": 3,
+      "explanation": "shabby 意为「破旧的，褴褛的」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0219",
+      "type": "vocabulary",
+      "prompt": "选择与「诱拐 小孩等 ，绑架」对应的英文单词：",
+      "options": [
+        "efficient",
+        "stream",
+        "exchange",
+        "kidnap"
+      ],
+      "answer": 3,
+      "explanation": "kidnap 意为「诱拐 小孩等 ，绑架」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0220",
+      "type": "vocabulary",
+      "prompt": "选择与「坚持的，不屈不挠的，持续不断的，反复出现的」对应的英文单词：",
+      "options": [
+        "object",
+        "slip",
+        "bewilder",
+        "persistent"
+      ],
+      "answer": 3,
+      "explanation": "persistent 意为「坚持的，不屈不挠的，持续不断的，反复出现的」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0221",
+      "type": "vocabulary",
+      "prompt": "选择与「鼓励，激励，怂恿，赞助，支持，促进」对应的英文单词：",
+      "options": [
+        "inspiration",
+        "encourage",
+        "sample",
+        "graze"
+      ],
+      "answer": 1,
+      "explanation": "encourage 意为「鼓励，激励，怂恿，赞助，支持，促进」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 3
+    },
+    {
+      "id": "remote_05_0222",
+      "type": "vocabulary",
+      "prompt": "选择与「末端的，极端的，尽头的，极度的，偏激的，过分的 极端，极度 状态 ，过分」对应的英文单词：",
+      "options": [
+        "obedient",
+        "extreme",
+        "refuge",
+        "herb"
+      ],
+      "answer": 1,
+      "explanation": "extreme 意为「末端的，极端的，尽头的，极度的，偏激的，过分的 极端，极度 状态 ，过分」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0223",
+      "type": "vocabulary",
+      "prompt": "选择与「每季的 地 ，每季一次的 地 季刊」对应的英文单词：",
+      "options": [
+        "commitment",
+        "athlete",
+        "quarterly",
+        "implication"
+      ],
+      "answer": 2,
+      "explanation": "quarterly 意为「每季的 地 ，每季一次的 地 季刊」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0224",
+      "type": "vocabulary",
+      "prompt": "选择与「圆形的 马戏场，杂技团，马戏 杂技 的表演，马戏团」对应的英文单词：",
+      "options": [
+        "encourage",
+        "circus",
+        "discipline",
+        "trademark"
+      ],
+      "answer": 1,
+      "explanation": "circus 意为「圆形的 马戏场，杂技团，马戏 杂技 的表演，马戏团」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0225",
+      "type": "vocabulary",
+      "prompt": "选择与「叙述，描写，形容，描绘，画，把 说成」对应的英文单词：",
+      "options": [
+        "costume",
+        "reproach",
+        "describe",
+        "cooperative"
+      ],
+      "answer": 2,
+      "explanation": "describe 意为「叙述，描写，形容，描绘，画，把 说成」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0226",
+      "type": "vocabulary",
+      "prompt": "选择与「行李」对应的英文单词：",
+      "options": [
+        "economical",
+        "elevate",
+        "luggage",
+        "mission"
+      ],
+      "answer": 2,
+      "explanation": "luggage 意为「行李」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 2
+    },
+    {
+      "id": "remote_05_0227",
+      "type": "vocabulary",
+      "prompt": "选择与「主要的，首要的，首席的，主任的，首领，领袖，主任，首长，头目，头子」对应的英文单词：",
+      "options": [
+        "cucumber",
+        "turnover",
+        "optimistic",
+        "chief"
+      ],
+      "answer": 3,
+      "explanation": "chief 意为「主要的，首要的，首席的，主任的，首领，领袖，主任，首长，头目，头子」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0228",
+      "type": "vocabulary",
+      "prompt": "选择与「占优势的，支配的，显著的，占首位的，主要的，居高临下的，高耸的」对应的英文单词：",
+      "options": [
+        "compact",
+        "formidable",
+        "disease",
+        "dominant"
+      ],
+      "answer": 3,
+      "explanation": "dominant 意为「占优势的，支配的，显著的，占首位的，主要的，居高临下的，高耸的」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0229",
+      "type": "vocabulary",
+      "prompt": "选择与「使结合，使联合，合并，使化合，联合企业，联合收割机」对应的英文单词：",
+      "options": [
+        "combine",
+        "necessitate",
+        "coverage",
+        "ornament"
+      ],
+      "answer": 0,
+      "explanation": "combine 意为「使结合，使联合，合并，使化合，联合企业，联合收割机」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0230",
+      "type": "vocabulary",
+      "prompt": "选择与「情况，情形，环境，境况，境遇 在那种情况下 无论如何」对应的英文单词：",
+      "options": [
+        "outset",
+        "tissue",
+        "safeguard",
+        "circumstance"
+      ],
+      "answer": 3,
+      "explanation": "circumstance 意为「情况，情形，环境，境况，境遇 在那种情况下 无论如何」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0231",
+      "type": "vocabulary",
+      "prompt": "选择与「门廊，入口处」对应的英文单词：",
+      "options": [
+        "porch",
+        "span",
+        "beyond",
+        "console"
+      ],
+      "answer": 0,
+      "explanation": "porch 意为「门廊，入口处」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 3
+    },
+    {
+      "id": "remote_05_0232",
+      "type": "vocabulary",
+      "prompt": "选择与「电的，导电的，发电的，令人兴奋的，刺激的」对应的英文单词：",
+      "options": [
+        "renaissance",
+        "indispensable",
+        "elastic",
+        "electric"
+      ],
+      "answer": 3,
+      "explanation": "electric 意为「电的，导电的，发电的，令人兴奋的，刺激的」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0233",
+      "type": "vocabulary",
+      "prompt": "选择与「缺席，缺乏，不存在」对应的英文单词：",
+      "options": [
+        "plea",
+        "tickle",
+        "substantial",
+        "absence"
+      ],
+      "answer": 3,
+      "explanation": "absence 意为「缺席，缺乏，不存在」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0234",
+      "type": "vocabulary",
+      "prompt": "选择与「加高，提高，增加，增大」对应的英文单词：",
+      "options": [
+        "debate",
+        "massive",
+        "interfere",
+        "heighten"
+      ],
+      "answer": 3,
+      "explanation": "heighten 意为「加高，提高，增加，增大」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0235",
+      "type": "vocabulary",
+      "prompt": "选择与「商品，日用品」对应的英文单词：",
+      "options": [
+        "evaluate",
+        "commodity",
+        "contrive",
+        "flutter"
+      ],
+      "answer": 1,
+      "explanation": "commodity 意为「商品，日用品」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0236",
+      "type": "vocabulary",
+      "prompt": "选择与「疾病，弊病，病害 使有病，使不健全」对应的英文单词：",
+      "options": [
+        "insist",
+        "acquaintance",
+        "cynical",
+        "disease"
+      ],
+      "answer": 3,
+      "explanation": "disease 意为「疾病，弊病，病害 使有病，使不健全」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 2
+    },
+    {
+      "id": "remote_05_0237",
+      "type": "vocabulary",
+      "prompt": "选择与「使满足，平息，抚慰」对应的英文单词：",
+      "options": [
+        "imaginary",
+        "brisk",
+        "appease",
+        "motive"
+      ],
+      "answer": 2,
+      "explanation": "appease 意为「使满足，平息，抚慰」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0238",
+      "type": "vocabulary",
+      "prompt": "选择与「中等的，适中的，媒介，方法，手段，中间，中庸」对应的英文单词：",
+      "options": [
+        "convey",
+        "medium",
+        "flare",
+        "beneficial"
+      ],
+      "answer": 1,
+      "explanation": "medium 意为「中等的，适中的，媒介，方法，手段，中间，中庸」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0239",
+      "type": "vocabulary",
+      "prompt": "选择与「控告 某人，请求 常于法庭上」对应的英文单词：",
+      "options": [
+        "absence",
+        "accommodate",
+        "sue",
+        "probability"
+      ],
+      "answer": 2,
+      "explanation": "sue 意为「控告 某人，请求 常于法庭上」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0240",
+      "type": "vocabulary",
+      "prompt": "选择与「使容易，使便利，促进」对应的英文单词：",
+      "options": [
+        "convince",
+        "facilitate",
+        "isolate",
+        "contact"
+      ],
+      "answer": 1,
+      "explanation": "facilitate 意为「使容易，使便利，促进」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0241",
+      "type": "vocabulary",
+      "prompt": "选择与「侍者，服务员，护理员」对应的英文单词：",
+      "options": [
+        "retrospect",
+        "adjust",
+        "attendant",
+        "clasp"
+      ],
+      "answer": 2,
+      "explanation": "attendant 意为「侍者，服务员，护理员」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 3
+    },
+    {
+      "id": "remote_05_0242",
+      "type": "vocabulary",
+      "prompt": "选择与「平凡的，常见的」对应的英文单词：",
+      "options": [
+        "commonplace",
+        "wallet",
+        "alleviate",
+        "implicit"
+      ],
+      "answer": 0,
+      "explanation": "commonplace 意为「平凡的，常见的」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0243",
+      "type": "vocabulary",
+      "prompt": "选择与「取得，获得，习得，学到 知识等」对应的英文单词：",
+      "options": [
+        "hesitate",
+        "acquire",
+        "misfortune",
+        "interact"
+      ],
+      "answer": 1,
+      "explanation": "acquire 意为「取得，获得，习得，学到 知识等」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0244",
+      "type": "vocabulary",
+      "prompt": "选择与「损坏，糟蹋，宠坏，溺爱 掠夺物，赃物」对应的英文单词：",
+      "options": [
+        "descent",
+        "spoil",
+        "confine",
+        "decay"
+      ],
+      "answer": 1,
+      "explanation": "spoil 意为「损坏，糟蹋，宠坏，溺爱 掠夺物，赃物」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0245",
+      "type": "vocabulary",
+      "prompt": "选择与「梅干，李脯 修剪，删除」对应的英文单词：",
+      "options": [
+        "occasional",
+        "emergency",
+        "prune",
+        "score"
+      ],
+      "answer": 2,
+      "explanation": "prune 意为「梅干，李脯 修剪，删除」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0246",
+      "type": "vocabulary",
+      "prompt": "选择与「谴责，责备，责骂」对应的英文单词：",
+      "options": [
+        "reproach",
+        "excess",
+        "grip",
+        "extreme"
+      ],
+      "answer": 0,
+      "explanation": "reproach 意为「谴责，责备，责骂」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 2
+    },
+    {
+      "id": "remote_05_0247",
+      "type": "vocabulary",
+      "prompt": "选择与「滴答声 尤指钟表的，核对记号，勾号，指钟等 作滴答声，用记号标出」对应的英文单词：",
+      "options": [
+        "dread",
+        "tick",
+        "probe",
+        "artery"
+      ],
+      "answer": 1,
+      "explanation": "tick 意为「滴答声 尤指钟表的，核对记号，勾号，指钟等 作滴答声，用记号标出」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0248",
+      "type": "vocabulary",
+      "prompt": "选择与「追捕，追求，寻求」对应的英文单词：",
+      "options": [
+        "analogy",
+        "inventory",
+        "pursuit",
+        "religious"
+      ],
+      "answer": 2,
+      "explanation": "pursuit 意为「追捕，追求，寻求」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0249",
+      "type": "vocabulary",
+      "prompt": "选择与「缓和，减轻 痛苦等」对应的英文单词：",
+      "options": [
+        "glare",
+        "dwarf",
+        "romance",
+        "alleviate"
+      ],
+      "answer": 3,
+      "explanation": "alleviate 意为「缓和，减轻 痛苦等」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0250",
+      "type": "vocabulary",
+      "prompt": "选择与「交汇处，回合点」对应的英文单词：",
+      "options": [
+        "junction",
+        "eagle",
+        "disperse",
+        "clash"
+      ],
+      "answer": 0,
+      "explanation": "junction 意为「交汇处，回合点」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0251",
+      "type": "vocabulary",
+      "prompt": "选择与「排除，对 不予考虑，把 拒之门外」对应的英文单词：",
+      "options": [
+        "accurate",
+        "bracket",
+        "inevitable",
+        "exclude"
+      ],
+      "answer": 3,
+      "explanation": "exclude 意为「排除，对 不予考虑，把 拒之门外」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 3
+    },
+    {
+      "id": "remote_05_0252",
+      "type": "vocabulary",
+      "prompt": "选择与「轻率的，鲁莽的，不计后果的」对应的英文单词：",
+      "options": [
+        "reckless",
+        "reap",
+        "bust",
+        "bracket"
+      ],
+      "answer": 0,
+      "explanation": "reckless 意为「轻率的，鲁莽的，不计后果的」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0253",
+      "type": "vocabulary",
+      "prompt": "选择与「反叛，反抗，造反」对应的英文单词：",
+      "options": [
+        "scale",
+        "rebellion",
+        "rotary",
+        "terrific"
+      ],
+      "answer": 1,
+      "explanation": "rebellion 意为「反叛，反抗，造反」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0254",
+      "type": "vocabulary",
+      "prompt": "选择与「命令，法令，判决 命令，颁布命令，判定」对应的英文单词：",
+      "options": [
+        "pore",
+        "decree",
+        "exhaust",
+        "parasite"
+      ],
+      "answer": 1,
+      "explanation": "decree 意为「命令，法令，判决 命令，颁布命令，判定」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0255",
+      "type": "vocabulary",
+      "prompt": "选择与「力，力量，力气，势力，威力，影响力，军队，兵力，队伍，武力，暴力，压力，效力，约束力，控制力，三军，…」对应的英文单词：",
+      "options": [
+        "kit",
+        "force",
+        "elevate",
+        "probability"
+      ],
+      "answer": 1,
+      "explanation": "force 意为「力，力量，力气，势力，威力，影响力，军队，兵力，队伍，武力，暴力，压力，效力，约束力，控制力，三军，…」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0256",
+      "type": "vocabulary",
+      "prompt": "选择与「团体的，全体的，公司的」对应的英文单词：",
+      "options": [
+        "wedge",
+        "corporate",
+        "prevalent",
+        "hawk"
+      ],
+      "answer": 1,
+      "explanation": "corporate 意为「团体的，全体的，公司的」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 2
+    },
+    {
+      "id": "remote_05_0257",
+      "type": "vocabulary",
+      "prompt": "选择与「灌溉，水利，冲洗法」对应的英文单词：",
+      "options": [
+        "symmetry",
+        "irrigation",
+        "applaud",
+        "insect"
+      ],
+      "answer": 1,
+      "explanation": "irrigation 意为「灌溉，水利，冲洗法」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0258",
+      "type": "vocabulary",
+      "prompt": "选择与「不利因素，障碍，缺陷，残疾，给 设置不利条件，妨碍，使身心残障而不能正常活动 生活」对应的英文单词：",
+      "options": [
+        "handicap",
+        "cellar",
+        "dramatic",
+        "analysis"
+      ],
+      "answer": 0,
+      "explanation": "handicap 意为「不利因素，障碍，缺陷，残疾，给 设置不利条件，妨碍，使身心残障而不能正常活动 生活」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0259",
+      "type": "vocabulary",
+      "prompt": "选择与「概念，观念，思想」对应的英文单词：",
+      "options": [
+        "conflict",
+        "solo",
+        "counterpart",
+        "concept"
+      ],
+      "answer": 3,
+      "explanation": "concept 意为「概念，观念，思想」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0260",
+      "type": "vocabulary",
+      "prompt": "选择与「集中，使集中于一点，聚集，聚精会神，集中思想」对应的英文单词：",
+      "options": [
+        "oak",
+        "concentrate",
+        "defect",
+        "construct"
+      ],
+      "answer": 1,
+      "explanation": "concentrate 意为「集中，使集中于一点，聚集，聚精会神，集中思想」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0261",
+      "type": "vocabulary",
+      "prompt": "选择与「敬慕，钟爱，崇拜，很喜欢」对应的英文单词：",
+      "options": [
+        "grave",
+        "adore",
+        "terminate",
+        "external"
+      ],
+      "answer": 1,
+      "explanation": "adore 意为「敬慕，钟爱，崇拜，很喜欢」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 3
+    },
+    {
+      "id": "remote_05_0262",
+      "type": "vocabulary",
+      "prompt": "选择与「国家的税收，岁入，收入总额，个人或国家的 税务所，税务局」对应的英文单词：",
+      "options": [
+        "heir",
+        "constitution",
+        "revenue",
+        "concern"
+      ],
+      "answer": 2,
+      "explanation": "revenue 意为「国家的税收，岁入，收入总额，个人或国家的 税务所，税务局」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0263",
+      "type": "vocabulary",
+      "prompt": "选择与「怨恨，憎恶」对应的英文单词：",
+      "options": [
+        "stall",
+        "prosecute",
+        "psychiatrist",
+        "resent"
+      ],
+      "answer": 3,
+      "explanation": "resent 意为「怨恨，憎恶」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0264",
+      "type": "vocabulary",
+      "prompt": "选择与「具有，享用，记忆力，记性，挡住，保留，容纳」对应的英文单词：",
+      "options": [
+        "retention",
+        "gland",
+        "metropolitan",
+        "initiative"
+      ],
+      "answer": 0,
+      "explanation": "retention 意为「具有，享用，记忆力，记性，挡住，保留，容纳」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0265",
+      "type": "vocabulary",
+      "prompt": "选择与「大部分，大多数」对应的英文单词：",
+      "options": [
+        "temper",
+        "peak",
+        "hamper",
+        "majority"
+      ],
+      "answer": 3,
+      "explanation": "majority 意为「大部分，大多数」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0266",
+      "type": "vocabulary",
+      "prompt": "选择与「监听，监视，显示屏，监护仪，监听员，班长」对应的英文单词：",
+      "options": [
+        "conscientious",
+        "overlook",
+        "dizzy",
+        "monitor"
+      ],
+      "answer": 3,
+      "explanation": "monitor 意为「监听，监视，显示屏，监护仪，监听员，班长」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 2
+    },
+    {
+      "id": "remote_05_0267",
+      "type": "vocabulary",
+      "prompt": "选择与「怪物，怪兽，庞然大物，凶残的人 巨大的，像怪物的」对应的英文单词：",
+      "options": [
+        "grave",
+        "verbal",
+        "magnet",
+        "monster"
+      ],
+      "answer": 3,
+      "explanation": "monster 意为「怪物，怪兽，庞然大物，凶残的人 巨大的，像怪物的」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0268",
+      "type": "vocabulary",
+      "prompt": "选择与「镇压，平定，制止，抑制，隐瞒，扣留」对应的英文单词：",
+      "options": [
+        "communicate",
+        "suppress",
+        "exquisite",
+        "wrinkle"
+      ],
+      "answer": 1,
+      "explanation": "suppress 意为「镇压，平定，制止，抑制，隐瞒，扣留」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0269",
+      "type": "vocabulary",
+      "prompt": "选择与「相等的，相当的，等价的 相等物，等价物」对应的英文单词：",
+      "options": [
+        "vigorous",
+        "equivalent",
+        "nasty",
+        "tribute"
+      ],
+      "answer": 1,
+      "explanation": "equivalent 意为「相等的，相当的，等价的 相等物，等价物」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0270",
+      "type": "vocabulary",
+      "prompt": "选择与「侮辱，伤害，恶意，怨恨 尽管，不顾，虽然」对应的英文单词：",
+      "options": [
+        "slope",
+        "arbitrary",
+        "heel",
+        "despite"
+      ],
+      "answer": 3,
+      "explanation": "despite 意为「侮辱，伤害，恶意，怨恨 尽管，不顾，虽然」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0271",
+      "type": "vocabulary",
+      "prompt": "选择与「烹饪法，食谱」对应的英文单词：",
+      "options": [
+        "decent",
+        "wallet",
+        "marsh",
+        "recipe"
+      ],
+      "answer": 3,
+      "explanation": "recipe 意为「烹饪法，食谱」。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 3
+    },
+    {
+      "id": "remote_05_0272",
+      "type": "vocabulary",
+      "prompt": "选择与「细菌」对应的英文单词：",
+      "options": [
+        "release",
+        "flat",
+        "bacteria",
+        "reap"
+      ],
+      "answer": 2,
+      "explanation": "bacteria 意为「细菌」。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_05_0273",
+      "type": "vocabulary",
+      "prompt": "选择与「戏剧 性 的，刺激的，激动人心的，引人注目的，印象深刻的，突然的」对应的英文单词：",
+      "options": [
+        "bull",
+        "dramatic",
+        "sieve",
+        "staple"
+      ],
+      "answer": 1,
+      "explanation": "dramatic 意为「戏剧 性 的，刺激的，激动人心的，引人注目的，印象深刻的，突然的」。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    }
+  ]
+}
