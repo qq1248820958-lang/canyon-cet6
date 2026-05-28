@@ -1,10 +1,9 @@
 import { useState, useCallback, useRef } from 'react';
 import { Hero, Lineup, Question, GamePhase, HeroState, BattleState } from '../types';
-import { createHeroState, calculateDamage, calculateXP, calculateGold, getComboDisplay, getPhaseLabel } from '../utils/battle';
+import { createHeroState, calculateDamage, calculateXP, getComboDisplay, getPhaseLabel } from '../utils/battle';
 import { allQuestions, getReadingGroupQuestions } from '../data/questions';
 import { addReviewItem } from '../utils/storage';
 import StatBar from '../components/StatBar';
-import SkillButton from '../components/SkillButton';
 import QuestionCard from '../components/QuestionCard';
 import BattleLog from '../components/BattleLog';
 import TeamPanel from '../components/TeamPanel';
@@ -396,7 +395,7 @@ export default function BattlePage({ lineup, onEnd }: BattlePageProps) {
     }
   }, [battle.phase, battle.usedQuestionIds, pickQuestion, answeredIds]);
 
-  const handleSkillUse = useCallback((_skillKey: string) => {
+  const handleSkillUse = useCallback(() => {
     if (answerState !== 'waiting') return;
     startEvent();
   }, [answerState, startEvent]);
@@ -454,23 +453,23 @@ export default function BattlePage({ lineup, onEnd }: BattlePageProps) {
   const getEventDescription = () => {
     if (phase.type === 'laning') {
       const ei = phase.eventIndex;
-      if (ei === 0) return { desc: '对线补兵——使用 Q 技能补刀', skill: lineup.playerHero.skills.Q };
-      if (ei === 1) return { desc: '敌方消耗——使用 W 技能防守', skill: lineup.playerHero.skills.W };
-      return { desc: '1v1 单杀机会——使用 E 技能追击', skill: lineup.playerHero.skills.E };
+      if (ei === 0) return '对线补兵——回答词汇题补刀';
+      if (ei === 1) return '敌方消耗——回答短句题防守';
+      return '1v1 单杀机会——回答词汇/短句题追击';
     }
-    if (phase.type === 'gank') return { desc: '打野来抓——使用 R 技能洞察全局', skill: lineup.playerHero.skills.R };
-    if (phase.type === 'counter-fight') return { desc: '反打！使用 R 技能终结', skill: lineup.playerHero.skills.R };
+    if (phase.type === 'gank') return '打野来抓——回答阅读题洞察全局';
+    if (phase.type === 'counter-fight') return '反打！回答短阅读题终结';
     if (phase.type === 'teamfight') {
       const qi = phase.questionIndex;
       const labels = ['抢视野/站位', '躲关键控制', '集火目标'];
-      return { desc: `团战——${labels[qi] || '团战操作'}`, skill: lineup.playerHero.skills[qi === 0 ? 'Q' : qi === 1 ? 'W' : 'E'] };
+      return `团战——${labels[qi] || '团战操作'}`;
     }
-    if (phase.type === 'highGround') return { desc: '高地防守——使用 W 技能坚守', skill: lineup.playerHero.skills.W };
-    if (phase.type === 'finale') return { desc: '水晶终结——使用 R 技能终结比赛', skill: lineup.playerHero.skills.R };
-    return { desc: '', skill: lineup.playerHero.skills.Q };
+    if (phase.type === 'highGround') return '高地防守——回答翻译题坚守';
+    if (phase.type === 'finale') return '水晶终结——回答翻译题终结比赛';
+    return '';
   };
 
-  const eventInfo = getEventDescription();
+  const eventDesc = getEventDescription();
 
   return (
     <div className="page" style={{ paddingBottom: 32 }}>
@@ -566,18 +565,13 @@ export default function BattlePage({ lineup, onEnd }: BattlePageProps) {
         </div>
       )}
 
-      {/* Event Description + Skill */}
+      {/* Event Description + Start Button */}
       {answerState === 'waiting' && phase.type !== 'counter-choice' && (
         <div className="card" style={{ textAlign: 'center' }}>
-          <div style={{ fontSize: '0.95rem', marginBottom: 12 }}>{eventInfo.desc}</div>
-          <div className="skill-grid">
-            {(['Q', 'W', 'E', 'R'] as const).map(k => (
-              <SkillButton key={k} skill={lineup.playerHero.skills[k]} onUse={handleSkillUse} />
-            ))}
-          </div>
-          <div style={{ fontSize: '0.7rem', color: 'var(--text-muted)' }}>
-            点击任意技能开始作答
-          </div>
+          <div style={{ fontSize: '0.95rem', marginBottom: 12 }}>{eventDesc}</div>
+          <button className="btn btn-primary" onClick={handleSkillUse} style={{ fontSize: '1rem', padding: '14px 32px' }}>
+            开始答题
+          </button>
         </div>
       )}
 

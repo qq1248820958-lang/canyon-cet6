@@ -8,7 +8,6 @@ export function createHeroState(hero: Hero): HeroState {
     maxHP: 100,
     level: 1,
     gold: 0,
-    windStacks: 0,
     isAlive: true,
   };
 }

@@ -2,16 +2,7 @@ export interface Hero {
   id: string;
   name: string;
   title: string;
-  role: string;
   description: string;
-  skills: {
-    Q: Skill;
-    W: Skill;
-    E: Skill;
-    R: Skill;
-  };
-  specialMechanic: string;
-  difficulty: 1 | 2 | 3;
 }
 
 export interface Skill {
@@ -50,7 +41,6 @@ export interface HeroState {
   maxHP: number;
   level: number;
   gold: number;
-  windStacks: number;
   isAlive: boolean;
 }
 
