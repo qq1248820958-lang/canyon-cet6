@@ -1,6 +1,7 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Lineup } from './types';
 import { generateLineup } from './utils/random';
+import { syncRemotePacks } from './utils/questionLoader';
 import HomePage from './pages/HomePage';
 import HeroDexPage from './pages/HeroDexPage';
 import LineupPage from './pages/LineupPage';
@@ -18,6 +19,11 @@ type Page =
 
 export default function App() {
   const [page, setPage] = useState<Page>({ name: 'home' });
+
+  // Sync remote question packs on startup (fire-and-forget)
+  useEffect(() => {
+    syncRemotePacks();
+  }, []);
 
   const handleStart = () => {
     const lineup = generateLineup();

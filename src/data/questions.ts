@@ -1,6 +1,9 @@
 import { Question } from '../types';
+import { generatedQuestions } from './generated-questions';
+import { getCachedRemoteQuestions } from '../utils/questionLoader';
 
-export const allQuestions: Question[] = [
+const builtinQuestions: Question[] = [
+  ...generatedQuestions,
   // ===== 15 六级词汇题 (vocabulary) =====
   {
     id: 'vocab_01',
@@ -285,7 +288,7 @@ export const allQuestions: Question[] = [
     id: 'rg1_q2',
     type: 'readingGroup',
     groupId: 'rg1',
-    passage: '',
+    passage: '阅读下面文章，回答3个问题：\n\n"Artificial intelligence (AI) has transformed various sectors, from healthcare to finance. In medicine, AI algorithms can analyze medical images with accuracy comparable to or exceeding human experts. Machine learning models can predict patient outcomes based on vast amounts of clinical data. In the financial sector, AI systems detect fraudulent transactions in real-time. Despite these advances, concerns about job displacement and ethical implications of AI decision-making continue to spark debate. Critics argue that AI systems can perpetuate existing biases present in training data, leading to unfair outcomes. Proponents counter that with proper regulation, AI can augment human capabilities rather than replace them."',
     prompt: '文中提到的对AI的担忧是什么？',
     options: ['实施成本太高。', '无法处理足够数据。', '可能延续现有偏见。', '准确度不够。'],
     answer: 2,
@@ -297,7 +300,7 @@ export const allQuestions: Question[] = [
     id: 'rg1_q3',
     type: 'readingGroup',
     groupId: 'rg1',
-    passage: '',
+    passage: '阅读下面文章，回答3个问题：\n\n"Artificial intelligence (AI) has transformed various sectors, from healthcare to finance. In medicine, AI algorithms can analyze medical images with accuracy comparable to or exceeding human experts. Machine learning models can predict patient outcomes based on vast amounts of clinical data. In the financial sector, AI systems detect fraudulent transactions in real-time. Despite these advances, concerns about job displacement and ethical implications of AI decision-making continue to spark debate. Critics argue that AI systems can perpetuate existing biases present in training data, leading to unfair outcomes. Proponents counter that with proper regulation, AI can augment human capabilities rather than replace them."',
     prompt: '支持者认为AI应该怎样？',
     options: ['严格限制AI发展。', '增强人类能力。', '取代所有工作。', '太危险不能使用。'],
     answer: 1,
@@ -323,7 +326,7 @@ export const allQuestions: Question[] = [
     id: 'rg2_q2',
     type: 'readingGroup',
     groupId: 'rg2',
-    passage: '',
+    passage: '阅读下面文章，回答3个问题：\n\n"The sharing economy has fundamentally altered how people access goods and services. Platforms like Uber and Airbnb have enabled individuals to monetize their assets and skills. This economic model emphasizes access over ownership, allowing consumers to use products without the burden of full ownership. Proponents argue that the sharing economy promotes resource efficiency and creates income opportunities. However, critics raise concerns about labor rights, as many platform workers are classified as independent contractors rather than employees. Regulatory frameworks have struggled to keep pace with the rapid growth of these platforms, leading to legal ambiguities."',
     prompt: '文章指出了什么劳工问题？',
     options: ['工人收入太高。', '工人缺乏雇员保护。', '雇员太多。', '工人更喜欢独立合同。'],
     answer: 1,
@@ -335,7 +338,7 @@ export const allQuestions: Question[] = [
     id: 'rg2_q3',
     type: 'readingGroup',
     groupId: 'rg2',
-    passage: '',
+    passage: '阅读下面文章，回答3个问题：\n\n"The sharing economy has fundamentally altered how people access goods and services. Platforms like Uber and Airbnb have enabled individuals to monetize their assets and skills. This economic model emphasizes access over ownership, allowing consumers to use products without the burden of full ownership. Proponents argue that the sharing economy promotes resource efficiency and creates income opportunities. However, critics raise concerns about labor rights, as many platform workers are classified as independent contractors rather than employees. Regulatory frameworks have struggled to keep pace with the rapid growth of these platforms, leading to legal ambiguities."',
     prompt: '为什么监管落后于发展？',
     options: ['平台是非法的。', '经济正在萎缩。', '平台增长太快了。', '没有工人。'],
     answer: 2,
@@ -375,35 +378,156 @@ export const allQuestions: Question[] = [
     sourceEvent: '水晶终结',
     difficulty: 3,
   },
+
+  // ===== 扩展短句理解题 =====
+  {
+    id: 'sent_09',
+    type: 'sentence',
+    prompt: '"The government has implemented a series of measures aimed at curbing inflation, including tightening monetary policy and reducing public expenditure." 这意味着？',
+    options: ['政府鼓励通货膨胀。', '政府采取措施控制通胀。', '货币政策放松了。', '公共支出增加了。'],
+    answer: 1,
+    explanation: '"Curbing inflation" = 抑制通胀，"tightening monetary policy" = 紧缩货币政策。',
+    sourceEvent: '敌方消耗',
+    difficulty: 2,
+  },
+  {
+    id: 'sent_10',
+    type: 'sentence',
+    prompt: '"The study found a strong correlation between sleep deprivation and decreased cognitive performance, highlighting the importance of adequate rest for students." 研究发现了什么？',
+    options: ['睡眠充足会导致认知下降。', '睡眠不足与认知表现有关。', '学生不需要太多睡眠。', '睡眠对学习没有影响。'],
+    answer: 1,
+    explanation: '"Strong correlation between sleep deprivation and decreased cognitive performance" = 睡眠不足与认知下降之间强相关。',
+    sourceEvent: '1v1单杀',
+    difficulty: 2,
+  },
+  {
+    id: 'sent_11',
+    type: 'sentence',
+    prompt: '"The novel\'s narrative structure is anything but conventional; it shifts between multiple timelines and perspectives, challenging the reader\'s expectations." 这本书的叙述结构？',
+    options: ['非常传统。', '完全不传统。', '很简单。', '只有一个时间线。'],
+    answer: 1,
+    explanation: '"Anything but conventional" = 绝不是传统的，"shifts between multiple timelines" = 在多个时间线间切换。',
+    sourceEvent: '敌方消耗',
+    difficulty: 2,
+  },
+  {
+    id: 'sent_12',
+    type: 'sentence',
+    prompt: '"The decline in biodiversity is attributable to a combination of factors, chief among them habitat destruction and climate change." 生物多样性下降的主要原因是？',
+    options: ['单一因素导致的。', '气候变化是唯一原因。', '多个因素共同导致。', '生物自然会恢复。'],
+    answer: 2,
+    explanation: '"Attributable to a combination of factors" = 可归因于多种因素的组合。',
+    sourceEvent: '敌方消耗',
+    difficulty: 2,
+  },
+  {
+    id: 'sent_13',
+    type: 'sentence',
+    prompt: '"The entrepreneur\'s success was not an overnight phenomenon but rather the culmination of years of persistent effort and learning from failures." 这句话暗示？',
+    options: ['成功是一夜之间发生的。', '成功是长期努力的结果。', '企业家从不失败。', '运气是成功的关键。'],
+    answer: 1,
+    explanation: '"Not an overnight phenomenon but rather the culmination of years of persistent effort" = 并非一夜成名，而是多年坚持的结果。',
+    sourceEvent: '1v1单杀',
+    difficulty: 2,
+  },
+
+  // ===== 扩展短阅读题 =====
+  {
+    id: 'gank_04',
+    type: 'shortReading',
+    prompt: '阅读下文回答问题：\n\n"Renewable energy sources such as solar and wind power have seen dramatic cost reductions over the past decade. According to the International Energy Agency, solar power is now the cheapest source of electricity in many parts of the world. Despite this progress, challenges remain in energy storage and grid integration. The intermittent nature of renewable energy means that effective storage solutions are essential for maintaining a stable power supply."\n\n可再生能源面临的主要挑战是什么？',
+    options: ['成本太高。', '能源储存和并网问题。', '技术完全不成熟。', '没有市场需求。'],
+    answer: 1,
+    explanation: '"Challenges remain in energy storage and grid integration" = 能源储存和电网整合方面仍有挑战。',
+    sourceEvent: '打野来抓',
+    difficulty: 2,
+  },
+  {
+    id: 'gank_05',
+    type: 'shortReading',
+    prompt: '阅读下文回答问题：\n\n"Social media has fundamentally changed how people consume news. Algorithms curate content based on user preferences, creating personalized information feeds. However, this personalization can lead to echo chambers where users are exposed only to viewpoints that reinforce their existing beliefs. Media literacy education is increasingly important to help people critically evaluate the information they encounter online."\n\n"Echo chambers"（回声室效应）指的是什么？',
+    options: ['人们听到很多不同观点。', '算法推荐多样化内容。', '只接触强化自己观点的信息。', '新闻变得更多样化。'],
+    answer: 2,
+    explanation: '"Echo chambers" = 回音室，指只接触到与自己观点一致的信息。',
+    sourceEvent: '打野来抓',
+    difficulty: 2,
+  },
+
+  // ===== 扩展翻译题 =====
+  {
+    id: 'trans_04',
+    type: 'translation',
+    prompt: '理解并翻译：\n\n"While the benefits of globalization are widely acknowledged, its critics contend that it has exacerbated income inequality and led to the erosion of local cultural identities."\n\n这段话的主要观点是？',
+    options: ['全球化只有好处。', '全球化也有负面影响。', '批评者都错了。', '收入不平等消失了。'],
+    answer: 1,
+    explanation: '"While...are widely acknowledged...critics contend that it has exacerbated..." = 虽然全球化好处被认可，但批评者认为它加剧了问题。',
+    sourceEvent: '水晶终结',
+    difficulty: 3,
+  },
+  {
+    id: 'trans_05',
+    type: 'translation',
+    prompt: '理解并翻译：\n\n"The ability to adapt to changing circumstances is perhaps the most crucial skill in today\'s rapidly evolving job market, where automation and artificial intelligence are reshaping entire industries."\n\n这段话强调的是什么？',
+    options: ['工作市场没有变化。', '适应变化的能力至关重要。', '人工智能会取代所有工作。', '传统技能仍然足够。'],
+    answer: 1,
+    explanation: '"The ability to adapt to changing circumstances is perhaps the most crucial skill" = 适应变化的能力可能是最关键的能力。',
+    sourceEvent: '高地防守',
+    difficulty: 3,
+  },
+  {
+    id: 'trans_06',
+    type: 'translation',
+    prompt: '理解并翻译：\n\n"Despite the proliferation of digital communication tools, face-to-face interaction remains irreplaceable for building trust and fostering meaningful relationships in both personal and professional contexts."\n\n这句话的意思是什么？',
+    options: ['数字工具可以完全替代面对面交流。', '面对面交流仍然不可替代。', '只有面对面交流才能建立信任。', '数字工具没有用处。'],
+    answer: 1,
+    explanation: '"Face-to-face interaction remains irreplaceable" = 面对面互动仍然不可替代。',
+    sourceEvent: '水晶终结',
+    difficulty: 2,
+  },
 ];
 
+/** All questions including built-in + remote cached ones at module load time */
+export const allQuestions: Question[] = (() => {
+  const remote = getCachedRemoteQuestions();
+  const localIds = new Set(builtinQuestions.map(q => q.id));
+  return [...builtinQuestions, ...remote.filter(q => !localIds.has(q.id))];
+})();
+
+/** Re-merge built-in with latest remote cache (useful after sync) */
+export function getAllQuestions(): Question[] {
+  const remote = getCachedRemoteQuestions();
+  const localIds = new Set(builtinQuestions.map(q => q.id));
+  return [...builtinQuestions, ...remote.filter(q => !localIds.has(q.id))];
+}
+
 export function getQuestionsByType(type: Question['type']): Question[] {
-  return allQuestions.filter(q => q.type === type);
+  return getAllQuestions().filter(q => q.type === type);
 }
 
 export function getReadingGroupQuestions(groupId: string): Question[] {
-  return allQuestions.filter(q => q.groupId === groupId);
+  return getAllQuestions().filter(q => q.groupId === groupId);
 }
 
 export function getQuestionsForEvent(eventType: string): Question[] {
+  const questions = getAllQuestions();
   switch (eventType) {
     case 'laning-lasthit':
-      return allQuestions.filter(q => q.type === 'vocabulary' && q.sourceEvent === '对线补兵');
+      return questions.filter(q => q.type === 'vocabulary' && q.sourceEvent === '对线补兵');
     case 'laning-poke':
-      return allQuestions.filter(q => q.type === 'sentence' && q.sourceEvent === '敌方消耗');
+      return questions.filter(q => q.type === 'sentence' && q.sourceEvent === '敌方消耗');
     case 'laning-kill':
-      return allQuestions.filter(q =>
+      return questions.filter(q =>
         (q.type === 'vocabulary' || q.type === 'sentence') && q.sourceEvent === '1v1单杀'
       );
     case 'gank':
-      return allQuestions.filter(q => q.type === 'shortReading' && q.sourceEvent === '打野来抓');
+      return questions.filter(q => q.type === 'shortReading' && q.sourceEvent === '打野来抓');
     case 'teamfight-dragon':
       return getReadingGroupQuestions('rg1');
     case 'highground':
-      return allQuestions.filter(q => q.type === 'translation' && q.sourceEvent === '高地防守');
+      return questions.filter(q => q.type === 'translation' && q.sourceEvent === '高地防守');
     case 'finale':
-      return allQuestions.filter(q => q.type === 'translation' && q.sourceEvent === '水晶终结');
+      return questions.filter(q => q.type === 'translation' && q.sourceEvent === '水晶终结');
     default:
-      return allQuestions;
+      return questions;
   }
 }

@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "packs": [
+    {
+      "id": "vocab-001",
+      "version": 1,
+      "title": "六级词汇扩展包 #1",
+      "description": "100 道六级核心词汇题",
+      "questionCount": 100
+    }
+  ]
+}

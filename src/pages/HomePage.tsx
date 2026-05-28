@@ -1,6 +1,8 @@
 import { getUserProgress, resetAllData } from '../utils/storage';
 import { getRank, getXPProgress } from '../utils/rank';
 import { getReviewItems } from '../utils/storage';
+import { allQuestions } from '../data/questions';
+import { getRemoteQuestionCount } from '../utils/questionLoader';
 
 interface HomePageProps {
   onStart: () => void;
@@ -69,10 +71,15 @@ export default function HomePage({ onStart, onHeroDex, onReview }: HomePageProps
             <div style={{ fontSize: '1.3rem', fontWeight: 700, color: 'var(--accent-red)' }}>{progress.losses}</div>
           </div>
           <div>
-            <div style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>错题</div>
-            <div style={{ fontSize: '1.3rem', fontWeight: 700, color: 'var(--accent-yellow)' }}>{reviewCount}</div>
+            <div style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>题库</div>
+            <div style={{ fontSize: '1.3rem', fontWeight: 700, color: 'var(--accent-yellow)' }}>{allQuestions.length}</div>
           </div>
         </div>
+        {getRemoteQuestionCount() > 0 && (
+          <div style={{ fontSize: '0.7rem', color: 'var(--text-muted)', textAlign: 'center', marginTop: 8 }}>
+            含 {getRemoteQuestionCount()} 道远程题
+          </div>
+        )}
       </div>
 
       <button className="btn btn-primary" onClick={onStart} style={{ fontSize: '1.1rem', padding: '16px 24px' }}>

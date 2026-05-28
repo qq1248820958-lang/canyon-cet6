@@ -1,0 +1,1508 @@
+{
+  "packId": "vocab-001",
+  "version": 1,
+  "title": "六级词汇扩展包 #1",
+  "description": "100 道六级核心词汇题",
+  "questions": [
+    {
+      "id": "remote_vocab_001",
+      "type": "vocabulary",
+      "prompt": "\"bulk\" 最接近的意思是？",
+      "options": [
+        "航空，飞行",
+        "天文学",
+        "体积，大批",
+        "收银员，出纳员"
+      ],
+      "answer": 2,
+      "explanation": "bulk 意为\"体积，大批\"。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 3
+    },
+    {
+      "id": "remote_vocab_002",
+      "type": "vocabulary",
+      "prompt": "\"classic\" 最接近的意思是？",
+      "options": [
+        "集体的，共同的",
+        "贿赂，行贿",
+        "经典的，典型的",
+        "对抗，冲突"
+      ],
+      "answer": 2,
+      "explanation": "classic 意为\"经典的，典型的\"。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_003",
+      "type": "vocabulary",
+      "prompt": "\"consult\" 最接近的意思是？",
+      "options": [
+        "咨询，查阅",
+        "军团，团体",
+        "方便，便利",
+        "顺时针方向的"
+      ],
+      "answer": 0,
+      "explanation": "consult 意为\"咨询，查阅\"。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_004",
+      "type": "vocabulary",
+      "prompt": "\"curse\" 最接近的意思是？",
+      "options": [
+        "约束，限制",
+        "诅咒，咒骂",
+        "热情的，真诚的",
+        "国会，代表大会"
+      ],
+      "answer": 1,
+      "explanation": "curse 意为\"诅咒，咒骂\"。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_005",
+      "type": "vocabulary",
+      "prompt": "\"bearing\" 最接近的意思是？",
+      "options": [
+        "食欲，胃口",
+        "保护，保存",
+        "边缘， brink",
+        "关系，方位"
+      ],
+      "answer": 3,
+      "explanation": "bearing 意为\"关系，方位\"。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_006",
+      "type": "vocabulary",
+      "prompt": "\"crown\" 最接近的意思是？",
+      "options": [
+        "集体的，共同的",
+        "王冠，皇冠",
+        "任意的，武断的",
+        "违反，突破"
+      ],
+      "answer": 1,
+      "explanation": "crown 意为\"王冠，皇冠\"。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 2
+    },
+    {
+      "id": "remote_vocab_007",
+      "type": "vocabulary",
+      "prompt": "\"charity\" 最接近的意思是？",
+      "options": [
+        "校园，校区",
+        "慈善，施舍",
+        "在…下方",
+        "学院，研究院"
+      ],
+      "answer": 1,
+      "explanation": "charity 意为\"慈善，施舍\"。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_008",
+      "type": "vocabulary",
+      "prompt": "\"boom\" 最接近的意思是？",
+      "options": [
+        "纪念，庆祝",
+        "危机，紧要关头",
+        "繁荣，激增",
+        "认知的，认识的"
+      ],
+      "answer": 2,
+      "explanation": "boom 意为\"繁荣，激增\"。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_009",
+      "type": "vocabulary",
+      "prompt": "\"conscientious\" 最接近的意思是？",
+      "options": [
+        "彗星",
+        "认真的，尽责的",
+        "保护，保存",
+        "组成，构成"
+      ],
+      "answer": 1,
+      "explanation": "conscientious 意为\"认真的，尽责的\"。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_010",
+      "type": "vocabulary",
+      "prompt": "\"convert\" 最接近的意思是？",
+      "options": [
+        "补偿，赔偿",
+        "强制的，必修的",
+        "转换，转变",
+        "限制，禁闭"
+      ],
+      "answer": 2,
+      "explanation": "convert 意为\"转换，转变\"。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_011",
+      "type": "vocabulary",
+      "prompt": "\"commence\" 最接近的意思是？",
+      "options": [
+        "走廊，通道",
+        "背叛，泄露",
+        "一致的，始终如一的",
+        "开始，着手"
+      ],
+      "answer": 3,
+      "explanation": "commence 意为\"开始，着手\"。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 3
+    },
+    {
+      "id": "remote_vocab_012",
+      "type": "vocabulary",
+      "prompt": "\"category\" 最接近的意思是？",
+      "options": [
+        "类别，种类",
+        "反弹，弹跳",
+        "违反，突破",
+        "服从，遵守"
+      ],
+      "answer": 0,
+      "explanation": "category 意为\"类别，种类\"。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_013",
+      "type": "vocabulary",
+      "prompt": "\"conceal\" 最接近的意思是？",
+      "options": [
+        "隐藏，隐瞒",
+        "拍手，鼓掌",
+        "监护，拘留",
+        "喜剧的，滑稽的"
+      ],
+      "answer": 0,
+      "explanation": "conceal 意为\"隐藏，隐瞒\"。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_014",
+      "type": "vocabulary",
+      "prompt": "\"aggravate\" 最接近的意思是？",
+      "options": [
+        "良心，良知",
+        "声称，断言",
+        "组成，创作",
+        "加重，恶化"
+      ],
+      "answer": 3,
+      "explanation": "aggravate 意为\"加重，恶化\"。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_015",
+      "type": "vocabulary",
+      "prompt": "\"amaze\" 最接近的意思是？",
+      "options": [
+        "同情，怜悯",
+        "垫子，缓冲",
+        "简明的，简洁的",
+        "使惊奇，使惊愕"
+      ],
+      "answer": 3,
+      "explanation": "amaze 意为\"使惊奇，使惊愕\"。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_016",
+      "type": "vocabulary",
+      "prompt": "\"cliff\" 最接近的意思是？",
+      "options": [
+        "公告，公报",
+        "悬崖，峭壁",
+        "烹饪，菜肴",
+        "食欲，胃口"
+      ],
+      "answer": 1,
+      "explanation": "cliff 意为\"悬崖，峭壁\"。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 2
+    },
+    {
+      "id": "remote_vocab_017",
+      "type": "vocabulary",
+      "prompt": "\"comet\" 最接近的意思是？",
+      "options": [
+        "寒冷，寒意",
+        "水桶，桶",
+        "彗星",
+        "周年纪念日"
+      ],
+      "answer": 2,
+      "explanation": "comet 意为\"彗星\"。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_018",
+      "type": "vocabulary",
+      "prompt": "\"client\" 最接近的意思是？",
+      "options": [
+        "客户，委托人",
+        "加宽，扩大",
+        "兼容的，相容的",
+        "完成，结束"
+      ],
+      "answer": 0,
+      "explanation": "client 意为\"客户，委托人\"。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_019",
+      "type": "vocabulary",
+      "prompt": "\"convict\" 最接近的意思是？",
+      "options": [
+        "联盟，联合",
+        "内阁，橱柜",
+        "运输工具，载体",
+        "定罪，证明…有罪"
+      ],
+      "answer": 3,
+      "explanation": "convict 意为\"定罪，证明…有罪\"。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_020",
+      "type": "vocabulary",
+      "prompt": "\"commemorate\" 最接近的意思是？",
+      "options": [
+        "一致的，始终如一的",
+        "碎片，芯片",
+        "纪念，庆祝",
+        "符合，遵守"
+      ],
+      "answer": 2,
+      "explanation": "commemorate 意为\"纪念，庆祝\"。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_021",
+      "type": "vocabulary",
+      "prompt": "\"curriculum\" 最接近的意思是？",
+      "options": [
+        "体积，大批",
+        "日历，日程表",
+        "征服，克服",
+        "课程，全部课程"
+      ],
+      "answer": 3,
+      "explanation": "curriculum 意为\"课程，全部课程\"。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 3
+    },
+    {
+      "id": "remote_vocab_022",
+      "type": "vocabulary",
+      "prompt": "\"climate\" 最接近的意思是？",
+      "options": [
+        "渴望，志向",
+        "承认，让步",
+        "水晶，晶体",
+        "气候，风气"
+      ],
+      "answer": 3,
+      "explanation": "climate 意为\"气候，风气\"。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_023",
+      "type": "vocabulary",
+      "prompt": "\"anniversary\" 最接近的意思是？",
+      "options": [
+        "愤世嫉俗的",
+        "隐藏，隐瞒",
+        "周年纪念日",
+        "王冠，皇冠"
+      ],
+      "answer": 2,
+      "explanation": "anniversary 意为\"周年纪念日\"。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_024",
+      "type": "vocabulary",
+      "prompt": "\"bruise\" 最接近的意思是？",
+      "options": [
+        "目录，编目",
+        "瘀伤，擦伤",
+        "食欲，胃口",
+        "收银员，出纳员"
+      ],
+      "answer": 1,
+      "explanation": "bruise 意为\"瘀伤，擦伤\"。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_025",
+      "type": "vocabulary",
+      "prompt": "\"blaze\" 最接近的意思是？",
+      "options": [
+        "集群，聚集",
+        "火焰，燃烧",
+        "品牌，商标",
+        "边缘， brink"
+      ],
+      "answer": 1,
+      "explanation": "blaze 意为\"火焰，燃烧\"。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_026",
+      "type": "vocabulary",
+      "prompt": "\"brief\" 最接近的意思是？",
+      "options": [
+        "课程，全部课程",
+        "诅咒，咒骂",
+        "简短的，摘要",
+        "轻视，蔑视"
+      ],
+      "answer": 2,
+      "explanation": "brief 意为\"简短的，摘要\"。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 2
+    },
+    {
+      "id": "remote_vocab_027",
+      "type": "vocabulary",
+      "prompt": "\"cancel\" 最接近的意思是？",
+      "options": [
+        "摇篮，发源地",
+        "热情的，真诚的",
+        "能力，胜任",
+        "取消，撤销"
+      ],
+      "answer": 3,
+      "explanation": "cancel 意为\"取消，撤销\"。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_028",
+      "type": "vocabulary",
+      "prompt": "\"counterpart\" 最接近的意思是？",
+      "options": [
+        "对应的人或物",
+        "珍爱，珍惜",
+        "完成，结束",
+        "青铜，古铜色"
+      ],
+      "answer": 0,
+      "explanation": "counterpart 意为\"对应的人或物\"。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_029",
+      "type": "vocabulary",
+      "prompt": "\"corporate\" 最接近的意思是？",
+      "options": [
+        "良心，良知",
+        "公司的，法人的",
+        "繁荣，激增",
+        "有争议的"
+      ],
+      "answer": 1,
+      "explanation": "corporate 意为\"公司的，法人的\"。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_030",
+      "type": "vocabulary",
+      "prompt": "\"contemplate\" 最接近的意思是？",
+      "options": [
+        "房间， chambers",
+        "沉思， contemplation",
+        "认真的，尽责的",
+        "上升，攀登"
+      ],
+      "answer": 1,
+      "explanation": "contemplate 意为\"沉思， contemplation\"。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_031",
+      "type": "vocabulary",
+      "prompt": "\"complement\" 最接近的意思是？",
+      "options": [
+        "下巴，颏",
+        "概念， conception",
+        "粗糙的，粗劣的",
+        "补充，互补"
+      ],
+      "answer": 3,
+      "explanation": "complement 意为\"补充，互补\"。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 3
+    },
+    {
+      "id": "remote_vocab_032",
+      "type": "vocabulary",
+      "prompt": "\"alternative\" 最接近的意思是？",
+      "options": [
+        "良心，良知",
+        "通信， correspondence",
+        "替代的，选择",
+        "评论，意见"
+      ],
+      "answer": 2,
+      "explanation": "alternative 意为\"替代的，选择\"。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_033",
+      "type": "vocabulary",
+      "prompt": "\"craft\" 最接近的意思是？",
+      "options": [
+        "工艺， craft",
+        "替代的，选择",
+        "寒冷，寒意",
+        "循环，流通"
+      ],
+      "answer": 0,
+      "explanation": "craft 意为\"工艺， craft\"。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_034",
+      "type": "vocabulary",
+      "prompt": "\"cargo\" 最接近的意思是？",
+      "options": [
+        "货物，船货",
+        "烹饪，菜肴",
+        "寄售， delivery",
+        "大错，犯错误"
+      ],
+      "answer": 0,
+      "explanation": "cargo 意为\"货物，船货\"。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_035",
+      "type": "vocabulary",
+      "prompt": "\"cycle\" 最接近的意思是？",
+      "options": [
+        "能力，胜任",
+        "循环，周期",
+        "巩固，合并",
+        "紧凑的，简洁的"
+      ],
+      "answer": 1,
+      "explanation": "cycle 意为\"循环，周期\"。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_036",
+      "type": "vocabulary",
+      "prompt": "\"authentic\" 最接近的意思是？",
+      "options": [
+        "真正的，正宗的",
+        "使厌烦，钻孔",
+        "烹饪，菜肴",
+        "碎片，芯片"
+      ],
+      "answer": 0,
+      "explanation": "authentic 意为\"真正的，正宗的\"。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 2
+    },
+    {
+      "id": "remote_vocab_037",
+      "type": "vocabulary",
+      "prompt": "\"coalition\" 最接近的意思是？",
+      "options": [
+        "好奇心，求知欲",
+        "认知的，认识的",
+        "联盟，联合",
+        "委员会，理事会"
+      ],
+      "answer": 2,
+      "explanation": "coalition 意为\"联盟，联合\"。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_038",
+      "type": "vocabulary",
+      "prompt": "\"cherish\" 最接近的意思是？",
+      "options": [
+        "学院，研究院",
+        "珍爱，珍惜",
+        "有能力的，能干的",
+        "可比较的，类似的"
+      ],
+      "answer": 1,
+      "explanation": "cherish 意为\"珍爱，珍惜\"。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_039",
+      "type": "vocabulary",
+      "prompt": "\"costume\" 最接近的意思是？",
+      "options": [
+        "清晰表达，善于表达的",
+        "高度，海拔",
+        "水晶，晶体",
+        "服装，戏服"
+      ],
+      "answer": 3,
+      "explanation": "costume 意为\"服装，戏服\"。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_040",
+      "type": "vocabulary",
+      "prompt": "\"chop\" 最接近的意思是？",
+      "options": [
+        "评论，意见",
+        "砍，剁碎",
+        "服装，戏服",
+        "立方的，立方体的"
+      ],
+      "answer": 1,
+      "explanation": "chop 意为\"砍，剁碎\"。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_041",
+      "type": "vocabulary",
+      "prompt": "\"articulate\" 最接近的意思是？",
+      "options": [
+        "冲突，碰撞",
+        "清晰表达，善于表达的",
+        "有能力的，能干的",
+        "连贯的，一致的"
+      ],
+      "answer": 1,
+      "explanation": "articulate 意为\"清晰表达，善于表达的\"。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 3
+    },
+    {
+      "id": "remote_vocab_042",
+      "type": "vocabulary",
+      "prompt": "\"copyright\" 最接近的意思是？",
+      "options": [
+        "适用的，合适的",
+        "声称，断言",
+        "版权，著作权",
+        "获得，习得"
+      ],
+      "answer": 2,
+      "explanation": "copyright 意为\"版权，著作权\"。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_043",
+      "type": "vocabulary",
+      "prompt": "\"consensus\" 最接近的意思是？",
+      "options": [
+        "课程，全部课程",
+        "通信， correspondence",
+        "共识，一致意见",
+        "主要的，首领"
+      ],
+      "answer": 2,
+      "explanation": "consensus 意为\"共识，一致意见\"。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_044",
+      "type": "vocabulary",
+      "prompt": "\"anonymous\" 最接近的意思是？",
+      "options": [
+        "匿名的，无名的",
+        "立方的，立方体的",
+        "对抗，冲突",
+        "蝴蝶"
+      ],
+      "answer": 0,
+      "explanation": "anonymous 意为\"匿名的，无名的\"。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_045",
+      "type": "vocabulary",
+      "prompt": "\"architecture\" 最接近的意思是？",
+      "options": [
+        "立方的，立方体的",
+        "建筑学，建筑风格",
+        "资本主义",
+        "喜剧的，滑稽的"
+      ],
+      "answer": 1,
+      "explanation": "architecture 意为\"建筑学，建筑风格\"。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_046",
+      "type": "vocabulary",
+      "prompt": "\"appraisal\" 最接近的意思是？",
+      "options": [
+        "评价，估价",
+        "承认，让步",
+        "包括，由…组成",
+        "生物的，生物学的"
+      ],
+      "answer": 0,
+      "explanation": "appraisal 意为\"评价，估价\"。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 2
+    },
+    {
+      "id": "remote_vocab_047",
+      "type": "vocabulary",
+      "prompt": "\"bulletin\" 最接近的意思是？",
+      "options": [
+        "承认，让步",
+        "殖民的，殖民地的",
+        "协调，坐标",
+        "公告，公报"
+      ],
+      "answer": 3,
+      "explanation": "bulletin 意为\"公告，公报\"。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_048",
+      "type": "vocabulary",
+      "prompt": "\"comply\" 最接近的意思是？",
+      "options": [
+        "覆盖范围，报道",
+        "好奇心，求知欲",
+        "咨询，查阅",
+        "遵从，服从"
+      ],
+      "answer": 3,
+      "explanation": "comply 意为\"遵从，服从\"。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_049",
+      "type": "vocabulary",
+      "prompt": "\"breach\" 最接近的意思是？",
+      "options": [
+        "紧凑的，简洁的",
+        "违反，突破",
+        "拍手，鼓掌",
+        "征服，克服"
+      ],
+      "answer": 1,
+      "explanation": "breach 意为\"违反，突破\"。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_050",
+      "type": "vocabulary",
+      "prompt": "\"applicable\" 最接近的意思是？",
+      "options": [
+        "对应的人或物",
+        "愤世嫉俗的",
+        "适用的，合适的",
+        "热情的，真诚的"
+      ],
+      "answer": 2,
+      "explanation": "applicable 意为\"适用的，合适的\"。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_051",
+      "type": "vocabulary",
+      "prompt": "\"comment\" 最接近的意思是？",
+      "options": [
+        "概念， conception",
+        "贫瘠的，不毛的",
+        "匿名的，无名的",
+        "评论，意见"
+      ],
+      "answer": 3,
+      "explanation": "comment 意为\"评论，意见\"。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 3
+    },
+    {
+      "id": "remote_vocab_052",
+      "type": "vocabulary",
+      "prompt": "\"clash\" 最接近的意思是？",
+      "options": [
+        "谨慎的，小心的",
+        "碎片，芯片",
+        "冲突，碰撞",
+        "打扰，烦恼"
+      ],
+      "answer": 2,
+      "explanation": "clash 意为\"冲突，碰撞\"。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_053",
+      "type": "vocabulary",
+      "prompt": "\"butterfly\" 最接近的意思是？",
+      "options": [
+        "停止，终止",
+        "贿赂，行贿",
+        "蝴蝶",
+        "公民，市民"
+      ],
+      "answer": 2,
+      "explanation": "butterfly 意为\"蝴蝶\"。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_054",
+      "type": "vocabulary",
+      "prompt": "\"citizen\" 最接近的意思是？",
+      "options": [
+        "积累，积聚",
+        "使惊奇，使惊愕",
+        "巩固，合并",
+        "公民，市民"
+      ],
+      "answer": 3,
+      "explanation": "citizen 意为\"公民，市民\"。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_055",
+      "type": "vocabulary",
+      "prompt": "\"convenience\" 最接近的意思是？",
+      "options": [
+        "瘀伤，擦伤",
+        "竞争，主张",
+        "方便，便利",
+        "评论，意见"
+      ],
+      "answer": 2,
+      "explanation": "convenience 意为\"方便，便利\"。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_056",
+      "type": "vocabulary",
+      "prompt": "\"agenda\" 最接近的意思是？",
+      "options": [
+        "议程，日程",
+        "同时发生，巧合",
+        "隐藏，隐瞒",
+        "王冠，皇冠"
+      ],
+      "answer": 0,
+      "explanation": "agenda 意为\"议程，日程\"。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 2
+    },
+    {
+      "id": "remote_vocab_057",
+      "type": "vocabulary",
+      "prompt": "\"assault\" 最接近的意思是？",
+      "options": [
+        "兼容的，相容的",
+        "概念， conception",
+        "攻击，袭击",
+        "背叛，泄露"
+      ],
+      "answer": 2,
+      "explanation": "assault 意为\"攻击，袭击\"。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_058",
+      "type": "vocabulary",
+      "prompt": "\"cynical\" 最接近的意思是？",
+      "options": [
+        "公司的，法人的",
+        "拍手，鼓掌",
+        "愤世嫉俗的",
+        "使惊奇，使惊愕"
+      ],
+      "answer": 2,
+      "explanation": "cynical 意为\"愤世嫉俗的\"。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_059",
+      "type": "vocabulary",
+      "prompt": "\"calorie\" 最接近的意思是？",
+      "options": [
+        "算术，计算",
+        "卡路里",
+        "转换，转变",
+        "联盟，联合"
+      ],
+      "answer": 1,
+      "explanation": "calorie 意为\"卡路里\"。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_060",
+      "type": "vocabulary",
+      "prompt": "\"cushion\" 最接近的意思是？",
+      "options": [
+        "蝴蝶",
+        "组成，构成",
+        "垫子，缓冲",
+        "局，办事处"
+      ],
+      "answer": 2,
+      "explanation": "cushion 意为\"垫子，缓冲\"。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_061",
+      "type": "vocabulary",
+      "prompt": "\"character\" 最接近的意思是？",
+      "options": [
+        "火焰，燃烧",
+        "繁荣，激增",
+        " clinging，坚持，依附",
+        "性格，角色"
+      ],
+      "answer": 3,
+      "explanation": "character 意为\"性格，角色\"。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 3
+    },
+    {
+      "id": "remote_vocab_062",
+      "type": "vocabulary",
+      "prompt": "\"conception\" 最接近的意思是？",
+      "options": [
+        "定罪，证明…有罪",
+        "概念， conception",
+        "可信的，可靠的",
+        "循环，流通"
+      ],
+      "answer": 1,
+      "explanation": "conception 意为\"概念， conception\"。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_063",
+      "type": "vocabulary",
+      "prompt": "\"captive\" 最接近的意思是？",
+      "options": [
+        "下巴，颏",
+        "赞美，恭维",
+        "抽象的，理论上的",
+        "俘虏，被俘的"
+      ],
+      "answer": 3,
+      "explanation": "captive 意为\"俘虏，被俘的\"。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_064",
+      "type": "vocabulary",
+      "prompt": "\"custody\" 最接近的意思是？",
+      "options": [
+        "当代的，同时代的",
+        "监护，拘留",
+        "窒息，阻塞",
+        "经典的，典型的"
+      ],
+      "answer": 1,
+      "explanation": "custody 意为\"监护，拘留\"。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_065",
+      "type": "vocabulary",
+      "prompt": "\"arouse\" 最接近的意思是？",
+      "options": [
+        "理解，理解力",
+        "大陆，洲",
+        "在…下方",
+        "唤醒，激起"
+      ],
+      "answer": 3,
+      "explanation": "arouse 意为\"唤醒，激起\"。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_066",
+      "type": "vocabulary",
+      "prompt": "\"cite\" 最接近的意思是？",
+      "options": [
+        "候选人，应试者",
+        "同情，怜悯",
+        "引用，引证",
+        "连接， conjunction"
+      ],
+      "answer": 2,
+      "explanation": "cite 意为\"引用，引证\"。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 2
+    },
+    {
+      "id": "remote_vocab_067",
+      "type": "vocabulary",
+      "prompt": "\"clap\" 最接近的意思是？",
+      "options": [
+        "繁殖，饲养",
+        "拍手，鼓掌",
+        "分配，拨出",
+        "授予，商议"
+      ],
+      "answer": 1,
+      "explanation": "clap 意为\"拍手，鼓掌\"。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_068",
+      "type": "vocabulary",
+      "prompt": "\"competence\" 最接近的意思是？",
+      "options": [
+        "能力，胜任",
+        "使厌烦，钻孔",
+        "走廊，通道",
+        "遵从，服从"
+      ],
+      "answer": 0,
+      "explanation": "competence 意为\"能力，胜任\"。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_069",
+      "type": "vocabulary",
+      "prompt": "\"commonplace\" 最接近的意思是？",
+      "options": [
+        "培养，耕作",
+        "连接， conjunction",
+        "平凡的，常见的",
+        "界限，限制"
+      ],
+      "answer": 2,
+      "explanation": "commonplace 意为\"平凡的，常见的\"。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_070",
+      "type": "vocabulary",
+      "prompt": "\"corrupt\" 最接近的意思是？",
+      "options": [
+        "谴责，判刑",
+        "腐败的，贪污的",
+        "仁慈的，慈善的",
+        "合作，协作"
+      ],
+      "answer": 1,
+      "explanation": "corrupt 意为\"腐败的，贪污的\"。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_071",
+      "type": "vocabulary",
+      "prompt": "\"coherent\" 最接近的意思是？",
+      "options": [
+        "连贯的，一致的",
+        "通信， correspondence",
+        "共识，一致意见",
+        "辅助的，备用的"
+      ],
+      "answer": 0,
+      "explanation": "coherent 意为\"连贯的，一致的\"。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 3
+    },
+    {
+      "id": "remote_vocab_072",
+      "type": "vocabulary",
+      "prompt": "\"breakthrough\" 最接近的意思是？",
+      "options": [
+        "强制的，必修的",
+        "突破，重大发现",
+        "房间， chambers",
+        "合作，协作"
+      ],
+      "answer": 1,
+      "explanation": "breakthrough 意为\"突破，重大发现\"。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_073",
+      "type": "vocabulary",
+      "prompt": "\"altitude\" 最接近的意思是？",
+      "options": [
+        "连贯的，一致的",
+        "下巴，颏",
+        "类别，种类",
+        "高度，海拔"
+      ],
+      "answer": 3,
+      "explanation": "altitude 意为\"高度，海拔\"。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_074",
+      "type": "vocabulary",
+      "prompt": "\"catalog\" 最接近的意思是？",
+      "options": [
+        "目录，编目",
+        "压碎， crushing",
+        "同时发生，巧合",
+        "加重，恶化"
+      ],
+      "answer": 0,
+      "explanation": "catalog 意为\"目录，编目\"。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_075",
+      "type": "vocabulary",
+      "prompt": "\"cluster\" 最接近的意思是？",
+      "options": [
+        "集群，聚集",
+        "电路，环行",
+        "有争议的",
+        "事先，预先"
+      ],
+      "answer": 0,
+      "explanation": "cluster 意为\"集群，聚集\"。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_076",
+      "type": "vocabulary",
+      "prompt": "\"compile\" 最接近的意思是？",
+      "options": [
+        "限制，禁闭",
+        "编译，汇编",
+        "客户，委托人",
+        "腹部，胃"
+      ],
+      "answer": 1,
+      "explanation": "compile 意为\"编译，汇编\"。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 2
+    },
+    {
+      "id": "remote_vocab_077",
+      "type": "vocabulary",
+      "prompt": "\"consistent\" 最接近的意思是？",
+      "options": [
+        "一致的，始终如一的",
+        "反弹，弹跳",
+        "组成，构成",
+        "贿赂，行贿"
+      ],
+      "answer": 0,
+      "explanation": "consistent 意为\"一致的，始终如一的\"。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_078",
+      "type": "vocabulary",
+      "prompt": "\"acquisition\" 最接近的意思是？",
+      "options": [
+        "获得，习得",
+        "沉思， contemplation",
+        "好奇心，求知欲",
+        "声称，断言"
+      ],
+      "answer": 0,
+      "explanation": "acquisition 意为\"获得，习得\"。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_079",
+      "type": "vocabulary",
+      "prompt": "\"cognitive\" 最接近的意思是？",
+      "options": [
+        "王冠，皇冠",
+        "客户，委托人",
+        "认知的，认识的",
+        "食欲，胃口"
+      ],
+      "answer": 2,
+      "explanation": "cognitive 意为\"认知的，认识的\"。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_080",
+      "type": "vocabulary",
+      "prompt": "\"accumulate\" 最接近的意思是？",
+      "options": [
+        "反弹，弹跳",
+        "积累，积聚",
+        "局，办事处",
+        "违反，突破"
+      ],
+      "answer": 1,
+      "explanation": "accumulate 意为\"积累，积聚\"。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_081",
+      "type": "vocabulary",
+      "prompt": "\"breed\" 最接近的意思是？",
+      "options": [
+        "立方的，立方体的",
+        "评论，意见",
+        "繁殖，饲养",
+        "悬崖，峭壁"
+      ],
+      "answer": 2,
+      "explanation": "breed 意为\"繁殖，饲养\"。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 3
+    },
+    {
+      "id": "remote_vocab_082",
+      "type": "vocabulary",
+      "prompt": "\"crude\" 最接近的意思是？",
+      "options": [
+        "属性，归因于",
+        "愤世嫉俗的",
+        "粗糙的，天然的",
+        "组成，构成"
+      ],
+      "answer": 2,
+      "explanation": "crude 意为\"粗糙的，天然的\"。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_083",
+      "type": "vocabulary",
+      "prompt": "\"childhood\" 最接近的意思是？",
+      "options": [
+        "信念，定罪",
+        "校园，校区",
+        "童年，幼年",
+        "大街，途径"
+      ],
+      "answer": 2,
+      "explanation": "childhood 意为\"童年，幼年\"。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_084",
+      "type": "vocabulary",
+      "prompt": "\"bud\" 最接近的意思是？",
+      "options": [
+        "品牌，商标",
+        "主要的，首领",
+        "强制的，必修的",
+        "芽，花蕾"
+      ],
+      "answer": 3,
+      "explanation": "bud 意为\"芽，花蕾\"。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_085",
+      "type": "vocabulary",
+      "prompt": "\"controversial\" 最接近的意思是？",
+      "options": [
+        "有争议的",
+        "类别，种类",
+        "抽象的，理论上的",
+        "热情的，真诚的"
+      ],
+      "answer": 0,
+      "explanation": "controversial 意为\"有争议的\"。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_086",
+      "type": "vocabulary",
+      "prompt": "\"academy\" 最接近的意思是？",
+      "options": [
+        "学院，研究院",
+        "连贯的，一致的",
+        "关系，方位",
+        "服装，戏服"
+      ],
+      "answer": 0,
+      "explanation": "academy 意为\"学院，研究院\"。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 2
+    },
+    {
+      "id": "remote_vocab_087",
+      "type": "vocabulary",
+      "prompt": "\"coach\" 最接近的意思是？",
+      "options": [
+        "澄清，阐明",
+        "教练，长途汽车",
+        "有争议的",
+        "集群，聚集"
+      ],
+      "answer": 1,
+      "explanation": "coach 意为\"教练，长途汽车\"。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_088",
+      "type": "vocabulary",
+      "prompt": "\"constrain\" 最接近的意思是？",
+      "options": [
+        "约束，限制",
+        "魅力，吸引力",
+        "客户，委托人",
+        "显眼的，引人注目的"
+      ],
+      "answer": 0,
+      "explanation": "constrain 意为\"约束，限制\"。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_089",
+      "type": "vocabulary",
+      "prompt": "\"capitalism\" 最接近的意思是？",
+      "options": [
+        "电路，环行",
+        "资本主义",
+        "事先，预先",
+        "大使，使节"
+      ],
+      "answer": 1,
+      "explanation": "capitalism 意为\"资本主义\"。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_090",
+      "type": "vocabulary",
+      "prompt": "\"constitute\" 最接近的意思是？",
+      "options": [
+        "定罪，证明…有罪",
+        "热情的，真诚的",
+        "开始，着手",
+        "组成，构成"
+      ],
+      "answer": 3,
+      "explanation": "constitute 意为\"组成，构成\"。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_091",
+      "type": "vocabulary",
+      "prompt": "\"census\" 最接近的意思是？",
+      "options": [
+        "主要的，首领",
+        "公民的，文明的",
+        "商业，贸易",
+        "人口普查，统计"
+      ],
+      "answer": 3,
+      "explanation": "census 意为\"人口普查，统计\"。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 3
+    },
+    {
+      "id": "remote_vocab_092",
+      "type": "vocabulary",
+      "prompt": "\"betray\" 最接近的意思是？",
+      "options": [
+        "承认，让步",
+        "背叛，泄露",
+        "显眼的，引人注目的",
+        "平凡的，常见的"
+      ],
+      "answer": 1,
+      "explanation": "betray 意为\"背叛，泄露\"。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_093",
+      "type": "vocabulary",
+      "prompt": "\"amid\" 最接近的意思是？",
+      "options": [
+        "服从，遵守",
+        "构思，设想",
+        "在…之中",
+        "腹部，胃"
+      ],
+      "answer": 2,
+      "explanation": "amid 意为\"在…之中\"。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_094",
+      "type": "vocabulary",
+      "prompt": "\"compel\" 最接近的意思是？",
+      "options": [
+        "交流，圣餐",
+        "仁慈的，慈善的",
+        "强迫，迫使",
+        "分配，拨出"
+      ],
+      "answer": 2,
+      "explanation": "compel 意为\"强迫，迫使\"。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_095",
+      "type": "vocabulary",
+      "prompt": "\"compliance\" 最接近的意思是？",
+      "options": [
+        "粗糙的，天然的",
+        "礼貌，好意",
+        "服从，遵守",
+        "矛盾，反驳"
+      ],
+      "answer": 2,
+      "explanation": "compliance 意为\"服从，遵守\"。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_096",
+      "type": "vocabulary",
+      "prompt": "\"crack\" 最接近的意思是？",
+      "options": [
+        "珍爱，珍惜",
+        "巩固，合并",
+        "寒冷，寒意",
+        "裂缝，破裂"
+      ],
+      "answer": 3,
+      "explanation": "crack 意为\"裂缝，破裂\"。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 2
+    },
+    {
+      "id": "remote_vocab_097",
+      "type": "vocabulary",
+      "prompt": "\"conceive\" 最接近的意思是？",
+      "options": [
+        "构思，设想",
+        "授予，商议",
+        "收银员，出纳员",
+        "对抗，冲突"
+      ],
+      "answer": 0,
+      "explanation": "conceive 意为\"构思，设想\"。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_098",
+      "type": "vocabulary",
+      "prompt": "\"bound\" 最接近的意思是？",
+      "options": [
+        "贫瘠的，不毛的",
+        "简明的，简洁的",
+        "奇异的，怪诞的",
+        "界限，限制"
+      ],
+      "answer": 3,
+      "explanation": "bound 意为\"界限，限制\"。",
+      "sourceEvent": "敌方消耗",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_099",
+      "type": "vocabulary",
+      "prompt": "\"confrontation\" 最接近的意思是？",
+      "options": [
+        "对抗，冲突",
+        "沉思， contemplation",
+        "使迷惑，使困惑",
+        "国会，代表大会"
+      ],
+      "answer": 0,
+      "explanation": "confrontation 意为\"对抗，冲突\"。",
+      "sourceEvent": "1v1单杀",
+      "difficulty": 1
+    },
+    {
+      "id": "remote_vocab_100",
+      "type": "vocabulary",
+      "prompt": "\"corps\" 最接近的意思是？",
+      "options": [
+        "神职人员，牧师",
+        "碰撞，冲突",
+        "同情，怜悯",
+        "军团，团体"
+      ],
+      "answer": 3,
+      "explanation": "corps 意为\"军团，团体\"。",
+      "sourceEvent": "对线补兵",
+      "difficulty": 1
+    }
+  ]
+}
