@@ -206,7 +206,13 @@ export default function BattlePage({ lineup, onEnd }: BattlePageProps) {
         if (nextEi >= 3) {
           next.laningResult = next.enemyLaning.currentHP <= 30 ? 'win' : 'loss';
           next.battleLog.push(`--- 对线阶段结束：${next.laningResult === 'win' ? '优势' : '劣势'} ---`);
-          next.phase = { type: 'gank', eventIndex: 0 };
+          if (next.laningResult === 'win') {
+            next.battleLog.push(`⚡ 对线通关！敌方打野不敢来抓，直接进入团战！`);
+            next.player.gold += 30;
+            next.phase = { type: 'teamfight', questionIndex: 0, totalTeamfightQuestions: 3 };
+          } else {
+            next.phase = { type: 'gank', eventIndex: 0 };
+          }
         } else {
           next.phase = { type: 'laning', eventIndex: nextEi };
         }
@@ -242,7 +248,13 @@ export default function BattlePage({ lineup, onEnd }: BattlePageProps) {
           next.deaths += 1;
         }
         next.battleLog.push(`--- 反打结束 ---`);
-        next.phase = { type: 'teamfight', questionIndex: 0, totalTeamfightQuestions: 3 };
+        if (next.gankResult === 'countered') {
+          next.battleLog.push(`⚡ 反杀打野！以多打少，直接推进高地！`);
+          next.xpGained += 20;
+          next.phase = { type: 'highGround' };
+        } else {
+          next.phase = { type: 'teamfight', questionIndex: 0, totalTeamfightQuestions: 3 };
+        }
       } else if (ptype === 'teamfight') {
         const tpq = (prev.phase as any).questionIndex;
         const total = (prev.phase as any).totalTeamfightQuestions;
@@ -262,7 +274,7 @@ export default function BattlePage({ lineup, onEnd }: BattlePageProps) {
           let tfResult: string;
           if (tfAccuracy >= 1) {
             tfResult = 'perfect';
-            next.battleLog.push(`🏆 完美团战！0换3，拿下小龙！`);
+            next.battleLog.push(`🏆 完美团战！0换3，一波推平！`);
             next.kills += 3;
             next.xpGained += 50;
           } else if (tfAccuracy >= 0.67) {
@@ -282,7 +294,9 @@ export default function BattlePage({ lineup, onEnd }: BattlePageProps) {
             next.player.currentHP = Math.max(0, next.player.currentHP - 20);
           }
           next.teamfightResult = tfResult as any;
-          next.phase = { type: 'highGround' };
+          next.phase = tfAccuracy >= 1
+            ? { type: 'finale' }
+            : { type: 'highGround' };
         } else {
           next.phase = { type: 'teamfight', questionIndex: nextTq, totalTeamfightQuestions: total };
         }
