@@ -37,6 +37,12 @@ export const heroes: Hero[] = [
     title: '魂锁典狱长',
     description: '辅助型英雄，团战保护队友，正确率影响团战结果。',
   },
+  {
+    id: 'yangxue',
+    name: '杨雪',
+    title: '雪落无声',
+    description: '全能型英雄，答题全面均衡，无论对线、团战还是高地均有出色表现。',
+  },
 ];
 
 export function getHeroById(id: string): Hero | undefined {

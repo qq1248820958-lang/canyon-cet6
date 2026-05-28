@@ -10,7 +10,18 @@ export function shuffleArray<T>(arr: T[]): T[] {
   return copy;
 }
 
-export function generateLineup(): Lineup {
+export function generateLineup(fixedPlayerId?: string): Lineup {
+  if (fixedPlayerId) {
+    const fixed = heroes.find(h => h.id === fixedPlayerId)!;
+    const others = shuffleArray(heroes.filter(h => h.id !== fixedPlayerId));
+    return {
+      playerHero: fixed,
+      allyHeroes: [others[0], others[1]],
+      enemyLaning: others[2],
+      enemyJungle: others[3],
+      enemyTeamFight: others[4],
+    };
+  }
   const shuffled = shuffleArray(heroes);
   return {
     playerHero: shuffled[0],
