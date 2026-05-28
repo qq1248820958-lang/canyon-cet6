@@ -38,9 +38,6 @@ export default function LineupPage({ lineup, onStart }: LineupPageProps) {
             }}>玩家</span>
             <span style={{ fontWeight: 700 }}>{playerHero.name}</span>
             <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>{playerHero.title}</span>
-            <span style={{ marginLeft: 'auto', fontSize: '0.7rem', color: 'var(--text-secondary)' }}>
-              {playerHero.role}
-            </span>
           </div>
           {allyHeroes.map((hero, i) => (
             <div key={i} style={{
@@ -61,9 +58,6 @@ export default function LineupPage({ lineup, onStart }: LineupPageProps) {
               }}>队友{i + 1}</span>
               <span style={{ fontWeight: 600 }}>{hero.name}</span>
               <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>{hero.title}</span>
-              <span style={{ marginLeft: 'auto', fontSize: '0.7rem', color: 'var(--text-secondary)' }}>
-                {hero.role}
-              </span>
             </div>
           ))}
         </div>
@@ -93,9 +87,6 @@ export default function LineupPage({ lineup, onStart }: LineupPageProps) {
             }}>对线</span>
             <span style={{ fontWeight: 600 }}>{enemyLaning.name}</span>
             <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>{enemyLaning.title}</span>
-            <span style={{ marginLeft: 'auto', fontSize: '0.7rem', color: 'var(--text-secondary)' }}>
-              {enemyLaning.role}
-            </span>
           </div>
           <div style={{
             display: 'flex',
@@ -116,9 +107,6 @@ export default function LineupPage({ lineup, onStart }: LineupPageProps) {
             }}>打野</span>
             <span style={{ fontWeight: 600 }}>{enemyJungle.name}</span>
             <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>{enemyJungle.title}</span>
-            <span style={{ marginLeft: 'auto', fontSize: '0.7rem', color: 'var(--text-secondary)' }}>
-              {enemyJungle.role}
-            </span>
           </div>
           <div style={{
             display: 'flex',
@@ -139,9 +127,6 @@ export default function LineupPage({ lineup, onStart }: LineupPageProps) {
             }}>团战</span>
             <span style={{ fontWeight: 600 }}>{enemyTeamFight.name}</span>
             <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>{enemyTeamFight.title}</span>
-            <span style={{ marginLeft: 'auto', fontSize: '0.7rem', color: 'var(--text-secondary)' }}>
-              {enemyTeamFight.role}
-            </span>
           </div>
         </div>
       </div>
